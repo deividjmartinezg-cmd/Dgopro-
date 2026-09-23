@@ -1,0 +1,35 @@
+name: DGOPRO real data validation
+on:
+  push:
+    branches: [challenger/dgopro-3]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout DGOPRO
+        uses: actions/checkout@v4
+      - name: Checkout VMD World data
+        uses: actions/checkout@v4
+        with:
+          repository: deividjmartinezg-cmd/VMD-World
+          path: VMD-World
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test runner
+        run: python -m pip install pytest
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m pytest -q
+      - name: Validate real historical data
+        env:
+          PYTHONPATH: src
+        run: python scripts/validate_real_data.py VMD-World
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgopro-real-data-validation
+          path: artifacts/real_data_validation.json
