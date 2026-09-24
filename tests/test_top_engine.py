@@ -4,9 +4,11 @@ from dgopro.top_engine import build_challenger_top, build_rc1_top, official_top_
 def base(**kw):
     row = {
         "market": "o15",
+        "market_family": "goals",
         "match_id": "m1",
         "prospective": True,
         "frozen_before_outcome": True,
+        "publication_integrity_passed": True,
         "risk": "green",
         "status": "PREDICT",
         "igc": 85,
@@ -59,3 +61,29 @@ def test_all_top_views_are_prefixes_of_same_ranking():
     assert [r["match_id"] for r in out["tops"]["top_5"]] == ids[:5]
     assert [r["match_id"] for r in out["tops"]["top_3"]] == ids[:3]
     assert [r["match_id"] for r in out["tops"]["top_1"]] == ids[:1]
+
+
+def test_unverified_fixture_cannot_enter_top():
+    ranked=build_challenger_top([base(model_probability=.97, publication_integrity_passed=False)])
+    assert ranked == []
+
+
+def test_under35_requires_safe_four_plus_tail():
+    unsafe=base(
+        market="under_3_5",
+        model_probability=.90,
+        distribution_evidence={"p_4plus":.14,"attack_mismatch":.8,"defensive_fragility":.8,"early_lead_runaway":.8,"transition_exposure":.7},
+    )
+    safe=base(
+        match_id="m2",
+        market="under_3_5",
+        model_probability=.86,
+        distribution_evidence={"p_4plus":.06,"attack_mismatch":.2,"defensive_fragility":.2,"early_lead_runaway":.2,"transition_exposure":.2},
+    )
+    ranked=build_challenger_top([unsafe,safe])
+    assert [r["match_id"] for r in ranked] == ["m2"]
+
+
+def test_exact_score_is_never_primary_top_market():
+    ranked=build_challenger_top([base(market="exact_score",market_family="exact_score",model_probability=.99)])
+    assert ranked == []
