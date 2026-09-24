@@ -46,9 +46,8 @@ def uncertainty_quality(width: float | None, max_width: float = 0.30) -> float:
 def ranking_score(row: Mapping[str, Any]) -> dict[str, Any]:
     """Return a reproducible 0-100 TOP score plus eligibility metadata.
 
-    Expected normalized inputs: calibrated_probability [0,1], coverage [0,1],
-    stability [0,1], convergence [0,1], uncertainty_width [0,1-ish],
-    igc [0,100], oos_n integer, ece float, risk green/yellow/red, and status.
+    reliability_penalty is optional and must be produced by the evidence-gated
+    market_reliability monitor. Thin samples therefore add no penalty by default.
     """
     prospective = bool(row.get("prospective", False))
     frozen = bool(row.get("frozen_before_outcome", False))
@@ -67,7 +66,8 @@ def ranking_score(row: Mapping[str, Any]) -> dict[str, Any]:
     }
 
     raw = 100.0 * sum(WEIGHTS[k] * components[k] for k in WEIGHTS)
-    penalty = RISK_PENALTY.get(risk, 10.0) + STATUS_PENALTY.get(status, 100.0)
+    reliability_penalty=max(0.0, min(15.0, float(row.get("reliability_penalty", 0.0))))
+    penalty = RISK_PENALTY.get(risk, 10.0) + STATUS_PENALTY.get(status, 100.0) + reliability_penalty
     if not prospective:
         penalty += 100.0
     if not frozen:
@@ -79,6 +79,7 @@ def ranking_score(row: Mapping[str, Any]) -> dict[str, Any]:
         "ranking_score": round(score, 2),
         "raw_score": round(raw, 2),
         "penalty": round(penalty, 2),
+        "reliability_penalty": round(reliability_penalty, 2),
         "eligible": eligible,
         "components": components,
     }
