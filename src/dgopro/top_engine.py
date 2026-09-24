@@ -55,7 +55,6 @@ def _distribution_ok(row: Mapping[str, Any]) -> tuple[bool, dict[str, Any]]:
 def _top_market_allowed(row: Mapping[str, Any]) -> bool:
     family=str(row.get("market_family", "")).strip().lower()
     market=str(row.get("market", "")).strip().lower()
-    # Exact score is descriptive distribution output, never a primary TOP market.
     return family not in {"exact_score","correct_score"} and market not in {"exact_score","correct_score"}
 
 
@@ -71,8 +70,18 @@ def _pre_top_gate(row: Mapping[str, Any]) -> tuple[bool, dict[str, Any]]:
     return True, {**integrity_meta, **distribution_meta}
 
 
+def apply_reliability_penalties(rows: Sequence[Mapping[str, Any]], penalty_by_family: Mapping[str,float] | None) -> list[dict[str,Any]]:
+    penalties={str(k).lower():max(0.0,float(v)) for k,v in dict(penalty_by_family or {}).items()}
+    out=[]
+    for row in rows:
+        item=dict(row)
+        family=str(item.get("market_family") or "unknown").lower()
+        item["reliability_penalty"]=penalties.get(family, float(item.get("reliability_penalty",0.0) or 0.0))
+        out.append(item)
+    return out
+
+
 def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: Mapping[str, float] | None = None) -> list[dict[str, Any]]:
-    """Build the certified RC1 TOP after integrity, distribution and confidence gates."""
     candidates: list[dict[str, Any]] = []
     for row in rows:
         gate_ok, gate_meta=_pre_top_gate(row)
@@ -105,7 +114,6 @@ def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: M
 
 
 def build_challenger_top(rows: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
-    """Build a non-certified Challenger TOP after strict pre-publication gates."""
     candidates: list[dict[str, Any]] = []
     for row in rows:
         if bool(row.get("market_rc1", False)):
@@ -132,13 +140,21 @@ def build_challenger_top(rows: Sequence[Mapping[str, Any]]) -> list[dict[str, An
     return rank_markets(candidates)
 
 
-def official_top_views(rows: Sequence[Mapping[str, Any]], *, tier: str = "challenger", sizes: Sequence[int] = (30, 20, 10, 5), confidence_thresholds: Mapping[str, float] | None = None) -> dict[str, Any]:
+def official_top_views(
+    rows: Sequence[Mapping[str, Any]],
+    *,
+    tier: str = "challenger",
+    sizes: Sequence[int] = (30, 20, 10, 5),
+    confidence_thresholds: Mapping[str, float] | None = None,
+    reliability_penalty_by_family: Mapping[str,float] | None = None,
+) -> dict[str, Any]:
+    prepared=apply_reliability_penalties(rows, reliability_penalty_by_family)
     tier_normalized = str(tier).strip().lower()
     if tier_normalized == "rc1":
-        ranked = build_rc1_top(rows, confidence_thresholds=confidence_thresholds)
+        ranked = build_rc1_top(prepared, confidence_thresholds=confidence_thresholds)
         label = "RC1"
     elif tier_normalized == "challenger":
-        ranked = build_challenger_top(rows)
+        ranked = build_challenger_top(prepared)
         label = "CHALLENGER"
     else:
         raise ValueError("tier must be 'rc1' or 'challenger'")
@@ -149,4 +165,5 @@ def official_top_views(rows: Sequence[Mapping[str, Any]], *, tier: str = "challe
         "tops": {f"top_{int(size)}": ranked[: int(size)] for size in sizes},
         "ranking_consistent": True,
         "probability_certified": label == "RC1",
+        "reliability_penalty_by_family":dict(reliability_penalty_by_family or {}),
     }
