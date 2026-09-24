@@ -3,6 +3,8 @@ from __future__ import annotations
 from typing import Any, Mapping, Sequence
 
 from .confidence_policy import decision as confidence_decision
+from .data_integrity import publication_integrity_gate
+from .distribution_guard import under35_tail_guard
 from .ranking_score import rank_markets
 
 
@@ -27,16 +29,55 @@ def _base_rank_row(row: Mapping[str, Any], probability: float, status: str) -> d
     }
 
 
-def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: Mapping[str, float] | None = None) -> list[dict[str, Any]]:
-    """Build the certified RC1 TOP.
+def _publication_integrity_ok(row: Mapping[str, Any]) -> tuple[bool, dict[str, Any]]:
+    record=row.get("integrity_record")
+    if isinstance(record, Mapping):
+        result=publication_integrity_gate(record)
+        return result.passed, {
+            "integrity_score":result.score,
+            "integrity_failures":list(result.failures),
+            "integrity_warnings":list(result.warnings),
+        }
+    passed=bool(row.get("publication_integrity_passed", False))
+    return passed, {"integrity_score":1.0 if passed else 0.0,"integrity_failures":[] if passed else ["publication_integrity_not_verified"],"integrity_warnings":[]}
 
-    RC1 candidates must be calibrated, pass the confidence policy as PREDICT,
-    be prospective, and have been frozen before the outcome. LOW_CONFIDENCE and
-    ABSTAIN rows are excluded from the official RC1 TOP rather than merely
-    penalized.
-    """
+
+def _distribution_ok(row: Mapping[str, Any]) -> tuple[bool, dict[str, Any]]:
+    market=str(row.get("market", "")).lower().replace(" ", "")
+    family=str(row.get("market_family", "")).lower()
+    under35 = market in {"u3.5","under3.5","under_3_5","-3.5"} or (family=="goals" and str(row.get("line", "")) in {"3.5","-3.5"} and str(row.get("side","")).lower()=="under")
+    if not under35:
+        return True, {"distribution_guard":"not_required"}
+    result=under35_tail_guard(row.get("distribution_evidence", {}), thresholds=row.get("distribution_thresholds"))
+    return bool(result.get("eligible",False)), {"distribution_guard":result}
+
+
+def _top_market_allowed(row: Mapping[str, Any]) -> bool:
+    family=str(row.get("market_family", "")).strip().lower()
+    market=str(row.get("market", "")).strip().lower()
+    # Exact score is descriptive distribution output, never a primary TOP market.
+    return family not in {"exact_score","correct_score"} and market not in {"exact_score","correct_score"}
+
+
+def _pre_top_gate(row: Mapping[str, Any]) -> tuple[bool, dict[str, Any]]:
+    if not _top_market_allowed(row):
+        return False, {"pre_top_failure":"market_not_top_eligible"}
+    integrity_ok, integrity_meta=_publication_integrity_ok(row)
+    if not integrity_ok:
+        return False, integrity_meta
+    distribution_ok, distribution_meta=_distribution_ok(row)
+    if not distribution_ok:
+        return False, {**integrity_meta, **distribution_meta}
+    return True, {**integrity_meta, **distribution_meta}
+
+
+def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: Mapping[str, float] | None = None) -> list[dict[str, Any]]:
+    """Build the certified RC1 TOP after integrity, distribution and confidence gates."""
     candidates: list[dict[str, Any]] = []
     for row in rows:
+        gate_ok, gate_meta=_pre_top_gate(row)
+        if not gate_ok:
+            continue
         p = row.get("calibrated_probability")
         if p is None:
             continue
@@ -52,6 +93,7 @@ def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: M
         if d["status"] != "PREDICT":
             continue
         candidate = _base_rank_row(row, float(p), "PREDICT")
+        candidate.update(gate_meta)
         candidate.update({
             "top_tier": "RC1",
             "probability_basis": "CALIBRATED",
@@ -63,15 +105,13 @@ def build_rc1_top(rows: Sequence[Mapping[str, Any]], *, confidence_thresholds: M
 
 
 def build_challenger_top(rows: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
-    """Build a clearly labeled research/Challenger TOP without faking RC1 status.
-
-    The model estimate can be ranked, but it is explicitly marked as
-    non-certified. Missing ECE/OOS evidence earns zero credit in ranking_score,
-    which naturally pushes thin-evidence signals below better-supported ones.
-    """
+    """Build a non-certified Challenger TOP after strict pre-publication gates."""
     candidates: list[dict[str, Any]] = []
     for row in rows:
         if bool(row.get("market_rc1", False)):
+            continue
+        gate_ok, gate_meta=_pre_top_gate(row)
+        if not gate_ok:
             continue
         p = row.get("model_probability", row.get("probability"))
         if p is None:
@@ -80,13 +120,13 @@ def build_challenger_top(rows: Sequence[Mapping[str, Any]]) -> list[dict[str, An
         if status == "ABSTAIN":
             continue
         candidate = _base_rank_row(row, float(p), status)
+        candidate.update(gate_meta)
         candidate.update({
             "top_tier": "CHALLENGER",
             "probability_basis": "MODEL_ESTIMATE",
             "probability_certified": False,
             "calibration_status": "UNVERIFIED",
         })
-        # Do not grant calibration credit to an uncertified probability.
         candidate["ece"] = row.get("ece") if bool(row.get("calibrated", False)) else None
         candidates.append(candidate)
     return rank_markets(candidates)
