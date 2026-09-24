@@ -87,3 +87,26 @@ def test_under35_requires_safe_four_plus_tail():
 def test_exact_score_is_never_primary_top_market():
     ranked=build_challenger_top([base(market="exact_score",market_family="exact_score",model_probability=.99)])
     assert ranked == []
+
+
+def test_reliability_penalty_can_reorder_market_families():
+    goals=base(match_id="g",market_family="goals",model_probability=.84)
+    btts=base(match_id="b",market="btts_yes",market_family="btts",model_probability=.88)
+    out=official_top_views(
+        [goals,btts],
+        tier="challenger",
+        reliability_penalty_by_family={"goals":0.0,"btts":10.0},
+    )
+    assert [r["match_id"] for r in out["ranked"]] == ["g","b"]
+    assert out["ranked"][1]["reliability_penalty"] == 10.0
+
+
+def test_zero_reliability_penalty_does_not_change_order():
+    a=base(match_id="a",market_family="goals",model_probability=.84)
+    b=base(match_id="b",market="btts_yes",market_family="btts",model_probability=.88)
+    out=official_top_views(
+        [a,b],
+        tier="challenger",
+        reliability_penalty_by_family={"goals":0.0,"btts":0.0},
+    )
+    assert [r["match_id"] for r in out["ranked"]] == ["b","a"]
