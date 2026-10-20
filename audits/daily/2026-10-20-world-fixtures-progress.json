@@ -1,0 +1,468 @@
+{
+  "date_chile": "2026-10-20",
+  "run": "2026-10-20 midday Chile",
+  "version": "1.0",
+  "status": "PARTIAL_FIXTURE_AND_EXTERNAL_AUDIT_ONLY",
+  "repo_checks": {
+    "vmd_world1": {
+      "repository": "deividjmartinezg-cmd/VMD-World1",
+      "size_kb": 0,
+      "executable": false
+    },
+    "dgopro": {
+      "repository": "deividjmartinezg-cmd/Dgopro-",
+      "size_kb": 146,
+      "execution_verified": false
+    },
+    "arb": {
+      "execution_verified": false
+    }
+  },
+  "policy": "No bookmaker odds as input; no predictions retrospectively fabricated; external sources separate. Never promote external percentages to DGOPRO.",
+  "fixture_count": 20,
+  "confirmed_count": 13,
+  "external_snapshots": 9,
+  "fixtures": [
+    {
+      "id": "UCL-1",
+      "competition": "UEFA Champions League",
+      "home": "Fenerbahce",
+      "away": "Slavia Praha",
+      "kickoff_chile": "2026-10-20T13:45:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/fenerbahce-vs-slavia-prague_game_260413.html",
+        "probability_1x2_pct": {
+          "home": 50.25,
+          "draw": 25.24,
+          "away": 24.54
+        },
+        "over_1_5_goals_pct": 73.19,
+        "over_2_5_goals_pct": 49.69,
+        "btts_yes_pct": 48.76,
+        "under_10_5_corners_pct": 65.41,
+        "modal_score": "1-0",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-2",
+      "competition": "UEFA Champions League",
+      "home": "Sabah FK",
+      "away": "Borussia Dortmund",
+      "kickoff_chile": "2026-10-20T13:45:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/sabah-vs-borussia-dortmund_game_260412.html",
+        "probability_1x2_pct": {
+          "home": 30.75,
+          "draw": 23,
+          "away": 46.25
+        },
+        "over_1_5_goals_pct": 80.15,
+        "over_2_5_goals_pct": 58.37,
+        "btts_yes_pct": 55.61,
+        "under_10_5_corners_pct": 61.26,
+        "modal_score": "1-2",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "OTHER-1",
+      "competition": "Saudi Pro League",
+      "home": "Al Nassr",
+      "away": "NEOM SC",
+      "kickoff_chile": "2026-10-20T15:00:00-03:00",
+      "fixture_source": "https://www.spl.com.sa/en/match/51970f47059f4a30b493913bdaae6940/nas-vs-neo/info",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-2",
+      "competition": "Saudi Pro League",
+      "home": "Al Ettifaq",
+      "away": "Al Ittihad",
+      "kickoff_chile": "2026-10-20T15:00:00-03:00",
+      "fixture_source": "https://www.spl.com.sa/en/match/10fb026a40844b61a7e392b5ab1056b9/ett-vs-itt/info",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-3",
+      "competition": "Egyptian Premier League",
+      "home": "El Gaish",
+      "away": "Pyramids",
+      "kickoff_chile": "2026-10-20T15:00:00-03:00",
+      "fixture_source": "https://kicklyapp.com/en/matches/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-4",
+      "competition": "Egyptian Premier League",
+      "home": "Wadi Degla",
+      "away": "National Bank Egypt",
+      "kickoff_chile": "2026-10-20T15:00:00-03:00",
+      "fixture_source": "https://kicklyapp.com/en/matches/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-5",
+      "competition": "AFC Challenge League",
+      "home": "Regar TadAZ",
+      "away": "Al Qadisiya",
+      "kickoff_chile": "2026-10-20T15:30:00-03:00",
+      "fixture_source": "https://kicklyapp.com/en/matches/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-6",
+      "competition": "NIFL Premiership",
+      "home": "Larne",
+      "away": "Linfield",
+      "kickoff_chile": "2026-10-20T15:45:00-03:00",
+      "fixture_source": "https://www.nifootballleague.com/premiership/2026-2027/fixtures/",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "UCL-3",
+      "competition": "UEFA Champions League",
+      "home": "AS Roma",
+      "away": "Slovan Bratislava",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/roma-vs-slovan-bratislava_game_260446.html",
+        "probability_1x2_pct": {
+          "home": 51.53,
+          "draw": 22.62,
+          "away": 25.86
+        },
+        "over_1_5_goals_pct": 78.41,
+        "over_2_5_goals_pct": 55.38,
+        "btts_yes_pct": 52.82,
+        "under_10_5_corners_pct": 67.67,
+        "modal_score": "1-0",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-4",
+      "competition": "UEFA Champions League",
+      "home": "FC Porto",
+      "away": "PSV Eindhoven",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/porto-vs-psv-eindhoven_game_260445.html",
+        "probability_1x2_pct": {
+          "home": 47.9,
+          "draw": 21.71,
+          "away": 30.36
+        },
+        "over_1_5_goals_pct": 81.49,
+        "over_2_5_goals_pct": 60.07,
+        "btts_yes_pct": 58.2,
+        "under_10_5_corners_pct": 62.47,
+        "modal_score": "2-1",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-5",
+      "competition": "UEFA Champions League",
+      "home": "Liverpool",
+      "away": "Villarreal",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/liverpool-vs-villarreal_game_260442.html",
+        "probability_1x2_pct": {
+          "home": 47.85,
+          "draw": 23.33,
+          "away": 28.85
+        },
+        "over_1_5_goals_pct": 80.72,
+        "over_2_5_goals_pct": 59.58,
+        "btts_yes_pct": 59.46,
+        "under_10_5_corners_pct": 62.3,
+        "modal_score": "2-1",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-6",
+      "competition": "UEFA Champions League",
+      "home": "Manchester City",
+      "away": "AEK Athens",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/man-city-vs-aek-athens_game_260441.html",
+        "probability_1x2_pct": {
+          "home": 51.73,
+          "draw": 23.85,
+          "away": 24.42
+        },
+        "over_1_5_goals_pct": 75.97,
+        "over_2_5_goals_pct": 52.22,
+        "btts_yes_pct": 51.22,
+        "under_10_5_corners_pct": 63.67,
+        "modal_score": "1-0",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-7",
+      "competition": "UEFA Champions League",
+      "home": "Napoli",
+      "away": "Bodo/Glimt",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/napoli-vs-bodo-glimt_game_260444.html",
+        "probability_1x2_pct": {
+          "home": 43.65,
+          "draw": 21.91,
+          "away": 34.44
+        },
+        "over_1_5_goals_pct": 83.51,
+        "over_2_5_goals_pct": 64.03,
+        "btts_yes_pct": 61.03,
+        "under_10_5_corners_pct": 69.33,
+        "modal_score": "2-1",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-8",
+      "competition": "UEFA Champions League",
+      "home": "PSG",
+      "away": "Barcelona",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/psg-vs-barcelona_game_260440.html",
+        "probability_1x2_pct": {
+          "home": 36.15,
+          "draw": 20,
+          "away": 43.85
+        },
+        "over_1_5_goals_pct": 87.63,
+        "over_2_5_goals_pct": 71.43,
+        "btts_yes_pct": 65.91,
+        "under_10_5_corners_pct": 71.44,
+        "modal_score": "1-2",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "UCL-9",
+      "competition": "UEFA Champions League",
+      "home": "Stuttgart",
+      "away": "Atletico Madrid",
+      "kickoff_chile": "2026-10-20T16:00:00-03:00",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": {
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/stuttgart-vs-atletico-madrid_game_260443.html",
+        "probability_1x2_pct": {
+          "home": 40,
+          "draw": 22.07,
+          "away": 37.96
+        },
+        "over_1_5_goals_pct": 82.53,
+        "over_2_5_goals_pct": 62.12,
+        "btts_yes_pct": 60.37,
+        "under_10_5_corners_pct": 62.59,
+        "modal_score": "2-1",
+        "captured_before_kickoff": true
+      },
+      "note": "External source only; NOT a DGOPRO prediction"
+    },
+    {
+      "id": "OTHER-11",
+      "competition": "Colombia Primera A",
+      "home": "Deportivo Pereira",
+      "away": "Boyaca Chico",
+      "kickoff_chile": "2026-10-20T17:30:00-03:00",
+      "fixture_source": "https://golify.futbol/es/partidos/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-7",
+      "competition": "Copa Chile",
+      "home": "Union La Calera",
+      "away": "Coquimbo Unido",
+      "kickoff_chile": "2026-10-20T20:00:00-03:00",
+      "fixture_source": "https://www.campeonatochileno.cl/match/uni%C3%B3n-la-calera-coquimbo-unido-2026-10-20/",
+      "fixture_status": "confirmed",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-8",
+      "competition": "Liga MX",
+      "home": "Guadalajara",
+      "away": "Necaxa",
+      "kickoff_chile": "2026-10-20T21:07:00-03:00",
+      "fixture_source": "https://golify.futbol/es/partidos/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-9",
+      "competition": "Liga MX",
+      "home": "Atletico San Luis",
+      "away": "Queretaro",
+      "kickoff_chile": "2026-10-20T22:00:00-03:00",
+      "fixture_source": "https://golify.futbol/es/partidos/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    },
+    {
+      "id": "OTHER-10",
+      "competition": "Liga MX",
+      "home": "Juarez",
+      "away": "Atlante",
+      "kickoff_chile": "2026-10-20T22:00:00-03:00",
+      "fixture_source": "https://golify.futbol/es/partidos/2026-10-20",
+      "fixture_status": "secondary_check",
+      "internal_predictions": {
+        "vmd_world1": "NOT_RUN",
+        "dgopro": "NOT_RUN",
+        "arb": "NOT_RUN"
+      },
+      "external_snapshot": null
+    }
+  ],
+  "excluded": [
+    {
+      "fixture": "Colo Colo - Deportes Puerto Montt",
+      "reason": "Suspended match from October 6 to be resumed October 20; not a fresh T-1 full match",
+      "source": "https://www.campeonatochileno.cl/match/colo-colo-deportes-puerto-montt-2026-10-20/"
+    }
+  ],
+  "next_steps": [
+    "Verify secondary fixtures with official organizers",
+    "Check lineups before kickoff",
+    "Find actual DGOPRO executable engine and ARB; do not fake runs",
+    "Freeze genuine pre-match outputs only if models execute",
+    "Audit after match"
+  ],
+  "tops_status": "NOT_EVALUABLE_NO_DGOPRO_RUN"
+}
