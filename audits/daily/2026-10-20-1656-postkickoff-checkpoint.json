@@ -1,0 +1,92 @@
+{
+  "schema": "dgopro_audit_checkpoint_v1",
+  "date_chile": "2026-10-20",
+  "observation_time_chile": "2026-10-20T16:56:49-03:00",
+  "kind": "post_kickoff_transition_and_late_fixture_verification",
+  "parent_checkpoint": "audits/daily/2026-10-20-1557-integrity-checkpoint.json",
+  "rule": "Never issue or backdate internal T-1 predictions after kickoff. Do not turn in-play information into pre-match inputs.",
+  "model_status": {
+    "VMD-World1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "size_kb": 0,
+      "executed": false
+    },
+    "DGOPRO": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "branch": "challenger/dgopro-3",
+      "code_inspected": "src/dgopro/top_engine.py",
+      "executed": false,
+      "calibrated_predictions": 0
+    },
+    "ARB": {
+      "executed": false,
+      "manual_integrity_review": true
+    }
+  },
+  "in_play_no_new_pre_match_picks": [
+    "AS Roma - Slovan Bratislava",
+    "FC Porto - PSV Eindhoven",
+    "Liverpool - Villarreal",
+    "Manchester City - AEK Athens",
+    "Napoli - Bodo/Glimt",
+    "Paris Saint-Germain - Barcelona",
+    "VfB Stuttgart - Atletico Madrid"
+  ],
+  "verified_upcoming": [
+    {
+      "match": "Union La Calera - Coquimbo Unido",
+      "competition": "Copa Chile quarter-final first leg",
+      "kickoff_chile": "2026-10-20T20:00:00-03:00",
+      "source": "https://www.campeonatochileno.cl/match/uni%C3%B3n-la-calera-coquimbo-unido-2026-10-20/",
+      "review": "Coquimbo won last three listed competitive head-to-head meetings in April and July 2026, but rotation and first-leg tactical incentives not resolved",
+      "pick_status": "NO_INTERNAL_PICK"
+    },
+    {
+      "match": "Vasco da Gama - Boca Juniors",
+      "competition": "CONMEBOL Sudamericana semi-final second leg",
+      "kickoff_chile": "2026-10-20T21:30:00-03:00",
+      "source": "https://gol.conmebol.com/sudamericana/en/news/pursuit-great-conquest-everything-set-conmebol-sudamericana-semi-finals",
+      "review": "Vasco won first leg 1-0; knockout-state effects invalidate naive win/over forecasts; Boca may have Leandro Paredes available, unconfirmed starting",
+      "pick_status": "NO_INTERNAL_PICK"
+    },
+    {
+      "match": "Deportivo Pereira - Boyaca Chico",
+      "competition": "Liga BetPlay",
+      "kickoff_chile": "2026-10-20T18:30:00-03:00",
+      "source": "https://www.365scores.com/es-mx/football/league/liga-betplay-620/matches",
+      "pick_status": "NO_INTERNAL_PICK"
+    },
+    {
+      "match": "Internacional de Bogota - Fortaleza",
+      "competition": "Liga BetPlay",
+      "kickoff_chile": "2026-10-20T20:15:00-03:00",
+      "source": "https://www.365scores.com/es-mx/football/league/liga-betplay-620/matches",
+      "pick_status": "NO_INTERNAL_PICK"
+    },
+    {
+      "match": "Cucuta Deportivo - Atletico Nacional",
+      "competition": "Liga BetPlay",
+      "kickoff_chile": "2026-10-20T20:30:00-03:00",
+      "source": "https://www.365scores.com/es-mx/football/league/liga-betplay-620/matches",
+      "pick_status": "NO_INTERNAL_PICK"
+    },
+    {
+      "match": "Millonarios - Once Caldas",
+      "competition": "Liga BetPlay",
+      "kickoff_chile": "2026-10-20T22:30:00-03:00",
+      "source": "https://www.365scores.com/es-mx/football/league/liga-betplay-620/matches",
+      "pick_status": "NO_INTERNAL_PICK"
+    }
+  ],
+  "cautions": [
+    "No T-1 complete player/referee/weather data for upcoming matches.",
+    "External prior probabilities are not internal predictions.",
+    "Top 45/30/20/10/5 must not be fabricated or populated with unverified matches.",
+    "Check timezone explicitly before importing provider schedule; Mexico fixture time sources conflict."
+  ],
+  "output": {
+    "internal_picks": 0,
+    "top_official_count": 0,
+    "progress": "Seven UEFA fixtures moved from eligible to in-play; six late fixtures independently verified and isolated."
+  }
+}
