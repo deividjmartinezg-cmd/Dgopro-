@@ -1,7 +1,7 @@
 {
   "date_chile": "2026-10-20",
   "run": "2026-10-20 midday Chile",
-  "version": "1.0",
+  "version": "1.1",
   "status": "PARTIAL_FIXTURE_AND_EXTERNAL_AUDIT_ONLY",
   "repo_checks": {
     "vmd_world1": {
@@ -20,7 +20,7 @@
   },
   "policy": "No bookmaker odds as input; no predictions retrospectively fabricated; external sources separate. Never promote external percentages to DGOPRO.",
   "fixture_count": 20,
-  "confirmed_count": 13,
+  "confirmed_count": 14,
   "external_snapshots": 9,
   "fixtures": [
     {
@@ -379,15 +379,16 @@
       "competition": "Colombia Primera A",
       "home": "Deportivo Pereira",
       "away": "Boyaca Chico",
-      "kickoff_chile": "2026-10-20T17:30:00-03:00",
-      "fixture_source": "https://golify.futbol/es/partidos/2026-10-20",
-      "fixture_status": "secondary_check",
+      "kickoff_chile": "2026-10-20T18:30:00-03:00",
+      "fixture_source": "https://www.sofascore.com/football/match/deportivo-pereira-boyaca-chico-fc/hxcsjxc",
+      "fixture_status": "confirmed_secondary_crosscheck",
       "internal_predictions": {
         "vmd_world1": "NOT_RUN",
         "dgopro": "NOT_RUN",
         "arb": "NOT_RUN"
       },
-      "external_snapshot": null
+      "external_snapshot": null,
+      "note": "Kickoff 21:30 UTC per Sofascore, equivalent to 18:30 America/Santiago; original 17:30 corrected."
     },
     {
       "id": "OTHER-7",
