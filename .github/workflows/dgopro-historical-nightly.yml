@@ -1,0 +1,62 @@
+name: DGOPRO independent historical refresh - Chile midnight
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/dgopro-historical-nightly.yml']
+  workflow_dispatch:
+  schedule:
+    # Both Santiago UTC offsets are covered (DST UTC-3, standard UTC-4).
+    # The timing job permits only 00:xx local time.
+    - cron: '10 3,4 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: dgopro-nightly-historical-snapshot
+  cancel-in-progress: false
+jobs:
+  chile-midnight:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.window.outputs.should_run }}
+    steps:
+      - name: Check midnight in America/Santiago
+        id: window
+        run: |
+          local_hour="$(TZ=America/Santiago date +%H)"
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$local_hour" != "00" ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipped duplicate UTC slot. Chile local hour: $local_hour" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Data acquisition at Chile local hour: $local_hour" >> "$GITHUB_STEP_SUMMARY"
+          fi
+  refresh:
+    needs: chile-midnight
+    if: needs.chile-midnight.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout independent DGOPRO challenger code only
+        uses: actions/checkout@v4
+        with:
+          ref: challenger/dgopro-3
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch five first divisions, four seasons, directly from data source
+        run: python scripts/ingest_football_data.py --seasons 2324 2425 2526 2627 --divisions E0 SP1 I1 D1 F1
+      - name: Validate observational coverage and date-safe historical baseline
+        env:
+          PYTHONPATH: src
+        run: python scripts/validate_real_data.py .
+      - name: Upload provenance, short-lived CSV snapshot and coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgopro-independent-midnight-data
+          path: |
+            artifacts/ingestion_manifest.json
+            artifacts/real_data_validation.json
+            data/raw/footballcsv/
+          retention-days: 7
+          if-no-files-found: warn
