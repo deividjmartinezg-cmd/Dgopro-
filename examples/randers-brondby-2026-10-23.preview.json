@@ -1,0 +1,62 @@
+{
+  "match_id": "DBU-556197",
+  "kickoff": "2026-10-23T17:00:00+00:00",
+  "snapshot_at": "2026-10-22T19:00:00+00:00",
+  "home_team": "Randers FC",
+  "away_team": "Brondby IF",
+  "competition": "Danish Superliga 2026/27",
+  "fixture_source": "https://www.dbu.dk/resultater/kamp/556197_506118/kampinfo",
+  "fixture_verified": true,
+  "source_provenance": [
+    {
+      "url": "https://predictvantage.com/leagues/denmark-superliga",
+      "role": "seasonal observed team statistics, season to Oct 18/19 2026"
+    },
+    {
+      "url": "https://predictvantage.com/match/31408-randers-fc-vs-brondby-2026-10-23",
+      "role": "seasonal shots faced, shots on target faced and goalkeeper saves"
+    },
+    {
+      "url": "https://www.oddalerts.com/livescores/brondby-if-vs-randers-fc/4883-6284",
+      "role": "home/away xG/xGA summary"
+    },
+    {
+      "url": "https://www.dbu.dk/resultater/kamp/556197_506118/kampinfo",
+      "role": "official fixture date and referee"
+    }
+  ],
+  "expected": {
+    "home_xg": 1.185,
+    "away_xg": 1.57,
+    "home_corners": 4.27,
+    "away_corners": 6.955,
+    "home_cards": 2,
+    "away_cards": 2.09,
+    "home_shots": 11.575,
+    "away_shots": 15.6,
+    "home_sot": 3.93,
+    "away_sot": 4.51,
+    "home_keeper_saves": 3.7,
+    "away_keeper_saves": 2.7,
+    "referee_factor": 1
+  },
+  "headline_probability": 0.762,
+  "calibration_reliability": 0,
+  "oos_stability": 0,
+  "model_agreement": 0,
+  "sample_reliability": 0.2,
+  "drift_health": 0,
+  "uncertainty": 1,
+  "lineup_status": "expected",
+  "scenarios": [],
+  "metadata": {
+    "status": "EXPLORATORY_UNCALIBRATED",
+    "model": "DGOPRO-3-CHALLENGER",
+    "season_sample_matches_each_team": 11,
+    "referee": "Jens Maae (DBU confirmed)",
+    "referee_factor_note": "Neutral proxy; referee historical cards not validated",
+    "injury_status": "Lineups not confirmed, player modifiers not applied",
+    "calculation": "Projected home xG = .7*(home team season xGF + away season xGA)/2 + .3*(home home xGF + away away xGA)/2. Away xG symmetric. For corners, shots and SOT use arithmetic mean of team for and opponent faced. Card expectations are team season rates. Keeper saves use season average.",
+    "data_weakness": "Only aggregated seasonal proxies; no fixture-specific T-1 historical feature store, certified calibration or time-indexed model weights."
+  }
+}
