@@ -1,0 +1,67 @@
+{
+  "schema": "dgopro_incremental_checkpoint_v1",
+  "snapshot_chile": "2026-10-22T20:57:29-03:00",
+  "prior": "audits/daily/2026-10-22-1955-progress-delta.json",
+  "scope": "incremental pre-kickoff verification; no new predictions",
+  "new_verified_t1": [
+    {
+      "fixture": "Ipswich Town - Nottingham Forest",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "referee": "Tom Bramall",
+      "VAR": "Constantine Hatzidakis",
+      "published_at": "2026-10-19",
+      "source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8"
+    },
+    {
+      "fixture": "Aston Villa - Manchester City",
+      "kickoff_chile": "2026-10-24T08:30:00-03:00",
+      "referee": "Peter Bankes",
+      "VAR": "Paul Tierney",
+      "published_at": "2026-10-19",
+      "source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8"
+    },
+    {
+      "fixture": "Arsenal - Everton",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "referee": "Tony Harrington",
+      "VAR": "Stuart Attwell",
+      "published_at": "2026-10-19",
+      "source": "https://www.premierleague.com/en/match/2645265/arsenal-vs-everton/info"
+    },
+    {
+      "fixture": "Chelsea - Tottenham Hotspur",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "referee": "Chris Kavanagh",
+      "VAR": "John Brooks",
+      "published_at": "2026-10-19",
+      "source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8"
+    }
+  ],
+  "fixture_resolution": [
+    {
+      "fixture": "Liverpool - Brighton",
+      "resolved_kickoff_chile": "2026-10-25T11:00:00-03:00",
+      "decision": "Keep Sunday listing only; league amendment page includes outdated Saturday entry as well, while current matchweek list shows Sunday. Do not duplicate.",
+      "sources": [
+        "https://www.premierleague.com/en/matches/results/2026-27",
+        "https://www.premierleague.com/en/news/4688862"
+      ]
+    }
+  ],
+  "repo_checks": {
+    "vmd_world1": "EMPTY_NO_EXECUTABLE_NOT_EXECUTED",
+    "dgopro_challenger_branch": "challenger/dgopro-3",
+    "dgopro_revision": "2795f3f14f416c71d6f2e0c2b512065b26daab94",
+    "dgopro_status": "SOURCE_INSPECTED_NOT_EXECUTED_THIS_RUN",
+    "arb": "NOT_EXECUTED"
+  },
+  "frozen_predictions_added": 0,
+  "certified_tops": 0,
+  "external_comparison": "NOT_RUN_FOR_NEW_MATCHES_NO_FROZEN_INTERNAL_OUTPUTS",
+  "next_pending": [
+    "Verified pre-kickoff T-1 XI and injuries for uncovered fixtures",
+    "DGOPRO execution with independently acquired pre-cutoff observations",
+    "Independent ARB review after frozen predictions",
+    "Avoid external probabilities before freezing"
+  ]
+}
