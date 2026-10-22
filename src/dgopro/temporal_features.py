@@ -45,7 +45,16 @@ def weighted_recent(records: Sequence[Mapping[str,Any]], team: str, cutoff: date
             if c is not None: pairs.append(("against",c,weights[i] if i<len(weights) else 1.0))
         for direction in ("for","against"):
             vals=[(v,w) for d,v,w in pairs if d==direction]
-            out[f"{metric}_{direction}"]=sum(v*w for v,w in vals)/sum(w for _,w in vals) if vals and sum(w for _,w in vals)>0 else None
+            # Preserve the measured value exactly when only one observation exists.
+            # Multiple observations still use the normalized weighted mean.
+            weight_total = sum(w for _, w in vals)
+            if len(vals) == 1 and weight_total > 0:
+                estimate = vals[0][0]
+            elif vals and weight_total > 0:
+                estimate = sum(v*w for v,w in vals) / weight_total
+            else:
+                estimate = None
+            out[f"{metric}_{direction}"] = estimate
             out[f"{metric}_{direction}_n"]=len(vals)
     return out
 
