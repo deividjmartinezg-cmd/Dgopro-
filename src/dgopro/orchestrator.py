@@ -1,5 +1,7 @@
 from __future__ import annotations
 from typing import Any, Mapping
+from math import isfinite
+from .contracts import EXPECTED_KEYS
 from .data_integrity import t1_integrity_gate
 from .markets.goals import goals_engine
 from .markets.result import result_engine
@@ -26,8 +28,29 @@ def analyze_match(payload: Mapping[str,Any]) -> dict[str,Any]:
     integrity=t1_integrity_gate(payload)
     if not integrity.passed:
         return {"status":"BLOCKED","stage":"t1_integrity","failures":list(integrity.failures),"warnings":list(integrity.warnings),"data_quality":integrity.score}
-    expected=payload.get("expected",{})
-    hx=float(expected.get("home_xg",0)); ax=float(expected.get("away_xg",0))
+    expected=payload.get("expected")
+    if not isinstance(expected, Mapping):
+        return {"status":"BLOCKED","stage":"expected_inputs","failures":["missing:expected"]}
+    missing=[key for key in EXPECTED_KEYS if expected.get(key) is None]
+    if missing:
+        return {"status":"BLOCKED","stage":"expected_inputs","failures":[f"missing_expected:{key}" for key in missing]}
+    invalid=[]
+    for key in EXPECTED_KEYS:
+        try:
+            value=float(expected[key])
+            if not isfinite(value) or value<0:
+                invalid.append(f"invalid_expected:{key}")
+        except (TypeError, ValueError, OverflowError):
+            invalid.append(f"invalid_expected:{key}")
+    try:
+        referee_factor=float(expected.get("referee_factor",1))
+        if not isfinite(referee_factor) or referee_factor<=0:
+            invalid.append("invalid_expected:referee_factor")
+    except (TypeError, ValueError, OverflowError):
+        invalid.append("invalid_expected:referee_factor")
+    if invalid:
+        return {"status":"BLOCKED","stage":"expected_inputs","failures":invalid}
+    hx=float(expected["home_xg"]); ax=float(expected["away_xg"])
     outputs={
         "goals":goals_engine(hx,ax),
         "result":result_engine(hx,ax),
