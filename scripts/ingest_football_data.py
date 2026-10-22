@@ -15,6 +15,7 @@ import re
 import time
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -42,8 +43,14 @@ def fetch_csv(url: str, *, attempts: int=2) -> bytes:
         try:
             request=Request(url, headers={"User-Agent": "DGOPRO research data-ingestion/1.0"})
             with urlopen(request, timeout=30) as response:
-                if response.geturl() != url:
-                    raise RuntimeError("Unexpected redirect from approved provider")
+                final_url=urlsplit(response.geturl())
+                original_url=urlsplit(url)
+                # Some CSV links canonicalize www vs non-www. Permit only HTTPS,
+                # identical dataset path and one of the two official hostnames.
+                if (final_url.scheme!="https" or
+                    final_url.hostname not in {"football-data.co.uk","www.football-data.co.uk"} or
+                    final_url.path!=original_url.path or final_url.query):
+                    raise RuntimeError(f"Unapproved provider redirect: {response.geturl()}")
                 raw=response.read(MAX_CSV_BYTES+1)
             if len(raw)>MAX_CSV_BYTES or not raw.strip():
                 raise ValueError("Oversize or empty CSV")
