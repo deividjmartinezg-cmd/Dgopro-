@@ -1,0 +1,52 @@
+name: DGOPRO independent historical data ingestion
+on:
+  push:
+    branches: [challenger/dgopro-3]
+    paths:
+      - '.github/workflows/data-ingestion.yml'
+      - 'scripts/ingest_football_data.py'
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'pilot (England & Spain) or full (5 top leagues)'
+        type: choice
+        options: [pilot, full]
+        default: pilot
+permissions:
+  contents: read
+concurrency:
+  group: dgopro-historical-data-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  independent-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download independently verified historical CSV
+        env:
+          SCOPE: ${{ inputs.scope }}
+        run: |
+          if [ "$SCOPE" = "full" ]; then
+            python scripts/ingest_football_data.py --seasons 2425 2526 2627 --divisions E0 SP1 I1 D1 F1
+          else
+            python scripts/ingest_football_data.py --seasons 2425 2526 2627 --divisions E0 SP1
+          fi
+      - name: Evaluate observed match-data coverage and strict-date historical baselines
+        env:
+          PYTHONPATH: src
+        run: python scripts/validate_real_data.py .
+      - name: Upload audit and ephemeral data snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgopro-independent-historical-pilot
+          path: |
+            artifacts/ingestion_manifest.json
+            artifacts/real_data_validation.json
+            data/raw/footballcsv/
+          retention-days: 7
+          if-no-files-found: warn
