@@ -12,3 +12,17 @@ def test_orchestrator_runs_end_to_end():
 def test_orchestrator_blocks_temporal_leakage():
     bad=dict(BASE); bad["snapshot_at"]="2026-09-24T18:00:00+00:00"
     r=analyze_match(bad); assert r["status"]=="BLOCKED" and r["stage"]=="t1_integrity"
+
+
+def test_orchestrator_blocks_missing_statistical_inputs():
+    missing=dict(BASE)
+    missing["expected"]={}
+    result=analyze_match(missing)
+    assert result["status"]=="BLOCKED" and result["stage"]=="expected_inputs"
+    assert "missing_expected:home_xg" in result["failures"]
+
+def test_orchestrator_blocks_invalid_statistical_inputs():
+    invalid=dict(BASE)
+    invalid["expected"]={**BASE["expected"],"home_xg":float("nan")}
+    result=analyze_match(invalid)
+    assert result["status"]=="BLOCKED" and "invalid_expected:home_xg" in result["failures"]
