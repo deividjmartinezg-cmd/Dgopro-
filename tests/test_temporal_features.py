@@ -23,3 +23,16 @@ def test_match_builder_produces_5l5v_views():
 def test_geometric_cross_balances_attack_and_concession():
     x=geometric_attack_defense_cross(2.0,1.5,league_rate=1.5)
     assert x["expected_rate"]>1.5 and x["expected_rate"]<2.0
+
+
+def test_naive_and_aware_dates_use_same_utc_cutoff():
+    rows=[r("2026-01-01","A","B",2,0),r("2026-01-10","A","C",9,0)]
+    naive=weighted_recent(rows,"A",datetime(2026,1,5),n=5)
+    aware=weighted_recent(rows,"A",datetime(2026,1,5,tzinfo=timezone.utc),n=5)
+    assert naive["n"]==aware["n"]==1
+    assert naive["goals_for"]==aware["goals_for"]==2
+
+def test_offset_aware_future_match_is_excluded():
+    rows=[{"kickoff":"2026-01-05T03:00:00+03:00","home_team":"A","away_team":"B","home_goals":9,"away_goals":0}]
+    out=weighted_recent(rows,"A",datetime(2026,1,5,tzinfo=timezone.utc))
+    assert out["n"]==0
