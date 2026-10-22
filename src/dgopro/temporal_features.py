@@ -1,12 +1,16 @@
 from __future__ import annotations
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Mapping, Sequence
 
 METRICS=("goals","xg","shots","sot","corners","cards")
 DEFAULT_WEIGHTS=(.30,.25,.20,.15,.10)
 
 def _dt(r: Mapping[str,Any]) -> datetime:
-    return datetime.fromisoformat(str(r.get("kickoff") or r.get("date")).replace("Z","+00:00"))
+    value = r.get("kickoff") or r.get("date")
+    if not value:
+        raise ValueError("Missing kickoff/date")
+    parsed = datetime.fromisoformat(str(value).replace("Z","+00:00"))
+    return parsed.replace(tzinfo=timezone.utc) if parsed.tzinfo is None else parsed.astimezone(timezone.utc)
 
 def _side(row: Mapping[str,Any], team: str) -> tuple[str,str]|None:
     if row.get("home_team")==team: return "home","away"
@@ -19,6 +23,7 @@ def _value(row: Mapping[str,Any], prefix: str, metric: str) -> float|None:
     except (TypeError,ValueError): return None
 
 def weighted_recent(records: Sequence[Mapping[str,Any]], team: str, cutoff: datetime, *, venue: str|None=None, n: int=5, weights: Sequence[float]=DEFAULT_WEIGHTS) -> dict[str,Any]:
+    cutoff = cutoff.replace(tzinfo=timezone.utc) if cutoff.tzinfo is None else cutoff.astimezone(timezone.utc)
     history=[]
     for row in records:
         try:
