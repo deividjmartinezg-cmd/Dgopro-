@@ -1,0 +1,21 @@
+{
+  "date_chile": "2026-10-22",
+  "snapshot_chile": "2026-10-22T16:57:17-03:00",
+  "kind": "fixture_research_checkpoint",
+  "coverage": [
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25"
+  ],
+  "source_urls": [
+    "https://scoutingstats.ai/es/fixtures/2026-10-23",
+    "https://scoutingstats.ai/es/fixtures/2026-10-24",
+    "https://scoutingstats.ai/es/fixtures/2026-10-25"
+  ],
+  "vmd_world1": "NO_EXECUTADO_REPO_VACIO",
+  "dgopro": "CHALLENGER_CODE_FOUND_NOT_EXECUTED_NO_CALIBRATED_INPUTS",
+  "arb": "NO_EXECUTADO",
+  "internal_frozen_predictions": 0,
+  "tops_certified": 0,
+  "pending": "official_fixture_verification_and_t1_inputs"
+}
