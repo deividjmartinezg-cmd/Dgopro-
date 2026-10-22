@@ -1,0 +1,39 @@
+{
+  "schema": "dgopro_incremental_checkpoint_v1",
+  "snapshot_chile": "2026-10-22T19:04:36-03:00",
+  "prior": "audits/daily/2026-10-22-1758-progress-delta.json",
+  "new_verified_fixtures": [
+    {
+      "match": "Brisbane Roar - Perth Glory",
+      "kickoff_chile": "2026-10-23 06:00",
+      "source": "https://suncorpstadium.com.au/events/brisbane-roar-fc-v-perth-glory"
+    },
+    {
+      "match": "Stuttgart - Borussia Monchengladbach",
+      "kickoff_chile": "2026-10-23 15:30",
+      "source": "https://calovo.de/e/bundesliga/bundesliga-gesamtspielplan/vfb-stuttgart-borussia-moenchengladbach-10-2026"
+    },
+    {
+      "match": "Ipswich Town - Nottingham Forest",
+      "kickoff_chile": "2026-10-23 16:00",
+      "source": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/"
+    },
+    {
+      "match": "Liverpool - Brighton",
+      "kickoff_chile": "2026-10-25 11:00",
+      "source": "https://www.premierleague.com/en/matches/results/2026-27"
+    }
+  ],
+  "source_observations": [
+    "Premier League match page lists Thomas Bramall for Ipswich - Nottingham Forest",
+    "Dated secondary reports on 22 October indicate multiple injuries affecting Stuttgart and Monchengladbach; no verified XI"
+  ],
+  "status": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NO_NEW_RUN",
+    "arb": "DOCUMENTARY_REVIEW_ONLY",
+    "external": "DEFERRED",
+    "new_frozen_predictions": 0
+  },
+  "next": "Continue only unverified and incomplete T-1 fixtures; no repeated analysis."
+}
