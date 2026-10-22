@@ -4,7 +4,7 @@
   "snapshot_at": "2026-10-22T19:00:00+00:00",
   "home_team": "Randers FC",
   "away_team": "Brondby IF",
-  "competition": "Danish Superliga 2026/27",
+  "competition": "3F Superliga - Grundspil 2026/27",
   "fixture_source": "https://www.dbu.dk/resultater/kamp/556197_506118/kampinfo",
   "fixture_verified": true,
   "source_provenance": [
@@ -58,5 +58,11 @@
     "injury_status": "Lineups not confirmed, player modifiers not applied",
     "calculation": "Projected home xG = .7*(home team season xGF + away season xGA)/2 + .3*(home home xGF + away away xGA)/2. Away xG symmetric. For corners, shots and SOT use arithmetic mean of team for and opponent faced. Card expectations are team season rates. Keeper saves use season average.",
     "data_weakness": "Only aggregated seasonal proxies; no fixture-specific T-1 historical feature store, certified calibration or time-indexed model weights."
-  }
+  },
+  "official_competition": "3F Superliga - Grundspil 2026/27",
+  "official_home_team": "Randers FC",
+  "official_away_team": "Brøndby IF",
+  "official_kickoff": "2026-10-23T17:00:00+00:00",
+  "fixture_source_is_official": true,
+  "fixture_confirmation_count": 1
 }
