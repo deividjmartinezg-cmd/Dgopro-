@@ -7,15 +7,22 @@ from dgopro.coverage_audit import coverage_audit, training_readiness
 from dgopro.observational_index import build_observational_index
 from dgopro.evaluation import brier, log_loss, ece
 
-ROOT=Path(sys.argv[1]) if len(sys.argv)>1 else Path("../VMD-World")
+ROOT=Path(sys.argv[1]) if len(sys.argv)>1 else Path(".")
 BASE=ROOT/"data/raw/footballcsv"
+if not BASE.is_dir():
+    raise SystemExit(f"Historical validation NOT EXECUTED: missing data directory {BASE}")
+paths=sorted(BASE.glob("*/*.csv"))
+if not paths:
+    raise SystemExit(f"Historical validation NOT EXECUTED: no CSV files under {BASE}")
 records=[]; files=[]; rejected=0
-for path in sorted(BASE.glob("*/*.csv")):
+for path in paths:
     season=path.parent.name; comp=path.stem
     parsed=parse_footballcsv(path.read_text(encoding="utf-8-sig"),competition_id=comp,source_path=str(path))
     for r in parsed["records"]: r["season"]=season
     records.extend(parsed["records"]); rejected+=len(parsed["rejected"])
     files.append({"season":season,"competition":comp,"n":parsed["n"],"rejected":len(parsed["rejected"]),"capabilities":parsed["capabilities"]})
+if not records:
+    raise SystemExit("Historical validation NOT EXECUTED: no valid match records were parsed")
 index=build_observational_index(records,[])
 audit=coverage_audit(records); readiness=training_readiness(audit)
 
@@ -37,6 +44,6 @@ def expanding_goal_baseline(line: float, min_train: int=100):
     acc=sum((p>=.5)==bool(v) for p,v in zip(pred,y))/len(y)
     return {"line":line,"n":len(y),"accuracy_at_0_5":acc,"brier":brier(y,pred),"log_loss":log_loss(y,pred),"ece":ece(y,pred),"mean_probability":sum(pred)/len(pred),"observed_rate":sum(y)/len(y),"strict_date_oos":True}
 
-report={"source":"VMD-World/data/raw/footballcsv","n_files":len(files),"n_records":len(records),"rejected":rejected,"index_counts":index["counts"],"canonical_counter_delta":index["canonical_counter_delta"],"coverage":audit,"readiness":readiness,"goal_baselines":[expanding_goal_baseline(1.5),expanding_goal_baseline(2.5),expanding_goal_baseline(3.5)],"files":files}
+report={"source":str(BASE),"n_files":len(files),"n_records":len(records),"rejected":rejected,"index_counts":index["counts"],"canonical_counter_delta":index["canonical_counter_delta"],"coverage":audit,"readiness":readiness,"goal_baselines":[expanding_goal_baseline(1.5),expanding_goal_baseline(2.5),expanding_goal_baseline(3.5)],"files":files}
 out=Path("artifacts"); out.mkdir(exist_ok=True); (out/"real_data_validation.json").write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding="utf-8")
 print(json.dumps({k:report[k] for k in ("n_files","n_records","rejected","index_counts","canonical_counter_delta","readiness","goal_baselines")},indent=2))
