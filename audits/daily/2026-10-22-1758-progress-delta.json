@@ -1,0 +1,67 @@
+{
+  "schema": "dgopro_incremental_checkpoint_v1",
+  "snapshot_chile": "2026-10-22T17:58:40-03:00",
+  "base_index": "audits/daily/2026-10-22-1657-fixture-index.json",
+  "prior_fixtures_preserved": 81,
+  "new_fixture": {
+    "date_chile": "2026-10-22",
+    "time_chile": "21:30",
+    "competition": "Copa Libertadores",
+    "home": "Flamengo",
+    "away": "Estudiantes LP",
+    "source": "https://www.flamengo.com.br/es/noticias/ingressos/flamengo-vs-estudiantes-toda-la-informacion-sobre-entradas-para-la-semifinal-de-la-copa-libertadores",
+    "dgopro": "NOT_EXECUTED",
+    "vmd": "NOT_EXECUTED",
+    "arb": "NOT_EXECUTED",
+    "top": "NOT_EVALUABLE"
+  },
+  "existing_fixtures_verified": [
+    {
+      "fixture": "Randers FC - Brondby IF",
+      "date_chile": "2026-10-23",
+      "time_chile": "14:00",
+      "source": "https://www.dbu.dk/resultater/kamp/556197_506118/kampinfo",
+      "dgopro": "EXPERIMENTAL_UNCALIBRATED_ABSTAIN",
+      "frozen_artifact": "https://github.com/deividjmartinezg-cmd/Dgopro-/actions/runs/39852993671/artifacts/12458436416",
+      "pqs": 7,
+      "external_model": "xgEdge 21 Oct: 28/31/41; DGOPRO 28.8/25.0/46.3"
+    },
+    {
+      "fixture": "Audax Italiano - Huachipato",
+      "date_chile": "2026-10-23",
+      "time_chile": "20:00",
+      "source": "https://www.campeonatochileno.cl/match/audax-italiano-huachipato-2026-10-23/",
+      "dgopro": "NOT_EXECUTED"
+    },
+    {
+      "fixture": "Cruzeiro - Remo",
+      "date_chile": "2026-10-23",
+      "time_chile": "20:00",
+      "source": "https://socio.cruzeiro.com.br/jogos/430",
+      "dgopro": "NOT_EXECUTED"
+    }
+  ],
+  "fixture_discrepancy": {
+    "fixture": "Gimnasia La Plata - Sarmiento",
+    "date_chile": "2026-10-23",
+    "kickoff_sources_chile": [
+      "18:00 TyC Sports",
+      "19:00 Canchallena"
+    ],
+    "status": "HOLD_UNTIL_RESOLVED"
+  },
+  "models": {
+    "VMD-World1": "NOT_EXECUTED_REPOSITORY_EMPTY",
+    "DGOPRO": "ONE_PRIOR_EXPERIMENTAL_RUN_REUSED_NO_HISTORICAL_CALIBRATION",
+    "ARB": "NO_EXECUTABLE_VERIFIED"
+  },
+  "official_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "pending": "official verification and complete T-1 inputs for other previously indexed fixtures; no duplicate reanalysis"
+}
