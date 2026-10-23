@@ -1,0 +1,44 @@
+{
+  "schema": "dgopro_postfreeze_external_comparison_v1",
+  "fixture": "Randers FC vs Brondby IF",
+  "kickoff_chile": "2026-10-23T14:00:00-03:00",
+  "internal_frozen_record": "audits/daily/2026-10-22-2258-randers-brondby-experimental-reproduction.json",
+  "internal_kind": "EXPERIMENTAL_UNCALIBRATED_REPRODUCTION",
+  "external": [
+    {
+      "source": "Wincomparator",
+      "url": "https://www.wincomparator.com/predictions/randers-fc-brondby-if-8520329/",
+      "published": "2026-10-22",
+      "probability_percent": {
+        "away_win": 41.88,
+        "over_2_5_goals": 56.92,
+        "btts_yes": 58.75
+      },
+      "methodology": "proprietary algorithm unspecified"
+    },
+    {
+      "source": "SoccerGhost",
+      "url": "https://soccerghost.com/match/95037/randers-fc-vs-brondby",
+      "probability_percent": {
+        "corners_over_9_5": 56,
+        "cards_over_4_5": 39,
+        "sot_over_7_5": 61
+      },
+      "methodology": "recent-match count-based model as stated by publisher"
+    }
+  ],
+  "comparisons_percentage_points": {
+    "away_win_internal_minus_external": 4.42,
+    "over_2_5_internal_minus_external": -4.92,
+    "btts_yes_internal_minus_external": -3.75,
+    "corners_over_9_5_internal_minus_external": 12.3,
+    "cards_over_4_5_internal_minus_external": -0.1,
+    "sot_over_7_5_internal_minus_external": -0.3
+  },
+  "flags": [
+    "Corners 9.5 discrepancy exceeds 10 percentage points; require source/mean validation",
+    "No calibrated internal prediction; not eligible for TOP"
+  ],
+  "arb": "NOT_EXECUTED; manual discrepancy check only",
+  "external_sources_used_to_modify_internal": false
+}
