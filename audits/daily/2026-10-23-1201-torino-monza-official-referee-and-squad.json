@@ -1,0 +1,129 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T12:01:18-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1104-chile-official-tminus1-and-cutoffs.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "new_findings": [
+    {
+      "fixture_id": "torino-monza",
+      "fixture": "Torino FC vs AC Monza",
+      "competition": "Italy Serie A matchday 8",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "venue": "Stadio Olimpico Grande Torino",
+      "status": "OFFICIAL_FIXTURE_AND_T_MINUS_1_UPDATE_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Torino FC",
+          "url": "https://www.torinofc.it/calendario/2026-2027/prima-squadra/8",
+          "kind": "official_fixture",
+          "publication": "pre-kickoff"
+        },
+        {
+          "publisher": "AC Monza",
+          "url": "https://www.acmonza.com/it/news/torino-monza-affidata-a-zanotti-21102026/",
+          "kind": "original_referee_designation",
+          "publication": "2026-10-21"
+        },
+        {
+          "publisher": "AC Monza",
+          "url": "https://www.acmonza.com/it/news/torino-monza-affidata-a-marchetti-22102026/",
+          "kind": "superseding_referee_change",
+          "publication": "2026-10-21 or 2026-10-22 (page label inconsistent with slug)"
+        },
+        {
+          "publisher": "AC Monza",
+          "url": "https://www.acmonza.com/it/news/torino-monza-i-convocati-221026/",
+          "kind": "official_26_player_squad",
+          "publication": "2026-10-22"
+        }
+      ],
+      "t_minus_1": {
+        "home_coach": "Ignazio Abate (club fixture and match sources)",
+        "away_coach": "Ivan Juric (official squad announcement)",
+        "referee_original": "Andrea Zanotti",
+        "referee_corrected": "Matteo Marchetti",
+        "referee_change_source": "AC Monza updated announcement supersedes original and league older page",
+        "assistant_referees": [
+          "Alessandro Lo Cicero",
+          "Gilberto Laghezza"
+        ],
+        "fourth_official": "Davide Massa",
+        "var": "Luca Massimi",
+        "avar": "Giacomo Camplone",
+        "away_squad_count": 26,
+        "away_squad_players": [
+          "Tornqvist",
+          "Goglichidze",
+          "Lucchesi",
+          "Antov",
+          "Mangas",
+          "Foe Ondoa",
+          "Varela",
+          "Cutrone",
+          "Forson",
+          "Akinsanmiro",
+          "Ngonge",
+          "Birindelli",
+          "Thiam",
+          "Colombo",
+          "Zeballos",
+          "Bakoune",
+          "Ciurria",
+          "Touré",
+          "Colpani",
+          "Strajnar",
+          "Carboni",
+          "Robinson",
+          "Mota Carvalho",
+          "Kouadio",
+          "Mout",
+          "Folorunsho"
+        ],
+        "away_players_not_on_squad": [
+          "Matteo Pessina",
+          "Jan Ziolkowski",
+          "Yvan Maye"
+        ],
+        "away_toure_status": "IN_OFFICIAL_SQUAD; do not mark out from conflicting third-party preview",
+        "confirmed_starting_xi": "NOT_AVAILABLE; 26-player squad != confirmed XI",
+        "home_squad": "NOT_VERIFIED",
+        "referee_historical_cards": "NOT_VERIFIED",
+        "weather": "NOT_VERIFIED",
+        "event_level_goals_corners_shots_cards": "NOT_INGESTED"
+      },
+      "critical_discrepancy": "Original Serie A/Monza referee listing Zanotti is superseded by AC Monza announcement changing to Marchetti. Older listings are stale. Touré appears on official squad, contrary to some external absence claims.",
+      "no_external_predictions_ingested": true
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED; README fetch 404 repository empty",
+    "dgopro": "NOT_EXECUTED; challenger/dgopro-3 preview inspected, labels outputs EXPERIMENTAL_UNCALIBRATED",
+    "arb": "NOT_EXECUTED; no verified runtime",
+    "external_predictions": "NOT_FETCHED; no new frozen internal forecasts",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NO_EVALUABLE_PROBABILITIES",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Full fixture deduplication and chronological 20-game blocks",
+    "Confirm Torino XI, home absences and T-1 historical event-level baselines before 15:45 CL",
+    "Validate source time and referee distribution for Torino-Monza",
+    "Calibrate DGOPRO on independently sourced historical data; no odds",
+    "Do not run VMD or ARB until executable runtimes exist",
+    "Freeze internal outputs before external predictive comparison"
+  ]
+}
