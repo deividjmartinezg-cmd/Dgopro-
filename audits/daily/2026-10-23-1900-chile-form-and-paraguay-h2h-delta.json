@@ -1,0 +1,190 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T19:00:20-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1804-afa-kickoff-correction-and-referees.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "cutoff_update": [
+    {
+      "fixture": "Gimnasia Mendoza vs Platense",
+      "kickoff_chile": "2026-10-23T18:30:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "note": "Prior T-1 and audit data retained; no match outcome or live information incorporated."
+    }
+  ],
+  "new_findings": [
+    {
+      "fixture": "Audax Italiano vs Huachipato",
+      "competition": "Chile Liga de Primera fecha 25",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_PREMATCH_RESULTS_ENRICHED",
+      "t_minus_1": {
+        "audax_last_3_league": [
+          {
+            "date": "2026-09-13",
+            "result": "Audax 1-0 O'Higgins"
+          },
+          {
+            "date": "2026-09-04",
+            "result": "Deportes Concepción 0-1 Audax"
+          },
+          {
+            "date": "2026-08-30",
+            "result": "Colo Colo 5-1 Audax"
+          }
+        ],
+        "huachipato_last_3_league": [
+          {
+            "date": "2026-10-10",
+            "result": "Huachipato 2-0 O'Higgins"
+          },
+          {
+            "date": "2026-10-02",
+            "result": "Universidad de Concepción 0-2 Huachipato"
+          },
+          {
+            "date": "2026-09-16",
+            "result": "Coquimbo Unido 0-1 Huachipato"
+          }
+        ],
+        "h2h_most_recent": {
+          "date": "2026-04-19",
+          "result": "Huachipato 3-2 Audax Italiano"
+        },
+        "home_last_3_league_goals_for": 3,
+        "home_last_3_league_goals_against": 5,
+        "away_last_3_league_goals_for": 5,
+        "away_last_3_league_goals_against": 0
+      },
+      "sources": [
+        {
+          "publisher": "ANFP Campeonato Chileno",
+          "url": "https://www.campeonatochileno.cl/match/audax-italiano-huachipato-2026-10-23/",
+          "publication_time": "UNKNOWN",
+          "note": "Dynamic official match page read before kickoff; only dated historical matches incorporated."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "fixture_specific_expected_rates",
+        "shots_corners_cards_rate_baselines",
+        "out_of_sample_calibration"
+      ]
+    },
+    {
+      "fixture": "Deportes Iquique vs Magallanes",
+      "competition": "Chile Liga de Ascenso fecha 29 (secondary tier; not first division)",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_PREMATCH_RESULTS_ENRICHED",
+      "t_minus_1": {
+        "iquique_last_3_league": [
+          {
+            "date": "2026-10-18",
+            "result": "Curicó Unido 2-2 Deportes Iquique"
+          },
+          {
+            "date": "2026-10-12",
+            "result": "Deportes Iquique 1-0 Unión Española"
+          },
+          {
+            "date": "2026-10-04",
+            "result": "Unión San Felipe 0-2 Deportes Iquique"
+          }
+        ],
+        "magallanes_last_3_league": [
+          {
+            "date": "2026-10-17",
+            "result": "Magallanes 0-1 San Luis"
+          },
+          {
+            "date": "2026-10-10",
+            "result": "Deportes Recoleta 1-2 Magallanes"
+          },
+          {
+            "date": "2026-10-03",
+            "result": "Magallanes 1-0 Curicó Unido"
+          }
+        ],
+        "h2h_most_recent": {
+          "date": "2026-05-31",
+          "result": "Magallanes 4-3 Deportes Iquique"
+        },
+        "iquique_last_3_league_goals_for": 5,
+        "iquique_last_3_league_goals_against": 2,
+        "magallanes_last_3_league_goals_for": 3,
+        "magallanes_last_3_league_goals_against": 2
+      },
+      "sources": [
+        {
+          "publisher": "ANFP Campeonato Chileno",
+          "url": "https://www.campeonatochileno.cl/match/deportes-iquique-magallanes-2026-10-23/",
+          "publication_time": "UNKNOWN",
+          "note": "Dynamic official match page read before kickoff; only dated historical matches incorporated."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "verified_expected_rates",
+        "calibration"
+      ]
+    },
+    {
+      "fixture": "Libertad vs Sportivo Luqueño",
+      "competition": "Paraguay Primera División Clausura fecha 16",
+      "kickoff_chile": "2026-10-23T19:30:00-03:00",
+      "status": "OFFICIAL_H2H_GOALS_ENRICHED",
+      "t_minus_1": {
+        "historic_h2h_games": 253,
+        "historic_libertad_goals": 397,
+        "historic_luqueno_goals": 285,
+        "libertad_last_result": "lost 0-1 to Sportivo Trinidense",
+        "luqueno_last_result": "won 3-2 vs Sportivo San Lorenzo"
+      },
+      "sources": [
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/noticias/futbol-en-tuyucua",
+          "publication_date": "2026-10-23",
+          "publication_time": "UNKNOWN",
+          "note": "Pre-match article and pre-kickoff retrieval, no exact publishing time; do not treat as model rate."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "recent shots_corners_cards",
+        "calibration"
+      ]
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NO EJECUTADO; connected repository metadata size=0 at this checkpoint",
+    "dgopro": "NO EJECUTADO; challenger/dgopro-3 preview script inspected and explicitly uncalibrated",
+    "arb": "NO EJECUTADO; no validated runnable independent ARB implementation",
+    "external_predictions": "NOT COMPARED; no authentic internal forecasts frozen",
+    "no_odds_inputs": true
+  },
+  "matrix_status": "NO_VALID_INTERNAL_FORECAST_TO_COMPARE",
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NOT_EVALUABLE",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Libertad vs Sportivo Luqueño cutoff 19:30 CL",
+    "Cruzeiro vs Remo, Audax vs Huachipato, Iquique vs Magallanes cutoffs 20:00 CL",
+    "Tigre vs Atlético Tucumán cutoff 21:15 CL",
+    "Official XI if published pre-kickoff; do not mislabel as verified",
+    "Deduplicate and verify 87 candidates before blocks of 20",
+    "Actual runnable engine, verified input rates and out-of-sample calibration required for probability certification"
+  ]
+}
