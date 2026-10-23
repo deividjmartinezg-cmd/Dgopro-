@@ -1,0 +1,18 @@
+{
+  "schema": "dgopro_postmatch_source_reconciliation_v1",
+  "local_date": "2026-10-22",
+  "competition": "CONMEBOL Libertadores semifinal second leg",
+  "fixture": "Flamengo vs Estudiantes",
+  "regular_time_score": "0-0",
+  "penalty_shootout": "Flamengo 2-3 Estudiantes",
+  "qualified": "Estudiantes",
+  "notes": [
+    "Some score portals display 2-3 as though it were a regular match score; it is the penalty shootout result, not 90-minute goals.",
+    "No archived T-1 DGOPRO/VMD/ARB/external predictions for this match in audited repository. No pick scored.",
+    "Keep extra-time/penalties separate from 90-minute 1X2, totals and BTTS."
+  ],
+  "sources": [
+    "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/22/flamengo-x-estudiantes-libertadores.ghtm",
+    "https://www1.folha.uol.com.br/esporte/2026/10/estudiantes-elimina-o-flamengo-e-encara-o-palmeiras-na-final-da-libertadores.shtml"
+  ]
+}
