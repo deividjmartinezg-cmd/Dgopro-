@@ -2739,5 +2739,97 @@
   "source_additions": [
     "https://footycheck.com/football/date/2026-10-23/",
     "https://www.livesoccertv.com/schedules/2026-10-23/"
-  ]
+  ],
+  "postfreeze_external_review": {
+    "freeze_ref": "8dc5d9ce781a1ca8bbac2cb144112b0ed35a31f9",
+    "policy": "External estimates do not modify or replace internal model predictions; publication timestamps not always available",
+    "fixtures": [
+      {
+        "fixture": "Ferrymead Bays vs Cashmere Technical",
+        "sources": [
+          {
+            "name": "Betimate",
+            "published": "2026-10-22",
+            "away_win_percent": 73,
+            "over_3_5_percent": 51.21,
+            "source": "https://betimate.com/en/football-predictions/ferrymead-bays-vs-cashmere-technical/2026-10-23/game"
+          },
+          {
+            "name": "Oleball",
+            "published": "unknown",
+            "away_win_percent": 52,
+            "source": "https://oleball.com/match/ferrymead-bays-vs-cashmere-technical-MRQP5JZB"
+          },
+          {
+            "name": "ScoreBat",
+            "published": "unknown",
+            "away_win_percent": 49,
+            "source": "https://www.scorebat.com/cashmere-technical-vs-ferrymead-bays-live-stream/"
+          }
+        ],
+        "finding": "Away-win estimate varies 49 to 73 percentage points; large disagreement; no internal pick"
+      },
+      {
+        "fixture": "Brisbane Roar vs Perth Glory",
+        "sources": [
+          {
+            "name": "FulltimeStats",
+            "updated": "2026-10-22",
+            "one_x_two": [
+              36,
+              27,
+              37
+            ],
+            "over_2_5_percent": 57,
+            "btts_yes_percent": 60,
+            "source": "https://fulltimestats.com/match/brisbane-roar-vs-perth-glory-2026-10-23"
+          },
+          {
+            "name": "PredictedEdge",
+            "published": "date only 2026-10-23",
+            "one_x_two": [
+              35,
+              27,
+              38
+            ],
+            "over_2_5_percent": 50,
+            "source": "https://predictededge.com/match/brisbane-roar-vs-perth-glory-2026-10-23"
+          },
+          {
+            "name": "OddAlerts",
+            "published": "unknown",
+            "one_x_two": [
+              45,
+              25,
+              30
+            ],
+            "source": "https://www.oddalerts.com/livescores/brisbane-roar-vs-perth-glory/16156-4313"
+          }
+        ],
+        "finding": "Different favoured team across independent sources; no internal pick"
+      },
+      {
+        "fixture": "Inter Kashi vs East Bengal",
+        "sources": [
+          {
+            "name": "Wincomparator",
+            "published": "2026-10-16",
+            "away_win_percent": 64.61,
+            "over_2_5_percent": 58.25,
+            "btts_yes_percent": 64.58,
+            "source": "https://www.wincomparator.com/predictions/inter-kashi-fc-east-bengal-8861424/"
+          },
+          {
+            "name": "Betstudy",
+            "published": "unknown",
+            "away_win_percent": 70,
+            "over_2_5_percent": 69,
+            "btts_yes_percent": 76,
+            "source": "https://www.betstudy.com/prediction/19888214/inter-kashi-east-bengal/"
+          }
+        ],
+        "finding": "Away-win agreement directionally; over 2.5 and BTTS estimates differ materially; no internal pick"
+      }
+    ]
+  }
 }
