@@ -1,0 +1,177 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T05:00:00-03:00",
+  "timezone": "America/Santiago",
+  "baseline": {
+    "persisted_registry": "audits/daily/2026-10-23-0003-global-chronological-registry.json",
+    "persisted_candidate_count": 81,
+    "local_0358_candidate_count": 82,
+    "previous_local_file": "dgopro_2026-10-23_0358_delta.json"
+  },
+  "new_fixtures": [
+    {
+      "id": "hoang-anh-gia-lai-song-lam-nghe-an",
+      "fixture": "Hoang Anh Gia Lai vs Song Lam Nghe An",
+      "competition": "Vietnam V.League 1",
+      "kickoff_utc": "2026-10-23T10:00:00Z",
+      "kickoff_chile": "2026-10-23T07:00:00-03:00",
+      "source_urls": [
+        "https://sportybell.com/football/match/hoang-anh-gia-lai-vs-song-lam-nghe-an-3816923/",
+        "https://vn.soccerway.com/trandau/gia-lai-4GHm8BQg/song-lam-nghe-an-UBWx5muP/"
+      ],
+      "status": "CROSSCHECKED_TWO_THIRD_PARTY_SOURCES_NOT_OFFICIAL"
+    },
+    {
+      "id": "viettel-bac-ninh",
+      "fixture": "Viettel vs Bac Ninh",
+      "competition": "Vietnam V.League 1",
+      "kickoff_utc": "2026-10-23T12:15:00Z",
+      "kickoff_chile": "2026-10-23T09:15:00-03:00",
+      "source_urls": [
+        "https://www.fotmob.com/matches/viettel-vs-bac-ninh/15b32tu09",
+        "https://vn.soccerway.com/trandau/bac-ninh-pv9xA4eM/viettel-Gb6wjV0S/"
+      ],
+      "status": "CROSSCHECKED_TWO_THIRD_PARTY_SOURCES_NOT_OFFICIAL"
+    },
+    {
+      "id": "the-new-saints-ammanford",
+      "fixture": "The New Saints vs Ammanford",
+      "competition": "Wales Cymru Premier",
+      "kickoff_utc": "2026-10-23T18:45:00Z",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "source_urls": [
+        "https://tnsfc.co.uk/",
+        "https://www.fotmob.com/en-GB/matches/new-saints-vs-ammanford/5ul3ydvs"
+      ],
+      "status": "OFFICIAL_CLUB_DATE_TIME_CROSSCHECKED"
+    }
+  ],
+  "additional_candidates_not_counted": [
+    {
+      "fixture": "Pakhtakor vs Neftchi Fargona",
+      "competition": "Uzbekistan Super League",
+      "conflicting_times": [
+        "2026-10-23T14:00:00Z FotMob",
+        "2026-10-23 15:00 time-zone unspecified footballcalculator",
+        "2026-10-23 16:00 local Fixtures24"
+      ],
+      "status": "KICKOFF_CONFLICT_NOT_VERIFIED",
+      "sources": [
+        "https://www.fotmob.com/en-GB/matches/pakhtakor-tashkent-vs-neftchi-fargona/9l3ff9e",
+        "https://www.fixtures24.com/eng/clubs/pakhtakor-tashkent/pakhtakor-tashkent?tab=played"
+      ]
+    },
+    {
+      "fixture": "Buxoro vs Surkhon",
+      "competition": "Uzbekistan Super League",
+      "conflicting_times": [
+        "2026-10-23T14:00:00Z gamesare.live",
+        "2026-10-23 15:00 time-zone unspecified footballcalculator"
+      ],
+      "status": "KICKOFF_CONFLICT_NOT_VERIFIED",
+      "sources": [
+        "https://gamesare.live/match/1516162",
+        "https://www.footballcalculator.co.uk/fixtures/Uzbekistan/Super%2BLeague/2026"
+      ]
+    }
+  ],
+  "candidate_total_if_no_duplicate": 85,
+  "excluded_started": [
+    {
+      "fixture": "Ferrymead Bays vs Cashmere Technical",
+      "kickoff_chile": "2026-10-23T03:15:00-03:00",
+      "reason": "Past kickoff, exclude from new pre-match forecast"
+    }
+  ],
+  "new_t_minus_1": {
+    "fixture": "Brisbane Roar vs Perth Glory",
+    "kickoff_chile": "2026-10-23T06:00:00-03:00",
+    "sources": [
+      {
+        "url": "https://perthglory.com.au/news/alm-match-preview-glory-braced-for-bruising-brisbane-battle/",
+        "publisher": "Perth Glory",
+        "date": "2026-10-22",
+        "author": "Gareth Morgan"
+      },
+      {
+        "url": "https://brisbaneroar.com.au/news/alm-mw2-preview-brisbane-roar-vs-perth-glory/",
+        "publisher": "Brisbane Roar",
+        "date": "2026-10-22",
+        "author": "Brisbane Roar Media"
+      },
+      {
+        "url": "https://suncorpstadium.com.au/events/brisbane-roar-fc-v-perth-glory",
+        "publisher": "Suncorp Stadium",
+        "date": "2026-10-23",
+        "type": "kickoff"
+      }
+    ],
+    "facts": {
+      "home_extended_squad": "20 players named, 2 to be omitted; not confirmed starting XI",
+      "home_unavailable": [
+        {
+          "player": "Dimitri Valkanis",
+          "reason": "leg injury"
+        }
+      ],
+      "away_extended_squad": "19 players named, 1 to be omitted; not confirmed starting XI",
+      "away_unavailable": [
+        {
+          "player": "Charbel Shamoon",
+          "reason": "foot"
+        },
+        {
+          "player": "Matt Dench",
+          "reason": "foot"
+        },
+        {
+          "player": "Calem Nieuwenhof",
+          "reason": "hamstring"
+        },
+        {
+          "player": "Brian Kaltak",
+          "reason": "knee"
+        }
+      ],
+      "away_doubtful": [
+        {
+          "player": "Henry Hore",
+          "reason": "hamstring"
+        }
+      ],
+      "coaches": {
+        "home": "Michael Valkanis",
+        "away": "Adam Griffiths"
+      },
+      "home_first_league_match_of_season": true,
+      "away_round1": "Macarthur FC 2-1 Perth Glory",
+      "travel": "Perth squad traveled from Sydney to Brisbane after Macarthur fixture, per Perth coach; exact recovery time not verified",
+      "official_xi": "NOT_YET_PUBLISHED",
+      "referee": "NOT_OFFICIALLY_VERIFIED",
+      "weather": "NOT_VERIFIED"
+    },
+    "no_betting_odds_used": true
+  },
+  "four_layers": {
+    "VMD_World1": "NOT_EXECUTED_REPOSITORY_EMPTY_VERIFIED_GITHUB_API_404",
+    "DGOPRO": "NOT_EXECUTED_FOR_NEW_FIXTURES; challenger script reviewed, inputs insufficient",
+    "ARB": "NOT_EXECUTED",
+    "external_forecast": "NOT_REVIEWED_FOR_NEW_FIXTURES_BEFORE_INTERNAL_FREEZE"
+  },
+  "unified_markets_status": "ALL_NOT_EVALUABLE: recommendation,1X2,double chance,goals +/-1.5/2.5/3.5,BTTS,corners 7.5-11.5,cards 4.5/5.5,shots,SOT,props,exact score,risk,IGC,DQI",
+  "frozen_prior_outputs_untouched": true,
+  "top_certified": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "next_steps": [
+    "Check confirmed starting XI before Brisbane 06:00 kickoff; if not in time, keep no pre-match prediction",
+    "Resolve Uzbekistan conflicting kickoff times",
+    "Verify new Vietnam and Wales fixtures via official leagues",
+    "Obtain legitimate T-1 historical data and calibration; run DGOPRO only if integrity gate passes"
+  ]
+}
