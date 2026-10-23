@@ -1,0 +1,116 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T12:55:55-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1201-torino-monza-official-referee-and-squad.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "new_findings": [
+    {
+      "fixture_id": "torino-monza",
+      "fixture": "Torino FC vs AC Monza",
+      "competition": "Italy Serie A 2026/27 MD8",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "status": "OFFICIAL_T_MINUS_1_DESCRIPTIVE_BASELINE_ADDED",
+      "sources": [
+        {
+          "publisher": "Torino FC",
+          "url": "https://be.torinofc.it/news/23/10/2026/torino-monza-numeri-e-curiosita_45423",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "kind": "official_club_descriptive_preview"
+        }
+      ],
+      "t_minus_1": {
+        "torino_yellow_cards_first_7_league_matches": 6,
+        "torino_points_last_5_matches": 10,
+        "monza_goals_first_7_league_matches": 13,
+        "monza_goals_conceded_first_15_minutes": 4,
+        "monza_goals_conceded_minutes_46_to_60": 3,
+        "monza_gustavo_varela_goals_first_7_matches": 6,
+        "torino_monza_coppa_italia_previous_result": "0-1 on 2026-09-01",
+        "confirmed_starting_xi": "NOT_VERIFIED",
+        "event_level_corners_shots_xg": "NOT_INGESTED"
+      },
+      "note": "These are descriptive club figures, not calibrated odds-free forecasts. Publication time missing; do not certify strict pre-12:55 data freeze without archived timestamp."
+    },
+    {
+      "fixture_id": "stuttgart-gladbach",
+      "fixture": "VfB Stuttgart vs Borussia Mönchengladbach",
+      "competition": "Germany Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "status": "OFFICIAL_SQUAD_AVAILABILITY_UPDATE_WITH_TEMPORAL_CAUTION",
+      "sources": [
+        {
+          "publisher": "Borussia Mönchengladbach",
+          "url": "https://www.borussia.de/news/blessin-wir-koennen-nur-als-gemeinschaft-bestehen",
+          "publication_date": "2026-10-22",
+          "kind": "official_manager_pre_match_quotes"
+        },
+        {
+          "publisher": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "kind": "official_league_probable_lineups_and_absences"
+        }
+      ],
+      "t_minus_1": {
+        "gladbach_manager": "Alexander Blessin",
+        "gladbach_22_oct_absences_count_manager_quote": 9,
+        "gladbach_23_oct_league_absences": [
+          "Jens Castrop",
+          "Kevin Diks",
+          "Franck Honorat",
+          "Ko Itakura",
+          "Tim Kleindienst",
+          "Nicolas-Gerrit Kühn",
+          "Enzo Leopold",
+          "Jan Leszczyński",
+          "Isac Lidberg"
+        ],
+        "diks_status": "OUT personal reasons according to Bundesliga 2026-10-23 list; new vs previous 09:00 checkpoint",
+        "stuttgart_league_out": [
+          "Justin Diehl",
+          "Malanga",
+          "Nikolas Nartey",
+          "Tiago Tomás",
+          "Josha Vagnoman",
+          "Dan-Axel Zagadou"
+        ],
+        "lineups": "PROBABLE ONLY, not confirmed",
+        "event_level_goals_corners_shots_cards": "NOT_INGESTED"
+      },
+      "critical_discrepancy": "Earlier squad information lacked Kevin Diks absence. League list includes Diks, so older probable XI with Diks is stale. League page publication time unspecified; strict T-1 chronological verification remains pending."
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED; README fetch 404 repository empty",
+    "dgopro": "NOT_EXECUTED; challenger/dgopro-3 preview inspected, labels outputs EXPERIMENTAL_UNCALIBRATED",
+    "arb": "NOT_EXECUTED; no verified runtime",
+    "external_predictions": "NOT_FETCHED; internal calibrated outputs unavailable",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NO_EVALUABLE_PROBABILITIES",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Verify publication time and Diks absence pre-kickoff",
+    "Obtain confirmed XI pre-kickoff without substituting probable XI",
+    "Load event-level historical no-odds metrics and calibrated backtests",
+    "Deduplicate all 87 candidates and certify 20-fixture chronological blocks",
+    "Do not ingest third-party prediction until internal freeze",
+    "Do not run VMD or ARB without verified executable runtime"
+  ]
+}
