@@ -1,0 +1,218 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T17:00:10-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1603-chile-prekickoff-cutoffs-anfp-baseline.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "source_policy": "Official fixture/competition documents only for this checkpoint; bookmaker odds excluded. Publication times unknown unless expressly stated; any material published after kickoff cannot be used for T-1.",
+  "new_findings": [
+    {
+      "fixture": "Rubio Ñu vs Guaraní",
+      "competition": "Paraguay Primera División Clausura fecha 16",
+      "kickoff_chile": "2026-10-23T17:00:00-03:00",
+      "status": "OFFICIAL_FIXTURE_AND_T1_CONFIRMED_CUTOFF_REACHED",
+      "sources": [
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/noticias/nomina-arbitral-para-una-nueva-fecha-del-clausura",
+          "publication_date": "2026-10-22",
+          "publication_time": "UNKNOWN"
+        },
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/noticias/en-la-arboleda-se-inicia-el-capitulo-16",
+          "publication_date": "2026-10-23",
+          "publication_time": "UNKNOWN"
+        }
+      ],
+      "t_minus_1": {
+        "stadium": "La Arboleda",
+        "referee": "Alipio Colmán",
+        "VAR": "Ulises Mereles",
+        "home_points": 13,
+        "away_points": 22,
+        "home_last": "lost 0-1 Recoleta",
+        "away_last": "lost 0-2 Nacional",
+        "historical_h2h": {
+          "total": 83,
+          "home_wins": 18,
+          "away_wins": 43,
+          "draws": 22
+        }
+      },
+      "cutoff": "NO_NEW_PREMATCH_FORECAST_FROM_17:00_CL"
+    },
+    {
+      "fixture": "Libertad vs Sportivo Luqueño",
+      "competition": "Paraguay Primera División Clausura fecha 16",
+      "kickoff_chile": "2026-10-23T19:30:00-03:00",
+      "status": "OFFICIAL_FIXTURE_REFEREE_AND_T1_CONTEXT_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/noticias/nomina-arbitral-para-una-nueva-fecha-del-clausura",
+          "publication_date": "2026-10-22",
+          "publication_time": "UNKNOWN"
+        },
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/noticias/futbol-en-tuyucua",
+          "publication_date": "2026-10-23",
+          "publication_time": "UNKNOWN"
+        }
+      ],
+      "t_minus_1": {
+        "stadium": "La Huerta",
+        "referee": "Juan Gabriel Benítez",
+        "VAR": "José Méndez",
+        "home_points": 27,
+        "away_points": 16,
+        "home_last": "lost 0-1 Sportivo Trinidense",
+        "away_last": "won 3-2 Sportivo San Lorenzo",
+        "historical_h2h": {
+          "total": 253,
+          "home_wins": 118,
+          "away_wins": 62,
+          "draws": 73
+        }
+      },
+      "missing": [
+        "confirmed_XI",
+        "player_absences",
+        "verified_expected_metrics",
+        "calibration"
+      ]
+    },
+    {
+      "fixture": "Gimnasia Mendoza vs Platense",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T18:30:00-03:00",
+      "status": "OFFICIAL_KICKOFF_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "publication_date": "2026-10-07"
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "absences",
+        "referee",
+        "team_stats",
+        "weather",
+        "calibrated_distributions"
+      ]
+    },
+    {
+      "fixture": "Gimnasia La Plata vs Sarmiento",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T19:00:00-03:00",
+      "status": "OFFICIAL_KICKOFF_CONFLICT_RESOLVED",
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "publication_date": "2026-10-07"
+        }
+      ],
+      "integrity": "Previously flagged time conflict: AFA schedule confirms 19:00 Argentine local time, same UTC-3 as Chile on this date.",
+      "missing": [
+        "official_XI",
+        "absences",
+        "referee",
+        "team_stats",
+        "weather",
+        "calibrated_distributions"
+      ]
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "status": "OFFICIAL_KICKOFF_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "publication_date": "2026-10-07"
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "absences",
+        "referee",
+        "team_stats",
+        "weather",
+        "calibrated_distributions"
+      ]
+    },
+    {
+      "fixture": "Cruzeiro vs Remo",
+      "competition": "Brasil Serie A rodada 32",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_KICKOFF_STADIUM_AND_H2H_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Confederação Brasileira de Futebol",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro-serie-a/a/palmeiras-galo-sao-paulo-e-fla-querem-manter-sequencia-de-vitorias-no-brasileirao",
+          "publication_date": "2026-10-23",
+          "publication_time": "14:27 Brazil local"
+        },
+        {
+          "publisher": "Confederação Brasileira de Futebol",
+          "url": "https://credencial.cbf.com.br/competicoes/listar/42/1",
+          "publication_date": "UNKNOWN"
+        }
+      ],
+      "t_minus_1": {
+        "stadium": "Mineirão",
+        "first_leg": "Remo 0-1 Cruzeiro",
+        "historical_h2h_brasileirao": {
+          "total": 10,
+          "cruzeiro_wins": 2,
+          "draws": 4,
+          "remo_wins": 4,
+          "cruzeiro_goals": 8,
+          "remo_goals": 14
+        }
+      },
+      "missing": [
+        "official_XI",
+        "absences",
+        "referee",
+        "event_stats",
+        "calibration"
+      ]
+    }
+  ],
+  "execution": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO; connected repository size=0 checked this run",
+    "dgopro": "NO EJECUTADO; challenger/dgopro-3 preview script inspected; explicitly experimental and uncalibrated",
+    "arb": "NO EJECUTADO; no verified independent runnable engine",
+    "external_predictions": "NOT_COMPARED; no authentic internal outputs frozen for these fixtures",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NOT_EVALUABLE",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Complete official T-1 for 5 future fixtures before kickoff",
+    "Prioritize verified first-division fixtures, excluding started matches",
+    "Deduplicate 87 candidate inventory into blocks of 20; candidates are not all officially verified",
+    "Validate real runtime and historical out-of-sample calibration before publishing certified probabilities",
+    "External forecasts only after authentic internal freeze"
+  ]
+}
