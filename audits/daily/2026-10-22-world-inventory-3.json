@@ -1,0 +1,105 @@
+{
+  "schema": "dgopro_world_inventory_delta_v1",
+  "date_chile": "2026-10-23",
+  "prior": "audits/daily/2026-10-22-continued-world-inventory-2.json",
+  "source": "https://www.livescores.com/football/2026-10-23/?tz=1",
+  "fixtures": [
+    {
+      "fixture": "CSKA 1948 Sofia - Botev Plovdiv",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T13:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Clermont - Guingamp",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Dunkerque - Metz",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Nancy - Laval",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Pau - Grenoble",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Sochaux - Annecy",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Almere City - Roda JC",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "De Graafschap - RKC Waalwijk",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "NAC Breda - Heracles",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Petro de Luanda - Scotland Mabvuku",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T13:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Orlando Pirates - African Stars",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "Mamelodi Sundowns - Wiliete",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    },
+    {
+      "fixture": "MC Alger - Enugu Rangers",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T17:00:00-03:00",
+      "status": "CALENDAR_CROSSCHECKED_T1_PENDING",
+      "predictions": null
+    }
+  ],
+  "model_runs": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED",
+    "arb": "NOT_EXECUTED"
+  },
+  "tops_certified": 0
+}
