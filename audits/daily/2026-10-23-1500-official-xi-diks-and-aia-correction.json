@@ -1,0 +1,143 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T15:00:23-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1402-malaga-squad-and-lineup-integrity.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "new_findings": [
+    {
+      "fixture_id": "stuttgart-gladbach",
+      "fixture": "VfB Stuttgart vs Borussia Monchengladbach",
+      "competition": "Germany Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "status": "OFFICIAL_MATCHDAY_LINEUP_PARTIAL_TEXT_AND_DIKS_ABSENCE_CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Bundesliga official",
+          "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/liveticker",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "accessed_at_chile": "2026-10-23T15:00:23-03:00",
+          "type": "official_matchday_team_news_and_lineup"
+        },
+        {
+          "publisher": "Bundesliga official",
+          "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/lineup",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "accessed_at_chile": "2026-10-23T15:00:23-03:00",
+          "type": "official_lineup_partial_text"
+        },
+        {
+          "publisher": "AS",
+          "url": "https://as.com/resultados/futbol/alemania/2026_2027/directo/regular_a_7_6a52753d0577345/alineaciones/",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "type": "third_party_lineup_feed_discrepancy_not_model_input"
+        }
+      ],
+      "t_minus_1": {
+        "confirmed_out": [
+          "Kevin Diks - personal reasons",
+          "Isaac Lidberg - muscle issue"
+        ],
+        "confirmed_replacements": [
+          "Daiki Hashioka replaces Diks",
+          "Shuto Machino replaces Lidberg"
+        ],
+        "gladbach_substitutes": [
+          "Batz",
+          "Herold",
+          "Konoplia",
+          "Stöger",
+          "Hack",
+          "Nguefack",
+          "Danfa"
+        ],
+        "stuttgart_substitutes": [
+          "Bredlow",
+          "Al-Dakhil",
+          "Stergiou",
+          "Chabot",
+          "El Khannouss",
+          "Prömel",
+          "Spalt",
+          "Leweling",
+          "Undav"
+        ],
+        "formations": {
+          "stuttgart": "4-4-2",
+          "gladbach": "3-4-2-1"
+        },
+        "referee": "Dr. Matthias Jöllenbeck",
+        "starting_xi_complete": "NOT_EXTRACTABLE_FROM_ACCESSIBLE_OFFICIAL_TEXT"
+      },
+      "integrity": "Official Bundesliga matchday report resolves prior uncertainty: Diks absent, Hashioka in. AS third-party page displays Diks in XI and Leweling/Undav in Stuttgart XI although official Bundesliga lists Leweling/Undav on bench. Do not ingest stale AS XI. Only official text-verifiable details stored."
+    },
+    {
+      "fixture_id": "torino-monza",
+      "fixture": "Torino FC vs AC Monza",
+      "competition": "Italy Serie A 2026/27 MD8",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "status": "AIA_REFEREE_CHANGE_PRIMARY_AUTHORITY_VERIFIED",
+      "sources": [
+        {
+          "publisher": "Associazione Italiana Arbitri (FIGC)",
+          "url": "https://www.aia-figc.it/dettaglio.asp?ID=28787",
+          "publication_date": "2026-10-22",
+          "publication_time": "NOT_STATED",
+          "type": "referee_assignment_amendment_primary_authority"
+        },
+        {
+          "publisher": "Lega Serie A",
+          "url": "https://www.legaseriea.it/serie-a/news/torino-monza-apre-l-8a-giornata",
+          "publication_date": "2026-10-23",
+          "publication_time": "NOT_STATED",
+          "type": "league_preview_stale_referee_field"
+        }
+      ],
+      "t_minus_1": {
+        "referee": "Matteo Marchetti",
+        "replaced_referee": "Andrea Zanotti",
+        "assistants": [
+          "Lo Cicero",
+          "Laghezza"
+        ],
+        "fourth_official": "Massa",
+        "VAR": "Massimi",
+        "AVAR": "Camplone"
+      },
+      "integrity": "AIA primary 22 Oct official amendment supersedes older designation and stale 23 Oct Lega Serie A preview still listing Zanotti. Referee Marchetti verified from primary assigning authority, not inferred from media."
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED; repository contents API returns empty repository",
+    "dgopro": "NOT_EXECUTED; experimental code inspected on challenger/dgopro-3, no calibrated engine run",
+    "arb": "NOT_EXECUTED; no independently verified runtime",
+    "external_predictions": "NOT_COMPARED; no internal prediction freeze for these matches",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NOT_EVALUABLE",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Exclude Stuttgart from pre-match prediction at or after 15:30 Chile; Torino from 15:45",
+    "Validate remaining official XIs only while pre-kickoff",
+    "Deduplicate 87 candidate inventory into verified chronological blocks of 20",
+    "Build independently verified historical calibration before certified market probabilities",
+    "Run ARB independently after authentic DGOPRO output and freeze",
+    "Compare external published predictions only after internal freeze"
+  ]
+}
