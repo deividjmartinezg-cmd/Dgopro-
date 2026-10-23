@@ -1,0 +1,84 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T08:00:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-0700-official-crosschecks-laliga-tminus1.json",
+  "baseline_candidates": 85,
+  "new_candidates": 0,
+  "new_findings": [
+    {
+      "fixture": "Inter Kashi FC vs East Bengal FC",
+      "kickoff_chile": "2026-10-23T08:30:00-03:00",
+      "kickoff_status": "OFFICIAL_ISL_17_00_IST_11_30_UTC",
+      "official_matchcentre": "https://www.indiansuperleague.com/matchcentre/194646",
+      "official_league_preview": "https://www.indiansuperleague.com/news/kashi-up-against-east-bengal-juggernaut",
+      "publication_date_preview": "2026-10-22",
+      "official_venue_conflict": {
+        "matchcentre": "Ekana International Football Stadium",
+        "official_preview": "Balewadi Stadium, Pune"
+      },
+      "secondary_venue": "Shree Shiv Chhatrapati Sports Complex, Pune (FotMob and Indian Express)",
+      "venue_status": "CONFLICT_BETWEEN_TWO_OFFICIAL_ISL_PAGES; DO_NOT_ASSIGN_HOME_FIELD_ADVANTAGE",
+      "t_minus_1_verified": {
+        "Inter Kashi_recent": "1-1 draw against Odisha FC",
+        "East Bengal_recent": "4-0 win against Churchill Brothers",
+        "East Bengal_coach": "Antonio Lopez Habas",
+        "Inter Kashi_coach": "Carlos Vaz Pinto",
+        "East Bengal_squad_rotation": "Coach said limited changes ahead of AFC Champions League Two fixture versus Al-Seeb in Oman; no confirmed XI",
+        "Inter Kashi_squad_constraints": "Coach reported short midfield numbers, used four wingers late in prior game; absence of foreign players mentioned in official league article",
+        "source_date": "2026-10-22",
+        "source": "https://www.indiansuperleague.com/news/kashi-up-against-east-bengal-juggernaut",
+        "provenance": "OFFICIAL_LEAGUE_EDITORIAL_PRE_KICKOFF",
+        "no_odds_inputs": true
+      },
+      "status": "T_MINUS_1_PARTIAL_VERIFIED; VENUE_BLOCKED; NO_CERTIFIED_MODEL_FORECAST"
+    },
+    {
+      "fixture": "Al Arabi SC (Kuwait) vs Nejmeh SC (Lebanon)",
+      "kickoff_chile": "2026-10-23T08:00:00-03:00",
+      "official_afc_prior_round_reports": [
+        "https://www.the-afc.com/en/club/afc_challenge_league.html/news/group-b-fc-istiklol-tjk-2-0-al-arabi-sc-kuw",
+        "https://www.the-afc.com/en/club/afc_challenge_league.html/news/group-b-homs-al-fidaa-sc-syr-x-x-nejmeh-sc-1"
+      ],
+      "conflict_sources": [
+        {
+          "url": "https://sportstatsapi.com/matches/asia/afc-challenge-league/2026-10-23/al-arabi-v-nejmeh-sc/",
+          "venue": "Ali Sabah Al Salem Stadium, Kuwait City"
+        },
+        {
+          "url": "https://scoremondo.com/en/match/al-arabi-sc-kuwait-nejmeh-sc-beirut-31303114",
+          "venue": "Hisor Central Stadium, Tajikistan"
+        }
+      ],
+      "conclusion": "AFC officially locates preceding group B games in Hisor but does not independently confirm venue for this specific fixture in retrieved article. Third parties conflict. Do not infer home advantage.",
+      "status": "VENUE_UNRESOLVED; KICKOFF_CUTOFF_REACHED; EXCLUDE_FROM_NEW_PREMATCH_FORECAST"
+    }
+  ],
+  "new_t_minus_1_count": 1,
+  "source_conflicts_new": 2,
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED_REPOSITORY_EMPTY_CONFIRMED_BY_GITHUB_404",
+    "dgopro": "NOT_EXECUTED_THIS_CHECKPOINT; challenger/dgopro-3/scripts/analyze_fixture_preview.py read and explicitly UNCALIBRATED",
+    "arb": "NOT_EXECUTED",
+    "external_predictions": "NOT_COMPARED; NO_NEW_INTERNAL_FORECAST_FROZEN",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "markets": "ALL_NEW_MARKETS_UNEVALUABLE",
+  "dqi": "NOT_ASSESSED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Resolve official ISL venue conflict before home-field features",
+    "Confirm Al Arabi-Nejmeh match venue from specific AFC fixture; pre-match cutoff now passed",
+    "Continue official checks for future matches only",
+    "Collect pre-kickoff verified team-level and market-level data, calibration and execute real model before post-freeze external forecasts"
+  ]
+}
