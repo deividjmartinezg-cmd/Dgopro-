@@ -1,0 +1,154 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T09:58:08-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-0900-stuttgart-ipswich-tminus1.json",
+  "baseline_candidates": 85,
+  "new_candidates": 2,
+  "updated_candidates_total": 87,
+  "new_findings": [
+    {
+      "fixture_id": "paxtakor-neftchi-fargona",
+      "fixture": "Paxtakor vs Neftchi Fargona",
+      "competition": "Uzbekistan Super League 2026 round 25",
+      "kickoff_chile": "2026-10-23T11:00:00-03:00",
+      "kickoff_local": "2026-10-23T19:00:00+05:00",
+      "kickoff_utc": "2026-10-23T14:00:00Z",
+      "venue": "Paxtakor stadium, Tashkent",
+      "status": "OFFICIAL_CLUB_PREMATCH_FIXTURE_AND_T_MINUS_1_PARTIAL_VERIFIED",
+      "sources": [
+        {
+          "url": "https://www.fcneftchi.uz/uz/news/paxtakor-neftchi-prevyu-3",
+          "publisher": "Neftchi PFK",
+          "published": "2026-10-22",
+          "kind": "official_club_pre_match"
+        },
+        {
+          "url": "https://fcneftchi.uz/en/matches/fixtures",
+          "publisher": "Neftchi PFK",
+          "kind": "official_club_fixture"
+        },
+        {
+          "url": "https://cloud.championat.asia/news/superliga-bugun-ozbek-el-klassikosi-bolib-otadi-1",
+          "publisher": "Championat Asia",
+          "published": "2026-10-23 07:18 Uzbekistan",
+          "kind": "pre_match_local_league_reporting"
+        }
+      ],
+      "t_minus_1": {
+        "home_coach": "Kamoliddin Tojiyev",
+        "away_coach": "Islombek Ismoilov",
+        "home_games": 24,
+        "home_wins": 15,
+        "home_draws": 8,
+        "home_losses": 1,
+        "home_goals_for": 43,
+        "home_goals_against": 22,
+        "home_points": 53,
+        "away_games": 24,
+        "away_wins": 17,
+        "away_draws": 4,
+        "away_losses": 3,
+        "away_goals_for": 56,
+        "away_goals_against": 21,
+        "away_points": 55,
+        "referee": "Firdavs Norsafarov",
+        "confirmed_xi": false,
+        "absences": "NOT_VERIFIED",
+        "weather": "NOT_VERIFIED",
+        "corners_cards_shots_baselines": "NOT_INGESTED",
+        "fixture_specific_expected_means": "NOT_CALIBRATED"
+      },
+      "note": "Club-published 22 October preview provides verifiable T-1 descriptive data, not calibrated probability. Official kickoff resolves prior provider disagreement."
+    },
+    {
+      "fixture_id": "buxoro-surxon",
+      "fixture": "Buxoro vs Surxon Termiz",
+      "competition": "Uzbekistan Super League 2026 round 25",
+      "kickoff_chile": "2026-10-23T11:00:00-03:00",
+      "kickoff_local": "2026-10-23T19:00:00+05:00",
+      "kickoff_utc": "2026-10-23T14:00:00Z",
+      "venue": "Buxoro Sport Majmuasi (sports.uz; verify specific field designation)",
+      "status": "MULTISOURCE_PREMATCH_FIXTURE_AND_T_MINUS_1_PARTIAL_VERIFIED",
+      "sources": [
+        {
+          "url": "https://championat.asia/game-center/leagues/1349/calendar",
+          "publisher": "Championat Asia",
+          "kind": "local_league_calendar"
+        },
+        {
+          "url": "https://cloud.championat.asia/news/superliga-bugun-ozbek-el-klassikosi-bolib-otadi-1",
+          "publisher": "Championat Asia",
+          "published": "2026-10-23 07:18 Uzbekistan",
+          "kind": "pre_match_local_league_reporting"
+        },
+        {
+          "url": "https://sports.uz/oz/games/match/19672862",
+          "publisher": "Sports.uz",
+          "kind": "local_match_schedule"
+        },
+        {
+          "url": "https://fcneftchi.uz/en/matches/fixtures",
+          "publisher": "Neftchi PFK",
+          "kind": "official_club_standings_only"
+        }
+      ],
+      "t_minus_1": {
+        "home_games": 24,
+        "home_goals_for": 37,
+        "home_goals_against": 32,
+        "home_points": 40,
+        "away_games": 24,
+        "away_goals_for": 19,
+        "away_goals_against": 28,
+        "away_points": 28,
+        "referee": "Jasur Muxtorov",
+        "confirmed_xi": false,
+        "coaches": "NOT_VERIFIED",
+        "absences": "NOT_VERIFIED",
+        "weather": "NOT_VERIFIED",
+        "corners_cards_shots_baselines": "NOT_INGESTED",
+        "fixture_specific_expected_means": "NOT_CALIBRATED"
+      },
+      "note": "19:00 local supported by two Uzbek-language local sources; no club fixture primary source found for Buxoro. Venue designation inconsistent between sources, avoid stadium-specific advantage."
+    }
+  ],
+  "kickoff_cutoff_updates": [
+    {
+      "fixture": "Aluminium Arak vs Zob Ahan",
+      "kickoff_chile": "2026-10-23T09:30:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_IF_SCHEDULE_CORRECT"
+    },
+    {
+      "fixture": "Gol Gohar vs Kheybar Khorramabad",
+      "kickoff_chile": "2026-10-23T09:30:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_IF_SCHEDULE_CORRECT"
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED; GitHub README fetch 404 repository empty rechecked 09:58",
+    "dgopro": "NOT_EXECUTED; challenger/dgopro-3 preview script read, explicitly UNCALIBRATED",
+    "arb": "NOT_EXECUTED; no engine runtime validated",
+    "external_predictions": "NOT_FETCHED; internal model outputs not frozen",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NO_EVALUABLE_PROBABILITIES",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Check all candidate fixtures official kickoff and dedupe across 87 candidates; chronological 20-match blocks not fully certified",
+    "Obtain pre-kickoff event-level historical market baselines and confirmed XI/referee/weather",
+    "Run authentic DGOPRO only when source integrity and calibration requirements met; keep VMD independent and unexecuted until code available",
+    "Run independent ARB audit if executable, then only after frozen internal outputs compare pre-kickoff external independent forecasts"
+  ]
+}
