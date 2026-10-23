@@ -1,0 +1,130 @@
+{
+  "schema": "dgopro_inventory_delta_v1",
+  "date_chile": "2026-10-23",
+  "created_from": "2026-10-22 prior checkpoint",
+  "prior": "audits/daily/2026-10-22-2157-progress-delta.json",
+  "scope": "new candidate fixtures from public calendars; not certified predictions",
+  "excluded": [
+    {
+      "fixture": "Flamengo - Estudiantes",
+      "reason": "2026-10-23 00:30 UTC equals 2026-10-22 21:30 America/Santiago"
+    }
+  ],
+  "candidate_fixtures": [
+    {
+      "fixture": "Botosani - Petrolul",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Corvinul Hunedoara - Universitatea Cluj",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Portadown - Linfield",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Bohemians - Shelbourne",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Derry City - Dundalk",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Waterford - Drogheda",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Galway - St Patrick's",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Shamrock Rovers - Sligo Rovers",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Elfsborg - Malmo",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Vasteras - Halmstad",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Akhmat Grozny - Orenburg",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    },
+    {
+      "fixture": "Gateshead - Tamworth",
+      "region": "Europe",
+      "status": "CANDIDATE_VERIFY_KICKOFF_T1",
+      "sources": [
+        "https://www.soccerbase.com/matches/results.sd?date=2026-10-23",
+        "https://fbref.com/en/matches/2026-10-23"
+      ]
+    }
+  ],
+  "engine_status": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED_THIS_RUN",
+    "arb": "NOT_EXECUTED",
+    "tops": "NOT_CERTIFIED"
+  },
+  "notes": "No probabilities generated; no external prediction comparison before internal freeze."
+}
