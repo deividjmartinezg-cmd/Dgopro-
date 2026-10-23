@@ -1,0 +1,153 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T09:00:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-0800-india-afc-source-conflicts.json",
+  "baseline_candidates": 85,
+  "new_candidates": 0,
+  "new_findings": [
+    {
+      "fixture": "VfB Stuttgart vs Borussia Moenchengladbach",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "kickoff_local": "2026-10-23T20:30:00+02:00",
+      "venue": "MHP Arena",
+      "status": "OFFICIAL_CLUB_PREMATCH_T_MINUS_1_PARTIAL_VERIFIED",
+      "sources": [
+        {
+          "url": "https://www.vfb.de/en/vfb/latest/news/professionals/2627/pressekonferenz-vor-vfb-stuttgart-gegen-borussia-moenchengladbach-/",
+          "publisher": "VfB Stuttgart",
+          "published": "2026-10-22",
+          "kind": "official_club_pre_match"
+        },
+        {
+          "url": "https://www.borussia.com/news/match-facts-vfbbmg-bundesliga-2627",
+          "publisher": "Borussia Moenchengladbach",
+          "published": "2026-10-22",
+          "kind": "official_club_pre_match"
+        }
+      ],
+      "t_minus_1": {
+        "home_coach": "Sebastian Hoeness",
+        "away_coach": "Alexander Blessin",
+        "home_absent": [
+          "Josha Vagnoman (hamstring)",
+          "Nikolas Nartey (muscle)"
+        ],
+        "home_reconditioning": [
+          "Tiago Tomas",
+          "Justin Diehl",
+          "Dan-Axel Zagadou"
+        ],
+        "home_recent_midweek": "UEFA Champions League draw 1-1 vs Atletico Madrid on 2026-10-20",
+        "away_league_form": "6 defeats in 6 Bundesliga games, position 18 according to VfB club pre-match",
+        "venue_confirmed": true,
+        "confirmed_xi": false,
+        "referee": "NOT_VERIFIED",
+        "weather": "NOT_VERIFIED",
+        "market_level_historical_stats": "NOT_INGESTED",
+        "expected_means": "NOT_CALIBRATED"
+      },
+      "note": "Do not assume 6 defeats automatically implies model probability; no validated xG, corner, cards or shots baselines."
+    },
+    {
+      "fixture": "Ipswich Town vs Nottingham Forest",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "kickoff_local": "2026-10-23T20:00:00+01:00",
+      "venue": "Portman Road",
+      "status": "OFFICIAL_CLUB_AND_LEAGUE_T_MINUS_1_PARTIAL_VERIFIED",
+      "sources": [
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/october/21/team-news---gibbs-white-fit-to-return-against-ipswich/",
+          "publisher": "Nottingham Forest FC",
+          "published": "2026-10-21",
+          "kind": "official_club_pre_match"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/october/22/glasner--goals-will-come/",
+          "publisher": "Nottingham Forest FC",
+          "published": "2026-10-22",
+          "kind": "official_club_pre_match"
+        },
+        {
+          "url": "https://www.premierleague.com/en/news/4744256/ten-key-questions-for-matchweek-8s-fixtures",
+          "publisher": "Premier League",
+          "author": "Alex Keble",
+          "published": "2026-10-22",
+          "kind": "official_league_statistical_editorial_not_prediction_input"
+        },
+        {
+          "url": "https://www.nottinghamforest.co.uk/news/2026/october/20/how-to-follow---ipswich-town-v-forest-/",
+          "publisher": "Nottingham Forest FC",
+          "published": "2026-10-20",
+          "kind": "official_club_kickoff"
+        }
+      ],
+      "t_minus_1": {
+        "home_coach": "Gary O'Neil (Ipswich official 2026-10-22 manager preview)",
+        "away_coach": "Oliver Glasner",
+        "away_available": [
+          "Morgan Gibbs-White",
+          "Nikola Milenkovic"
+        ],
+        "away_unavailable": [
+          "Igor Jesus",
+          "Nicolo Savona"
+        ],
+        "away_league_xg_for": 11.2,
+        "away_league_goals": 5,
+        "away_xg_minus_goals": 6.2,
+        "away_goals_per_shot_rate_pct": 4.17,
+        "away_league_games": 7,
+        "away_goals_scored_in_away_games": 5,
+        "away_goals_scored_in_home_games": 0,
+        "away_last_three_league_games": "lost",
+        "confirmed_xi": false,
+        "referee": "NOT_VERIFIED",
+        "weather": "NOT_VERIFIED",
+        "corners_cards_shots_baselines": "NOT_INGESTED",
+        "expected_means": "NOT_CALIBRATED"
+      },
+      "note": "xG and finishing data are descriptive official league facts, NOT model outputs; never infer BTTS/goal probabilities directly."
+    }
+  ],
+  "kickoff_cutoff_updates": [
+    {
+      "fixture": "Inter Kashi vs East Bengal",
+      "kickoff_chile": "2026-10-23T08:30:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED"
+    },
+    {
+      "fixture": "Ahal vs Al Ansar",
+      "kickoff_chile": "2026-10-23T09:00:00-03:00",
+      "status": "PREMATCH_CUTOFF_REACHED"
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED_REPOSITORY_EMPTY_RECHECKED_GITHUB_404",
+    "dgopro": "NOT_EXECUTED_THIS_CHECKPOINT; challenger/dgopro-3 script confirmed UNCALIBRATED",
+    "arb": "NOT_EXECUTED; manual provenance/uncertainty review only",
+    "external_predictions": "NOT_FETCHED_OR_COMPARED_FOR_THESE_TWO_FIXTURES_BECAUSE_INTERNAL_OUTPUTS_NOT_FROZEN",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NO_EVALUABLE_PROBABILITIES",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Collect independent validated historical event-level baselines for both teams per fixture, market-level and referee/venue adjustments",
+    "Validate calibration out of sample and execute actual DGOPRO if full integrity gate passes",
+    "Preserve separation of VMD statistics, DGOPRO probabilities, ARB audit and postfreeze external forecasts",
+    "Verify future fixtures and no pre-match analysis after kickoff"
+  ]
+}
