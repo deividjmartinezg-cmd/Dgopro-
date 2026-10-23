@@ -4,9 +4,9 @@
   "created_at_chile": "2026-10-23T00:03:06-03:00",
   "timezone": "America/Santiago",
   "scope": "Men's first divisions and relevant continental cups plus selected top women's leagues; candidates until competition official kickoff crosscheck",
-  "count": 74,
+  "count": 81,
   "block_size": 20,
-  "blocks": 4,
+  "blocks": 5,
   "sources": {
     "MC": "https://matchcalendar.football/today/2026-10-23/",
     "KS": "https://kickoffscore.com/matches/2026-10-23",
@@ -882,6 +882,72 @@
       "block": "GLOBAL-02"
     },
     {
+      "id": "nigeria-u17-w-north-korea-u17-w",
+      "fixture": "Nigeria U17 W vs North Korea U17 W",
+      "competition": "FIFA U17 Women's World Cup",
+      "kickoff_utc": "2026-10-23T15:00:00Z",
+      "kickoff_chile": "2026-10-23T12:00:00-03:00",
+      "source": "https://footycheck.com/football/date/2026-10-23/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-02"
+    },
+    {
+      "id": "puerto-rico-u17-w-poland-u17-w",
+      "fixture": "Puerto Rico U17 W vs Poland U17 W",
+      "competition": "FIFA U17 Women's World Cup",
+      "kickoff_utc": "2026-10-23T15:00:00Z",
+      "kickoff_chile": "2026-10-23T12:00:00-03:00",
+      "source": "https://footycheck.com/football/date/2026-10-23/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-02"
+    },
+    {
       "id": "al-ittihad-jeddah-al-diriyah",
       "fixture": "Al Ittihad Jeddah vs Al Diriyah",
       "competition": "Arabia Saudita Pro League",
@@ -1342,7 +1408,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-02"
+      "block": "GLOBAL-03"
     },
     {
       "id": "goa-al-qadsia",
@@ -1375,7 +1441,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-02"
+      "block": "GLOBAL-03"
     },
     {
       "id": "scr-altach-austria-vienna",
@@ -1615,6 +1681,72 @@
       "kickoff_utc": "2026-10-23T18:00:00.000Z",
       "kickoff_chile": "2026-10-23T15:00:00-03:00",
       "source": "https://kickoffscore.com/matches/2026-10-23",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-03"
+    },
+    {
+      "id": "argentina-u17-w-morocco-u17-w",
+      "fixture": "Argentina U17 W vs Morocco U17 W",
+      "competition": "FIFA U17 Women's World Cup",
+      "kickoff_utc": "2026-10-23T18:00:00Z",
+      "kickoff_chile": "2026-10-23T15:00:00-03:00",
+      "source": "https://footycheck.com/football/date/2026-10-23/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-03"
+    },
+    {
+      "id": "new-zealand-u17-w-germany-u17-w",
+      "fixture": "New Zealand U17 W vs Germany U17 W",
+      "competition": "FIFA U17 Women's World Cup",
+      "kickoff_utc": "2026-10-23T18:00:00Z",
+      "kickoff_chile": "2026-10-23T15:00:00-03:00",
+      "source": "https://footycheck.com/football/date/2026-10-23/",
       "source_level": "third_party_calendar",
       "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
       "vmd_world1": "NOT_EXECUTED",
@@ -1936,7 +2068,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-03"
+      "block": "GLOBAL-04"
     },
     {
       "id": "vitoria-guimaraes-maritimo",
@@ -1969,7 +2101,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-03"
+      "block": "GLOBAL-04"
     },
     {
       "id": "raja-casablanca-el-kanemi-warriors",
@@ -2002,7 +2134,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-03"
+      "block": "GLOBAL-04"
     },
     {
       "id": "rubio-nu-guarani",
@@ -2035,7 +2167,7 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-03"
+      "block": "GLOBAL-04"
     },
     {
       "id": "atletico-grau-adt",
@@ -2104,39 +2236,6 @@
       "block": "GLOBAL-04"
     },
     {
-      "id": "gimnasia-la-plata-sarmiento",
-      "fixture": "Gimnasia La Plata vs Sarmiento",
-      "competition": "Argentina Liga Profesional",
-      "kickoff_utc": "2026-10-23T21:00:00.000Z",
-      "kickoff_chile": "2026-10-23T18:00:00-03:00",
-      "source": "https://kickoffscore.com/matches/2026-10-23",
-      "source_level": "third_party_calendar",
-      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
-      "vmd_world1": "NOT_EXECUTED",
-      "dgopro": "NOT_EXECUTED",
-      "arb": "NOT_EXECUTED",
-      "external": "NOT_COMPARED",
-      "dqi": "NOT_ASSESSED",
-      "recommendation": null,
-      "markets": {
-        "one_x_two": null,
-        "double_chance": null,
-        "goals_1_5": null,
-        "goals_2_5": null,
-        "goals_3_5": null,
-        "btts": null,
-        "corners_7_5_to_11_5": null,
-        "cards_4_5_5_5": null,
-        "shots": null,
-        "shots_on_target": null,
-        "props": null,
-        "score": null,
-        "risk": null,
-        "IGC": null
-      },
-      "block": "GLOBAL-04"
-    },
-    {
       "id": "gimnasia-mendoza-platense",
       "fixture": "Gimnasia Mendoza vs Platense",
       "competition": "Argentina Liga Profesional",
@@ -2168,6 +2267,43 @@
         "IGC": null
       },
       "block": "GLOBAL-04"
+    },
+    {
+      "id": "gimnasia-la-plata-sarmiento",
+      "fixture": "Gimnasia La Plata vs Sarmiento",
+      "competition": "Argentina Liga Profesional",
+      "kickoff_utc": "2026-10-23T22:00:00.000Z",
+      "kickoff_chile": "2026-10-23T19:00:00-03:00",
+      "source": "https://kickoffscore.com/matches/2026-10-23",
+      "source_level": "third_party_calendar",
+      "status": "KICKOFF_TIME_CONFLICT_REVIEW_REQUIRED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-04",
+      "time_discrepancy": [
+        "2026-10-23T21:00:00Z KickoffScore",
+        "2026-10-23T22:00:00Z Matchcalendar/LiveSoccerTV"
+      ]
     },
     {
       "id": "libertad-sportivo-luqueno",
@@ -2335,6 +2471,39 @@
       "block": "GLOBAL-04"
     },
     {
+      "id": "mount-pleasant-academy-club-sando",
+      "fixture": "Mount Pleasant Academy vs Club Sando",
+      "competition": "CONCACAF Caribbean Club Championship",
+      "kickoff_utc": "2026-10-23T23:00:00Z",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "source": "https://footycheck.com/football/date/2026-10-23/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-04"
+    },
+    {
       "id": "chicago-red-stars-w-houston-dash-w",
       "fixture": "Chicago Red Stars W vs Houston Dash W",
       "competition": "Estados Unidos NWSL",
@@ -2368,12 +2537,78 @@
       "block": "GLOBAL-04"
     },
     {
+      "id": "tigre-atletico-tucuman",
+      "fixture": "Tigre vs Atletico Tucuman",
+      "competition": "Argentina Liga Profesional",
+      "kickoff_utc": "2026-10-24T00:15:00Z",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "source": "https://www.livesoccertv.com/schedules/2026-10-23/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-04"
+    },
+    {
       "id": "necaxa-fc-juarez",
       "fixture": "Necaxa vs FC Juarez",
       "competition": "Mexico Liga MX",
       "kickoff_utc": "2026-10-24T01:00:00.000Z",
       "kickoff_chile": "2026-10-23T22:00:00-03:00",
       "source": "https://matchcalendar.football/competition/liga-mx/fixtures/",
+      "source_level": "third_party_calendar",
+      "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
+      "vmd_world1": "NOT_EXECUTED",
+      "dgopro": "NOT_EXECUTED",
+      "arb": "NOT_EXECUTED",
+      "external": "NOT_COMPARED",
+      "dqi": "NOT_ASSESSED",
+      "recommendation": null,
+      "markets": {
+        "one_x_two": null,
+        "double_chance": null,
+        "goals_1_5": null,
+        "goals_2_5": null,
+        "goals_3_5": null,
+        "btts": null,
+        "corners_7_5_to_11_5": null,
+        "cards_4_5_5_5": null,
+        "shots": null,
+        "shots_on_target": null,
+        "props": null,
+        "score": null,
+        "risk": null,
+        "IGC": null
+      },
+      "block": "GLOBAL-04"
+    },
+    {
+      "id": "junior-aguilas-doradas",
+      "fixture": "Junior vs Aguilas Doradas",
+      "competition": "Colombia Primera A",
+      "kickoff_utc": "2026-10-24T01:10:00Z",
+      "kickoff_chile": "2026-10-23T22:10:00-03:00",
+      "source": "https://www.livesoccertv.com/schedules/2026-10-23/",
       "source_level": "third_party_calendar",
       "status": "FIXTURE_LISTED_KICKOFF_NOT_OFFICIALLY_CONFIRMED",
       "vmd_world1": "NOT_EXECUTED",
@@ -2497,7 +2732,12 @@
         "risk": null,
         "IGC": null
       },
-      "block": "GLOBAL-04"
+      "block": "GLOBAL-05"
     }
+  ],
+  "revision": "2026-10-23T00:03:06-03:00; added 7 international/Americas fixtures and flagged Argentine kickoff conflict",
+  "source_additions": [
+    "https://footycheck.com/football/date/2026-10-23/",
+    "https://www.livesoccertv.com/schedules/2026-10-23/"
   ]
 }
