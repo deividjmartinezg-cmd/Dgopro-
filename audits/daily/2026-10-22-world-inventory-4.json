@@ -1,0 +1,94 @@
+{
+  "schema": "dgopro_inventory_delta_v1",
+  "date_chile": "2026-10-23",
+  "prior": "audits/daily/2026-10-22-world-inventory-3.json",
+  "source": "https://www.livescores.com/football/2026-10-23/?tz=1",
+  "fixtures": [
+    {
+      "fixture": "FC Den Bosch - MVV Maastricht",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "FC Eindhoven - Jong PSV",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "FC Volendam - Jong Utrecht",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Jong AZ - Helmond Sport",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "TOP Oss - Jong Ajax",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Vitesse - FC Emmen",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Dynamo Kyiv - Kudrivka",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Polissya - Obolon Kyiv",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Veres Rivne - Kolos",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Al Salt - Al Ramtha",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Al Jazeera - Al Faisaly",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Kazma - Al Salibikhaet",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Al Tadhamon - Kuwait SC",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Buxoro - Surkhon",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Pakhtakor - Neftchi Fargona",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    },
+    {
+      "fixture": "Polisi Tanzania - Pamba SC",
+      "status": "CALENDAR_IDENTIFIED_VERIFY_KICKOFF_AND_T1",
+      "prediction": null
+    }
+  ],
+  "model_execution": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED",
+    "arb": "NOT_EXECUTED"
+  },
+  "tops_certified": 0
+}
