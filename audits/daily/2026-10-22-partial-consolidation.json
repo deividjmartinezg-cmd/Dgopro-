@@ -1,0 +1,395 @@
+{
+  "schema": "dgopro_consolidated_partial_v1",
+  "date_chile": "2026-10-23",
+  "scope": "Only four verified GitHub incremental files; not a complete global fixture list",
+  "input_files": [
+    "audits/daily/2026-10-22-world-inventory-4.json",
+    "audits/daily/2026-10-22-world-inventory-3.json",
+    "audits/daily/2026-10-22-continued-world-inventory-2.json",
+    "audits/daily/2026-10-22-2222-inventory-delta.json"
+  ],
+  "raw_rows": 55,
+  "unique_rows": 52,
+  "excluded_not_in_chile_date": [
+    {
+      "fixture": "Flamengo - Estudiantes",
+      "reason": "UTC 00:30 23 Oct is Chile 21:30 22 Oct"
+    },
+    {
+      "fixture": "Atletico Nacional - Deportivo Pasto",
+      "reason": "UTC 01:00 23 Oct is Chile 22:00 22 Oct"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture": "FC Den Bosch - MVV Maastricht",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "FC Eindhoven - Jong PSV",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "FC Volendam - Jong Utrecht",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Jong AZ - Helmond Sport",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "TOP Oss - Jong Ajax",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Vitesse - FC Emmen",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Dynamo Kyiv - Kudrivka",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Polissya - Obolon Kyiv",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Veres Rivne - Kolos",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Al Salt - Al Ramtha",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Al Jazeera - Al Faisaly",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Kazma - Al Salibikhaet",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Al Tadhamon - Kuwait SC",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Buxoro - Surkhon",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Pakhtakor - Neftchi Fargona",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "Polisi Tanzania - Pamba SC",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-4.json"
+    },
+    {
+      "fixture": "CSKA 1948 Sofia - Botev Plovdiv",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T13:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Clermont - Guingamp",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Dunkerque - Metz",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Nancy - Laval",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Pau - Grenoble",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Sochaux - Annecy",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Almere City - Roda JC",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "De Graafschap - RKC Waalwijk",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "NAC Breda - Heracles",
+      "region": "Europe",
+      "kickoff_chile": "2026-10-23T14:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Petro de Luanda - Scotland Mabvuku",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T13:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Orlando Pirates - African Stars",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Mamelodi Sundowns - Wiliete",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "MC Alger - Enugu Rangers",
+      "region": "Africa",
+      "kickoff_chile": "2026-10-23T17:00:00-03:00",
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-world-inventory-3.json"
+    },
+    {
+      "fixture": "Al Zawra'a - Al Shorta",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Chadormalu - Esteghlal",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Al Shamal - Qatar SC",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Al Sailiya - Al Rayyan",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "JS El Biar - MC Oran",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Olympique Akbou - CS Constantine",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Raja Casablanca - El Kanemi Warriors",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Pyunik - Gandzasar",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Zira - Sumqayit",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Nomme United - Vaprus",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Tammeka - Trans Narva",
+      "region": null,
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-continued-world-inventory-2.json"
+    },
+    {
+      "fixture": "Botosani - Petrolul",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Corvinul Hunedoara - Universitatea Cluj",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Portadown - Linfield",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Bohemians - Shelbourne",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Derry City - Dundalk",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Waterford - Drogheda",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Galway - St Patrick's",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Shamrock Rovers - Sligo Rovers",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Elfsborg - Malmo",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Vasteras - Halmstad",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Akhmat Grozny - Orenburg",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    },
+    {
+      "fixture": "Gateshead - Tamworth",
+      "region": "Europe",
+      "kickoff_chile": null,
+      "status": "CANDIDATE_PENDING_OFFICIAL_VALIDATION",
+      "source_checkpoint": "audits/daily/2026-10-22-2222-inventory-delta.json"
+    }
+  ],
+  "model_status": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED_THIS_RUN",
+    "arb": "NOT_EXECUTED"
+  },
+  "certified_tops": 0
+}
