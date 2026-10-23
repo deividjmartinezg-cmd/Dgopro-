@@ -1,0 +1,158 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T20:58:24-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1955-brazil-tminus1-and-cutoff.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "source_verification_scope": "incremental verification of late-evening fixtures already listed in 00:03 registry; not an exhaustive worldwide audit",
+  "cutoff_update": [
+    {
+      "fixture": "Cruzeiro vs Remo",
+      "competition": "Brasil Serie A",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS"
+    },
+    {
+      "fixture": "Audax Italiano vs Huachipato",
+      "competition": "Chile Primera División",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS"
+    },
+    {
+      "fixture": "Deportes Iquique vs Magallanes",
+      "competition": "Chile Primera B",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS_SECOND_TIER"
+    }
+  ],
+  "future_verified": [
+    {
+      "fixture": "Chicago Stars FC vs Houston Dash",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T21:00:00-03:00",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-in-chicago-stars-fc",
+      "source_date": "2026-01-15",
+      "status": "OFFICIAL_LEAGUE_FIXTURE_VERIFIED_NO_XI_NO_FORECAST",
+      "time_conversion": "20:00 EDT -> 21:00 Chile"
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "competition": "Argentina Liga Profesional Clausura",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "source": "https://www.afa.com.ar/es/posts/el-viernes-termina-con-tigre-atletico-tucuman",
+      "source_date": "2026-10-21",
+      "referee": "Bryan Ferreyra",
+      "VAR": "Fernando Echenique",
+      "status": "OFFICIAL_FIXTURE_VERIFIED_XI_NOT_PRIMARY_CONFIRMED_NO_FORECAST",
+      "lineup_integrity": {
+        "claimed_confirmed_secondary": "https://score-pulse.com/events/tigre-vs-atletico-tucuman",
+        "competing_probable": "https://bolavip.com/ar/futbolargentino/alineaciones-de-tigre-y-atletico-tucuman-para-el-duelo-de-la-fecha-14-del-torneo-clausura",
+        "source_capture_chile": "2026-10-23T20:57:00-03:00",
+        "observation": "Secondary page labels XI confirmed, but primary team/league XI not independently obtained. Pity Martínez appears on secondary bench while Bolavip labels him injured; treat injury/bench status as unresolved. Neither website's odds or odds-implied percentages were used.",
+        "official_XI_verified": false
+      }
+    },
+    {
+      "fixture": "Necaxa vs FC Juárez",
+      "competition": "Mexico Liga MX Apertura",
+      "kickoff_chile": "2026-10-23T22:00:00-03:00",
+      "source": "https://clubnecaxa.mx/partidos/calendario/APERTURA-2026",
+      "source_date": "dynamic_club_calendar_pre_kickoff_capture_2026-10-23",
+      "time_conversion": "19:00 Mexico City UTC-6 -> 22:00 Chile UTC-3",
+      "status": "OFFICIAL_CLUB_FIXTURE_VERIFIED_NO_FORECAST"
+    },
+    {
+      "fixture": "Junior FC vs Águilas Doradas",
+      "competition": "Colombia Liga BetPlay II",
+      "kickoff_chile": "2026-10-23T22:10:00-03:00",
+      "sources": [
+        "https://dimayor.com.co/",
+        "https://aguilasdoradas.com.co/torneos/"
+      ],
+      "source_date": "dynamic_official_sites_pre_kickoff_capture_2026-10-23",
+      "time_conversion": "20:10 Colombia UTC-5 -> 22:10 Chile UTC-3",
+      "status": "OFFICIAL_LEAGUE_AND_CLUB_FIXTURE_VERIFIED_NO_FORECAST"
+    },
+    {
+      "fixture": "Utah Royals FC vs Seattle Reign FC",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T22:30:00-03:00",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-utah-royals-fc",
+      "source_date": "2026-01-15",
+      "time_conversion": "21:30 EDT -> 22:30 Chile",
+      "status": "OFFICIAL_LEAGUE_FIXTURE_VERIFIED_NO_FORECAST"
+    },
+    {
+      "fixture": "Portland Thorns FC vs North Carolina Courage",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T23:00:00-03:00",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-portland-thorns-fc",
+      "source_date": "2026-01-15",
+      "time_conversion": "22:00 EDT -> 23:00 Chile",
+      "status": "OFFICIAL_LEAGUE_FIXTURE_VERIFIED_NO_FORECAST"
+    }
+  ],
+  "quarantine": [
+    {
+      "fixture": "Árabe Unido vs Tauro FC",
+      "registry_kickoff_chile": "2026-10-23T22:30:00-03:00",
+      "state": "QUARANTINED_FIXTURE_CONFLICT",
+      "reason": "LPF official website lists Alianza FC vs Deportivo Árabe Unido at 20:30 Panama on 2026-10-23, not Árabe Unido vs Tauro. Do not certify registry candidate without resolution.",
+      "primary_source": "https://lpf.com.pa/partido/alianza-f-c-vs-deportivo-arabe-unido-3/",
+      "secondary_conflicting_source": "https://www.apwin.com/es/partido/tauro-arabe-unido/vklwum/"
+    }
+  ],
+  "cross_midnight": [
+    {
+      "fixture": "Atlante vs Atlético de San Luis",
+      "expected_chile_date": "2026-10-24",
+      "tentative_kickoff_chile": "2026-10-24T00:00:00-03:00",
+      "state": "NEXT_CHILE_JOURNEY_PENDING_KICKOFF_CONFLICT",
+      "sources": [
+        "https://www.tudn.com/futbol/liga-mx/atlante-vs-atletico-de-san-luis-a-que-hora-y-donde-ver-el-partido-de-jornada-14-de-liga-mx-apertura-2026/",
+        "https://cmsadsl.atleticodesanluis.mx/calendarios/calendario"
+      ],
+      "reason": "TUDN reports 21:00 Mexico City; club CMS lists 20:00 with inconsistent stadium. Retain as next-day candidate, not certified kickoff until reconciled."
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NO EJECUTADO; connected GitHub repository size=0, contents endpoint reports empty",
+    "dgopro": "NO EJECUTADO; challenger/dgopro-3/scripts/analyze_fixture_preview.py inspected; explicitly EXPERIMENTAL_UNCALIBRATED and no genuine fixture-specific expected inputs",
+    "arb": "NO EJECUTADO; no verified independent executable",
+    "external_predictive_comparison": "NOT PERFORMED; no authentic internally frozen predictions",
+    "no_odds_inputs": true
+  },
+  "markets_status": {
+    "1X2": "NOT_EVALUABLE",
+    "double_chance": "NOT_EVALUABLE",
+    "goals_1.5_2.5_3.5": "NOT_EVALUABLE",
+    "btts": "NOT_EVALUABLE",
+    "corners_7.5_to_11.5": "NOT_EVALUABLE",
+    "cards_4.5_5.5": "NOT_EVALUABLE",
+    "shots": "NOT_EVALUABLE",
+    "shots_on_target": "NOT_EVALUABLE",
+    "player_props": "NOT_EVALUABLE",
+    "exact_score": "NOT_EVALUABLE",
+    "risk": "NOT_EVALUABLE",
+    "DQI": "NOT_CERTIFIED",
+    "IGC": "NOT_EVALUABLE"
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Close Chicago at 21:00 Chile; Tigre at 21:15; Necaxa at 22:00; Junior at 22:10; Utah at 22:30; Portland at 23:00",
+    "Resolve Árabe Unido/Tauro vs Alianza/Árabe primary source fixture discrepancy",
+    "Resolve Atlante kickoff conflict for Chile 24 Oct",
+    "Complete remaining 87 candidate audit and establish calibrated production forecasting capability"
+  ]
+}
