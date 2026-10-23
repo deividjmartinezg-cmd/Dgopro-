@@ -1,0 +1,98 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T05:58:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-0500-new-fixtures-and-brisbane-tminus1.json",
+  "baseline_candidates": 85,
+  "new_candidates": 0,
+  "verified_new_primary_source_fixtures": [
+    {
+      "fixture": "The New Saints vs Ammanford",
+      "competition": "Novira Cymru Premier",
+      "kickoff_local": "2026-10-23T19:45:00+01:00",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "stadium": "Park Hall Stadium",
+      "official_source": "https://tnsfc.co.uk/calendar/the-new-saints-fc-fixtures-and-results-2026-27/",
+      "status": "CLUB_OFFICIAL_FIXTURE_COMPETITION_VENUE_CONFIRMED",
+      "previous_status": "OFFICIAL_CLUB_DATE_TIME_CROSSCHECKED",
+      "no_duplicate": true
+    },
+    {
+      "fixture": "Brisbane Roar vs Perth Glory",
+      "competition": "Australia A-League Men",
+      "kickoff_local": "2026-10-23T19:00:00+10:00",
+      "kickoff_chile": "2026-10-23T06:00:00-03:00",
+      "stadium": "Suncorp Stadium",
+      "official_sources": [
+        "https://suncorpstadium.com.au/events/brisbane-roar-fc-v-perth-glory",
+        "https://shop.translink.com.au/plan-your-journey/event-transport/1173846"
+      ],
+      "status": "VENUE_AND_GOVERNMENT_TRANSPORT_OFFICIAL_KICKOFF_CONFIRMED",
+      "pre_match_cutoff": "2026-10-23T06:00:00-03:00",
+      "prior_t_minus_1": "audits/daily/2026-10-23-0500-new-fixtures-and-brisbane-tminus1.json"
+    }
+  ],
+  "new_primary_t_minus_1": [
+    {
+      "fixture": "The New Saints vs Ammanford",
+      "source": "https://tnsfc.co.uk/",
+      "snapshot_observed_chile": "2026-10-23T05:58:00-03:00",
+      "source_type": "OFFICIAL_CLUB_LEAGUE_TABLE",
+      "home": {
+        "played": 13,
+        "wins": 12,
+        "draws": 1,
+        "losses": 0,
+        "goal_difference": 38,
+        "points": 37,
+        "rank": 1
+      },
+      "away": {
+        "played": 13,
+        "wins": 2,
+        "draws": 3,
+        "losses": 8,
+        "goal_difference": -22,
+        "points": 9,
+        "rank": 13
+      },
+      "comparative": {
+        "points_difference": 28,
+        "goal_difference_difference": 60
+      },
+      "limitations": [
+        "Goals for/against totals not extracted",
+        "No verified starting XI",
+        "No referee confirmation",
+        "No player-level shots/corners/cards baselines",
+        "No calibration"
+      ],
+      "use": "DESCRIPTIVE_INPUT_ONLY_NO_PREDICTION"
+    }
+  ],
+  "source_quality_review": {
+    "vmd_world1": "NOT_EXECUTED_REPOSITORY_SIZE_0_AND_NO_CODE_SEARCH_RESULTS_AT_0558",
+    "vmd_repo": "https://github.com/deividjmartinezg-cmd/VMD-World1",
+    "dgopro": "NOT_EXECUTED_THIS_CHECKPOINT_CHALLENGER_UNCALIBRATED",
+    "dgopro_script": "https://github.com/deividjmartinezg-cmd/Dgopro-/blob/challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+    "arb": "NOT_EXECUTED",
+    "external": "NOT_SEARCHED_FOR_PREDICTIONS_BEFORE_INTERNAL_FREEZE",
+    "no_odds_inputs": true
+  },
+  "markets": "ALL_NOT_EVALUABLE_NO_CERTIFIED_INTERNAL_MODEL_RUN",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "frozen_predictions": "UNCHANGED",
+  "notes": [
+    "No fixture count increase; two already registered matches were reverified with official sources.",
+    "TNS league table figures are factual descriptive T-1, not inferred scoring probabilities.",
+    "Brisbane cutoff is 06:00 Chile; do not issue a new prematch prediction at or after kickoff.",
+    "Do not treat candidate inventory as 85 verified fixtures."
+  ]
+}
