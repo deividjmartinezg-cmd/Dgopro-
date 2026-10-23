@@ -1,0 +1,51 @@
+{
+  "schema": "dgopro_0358_checkpoint_recovered_from_prior_local_record",
+  "date_chile": "2026-10-23",
+  "checked_at_chile": "2026-10-23T03:58:05-03:00",
+  "timezone": "America/Santiago",
+  "baseline": "audits/daily/2026-10-23-0003-global-chronological-registry.json",
+  "candidate_count_before": 81,
+  "candidate_count_after": 82,
+  "new_fixture": {
+    "fixture": "Al Ahli vs Al Khaleej",
+    "competition": "Saudi Pro League",
+    "kickoff_chile": "2026-10-23T15:00:00-03:00",
+    "source": "https://www.saff.com.sa/en/championship.php?id=415",
+    "status": "OFFICIAL_FIXTURE_CHECKED_NO_PREDICTION"
+  },
+  "officially_verified_existing": [
+    {
+      "fixture": "Al Faisaly vs Al Nassr",
+      "kickoff_chile": "2026-10-23T10:30:00-03:00",
+      "source": "https://www.saff.com.sa/en/championship.php?id=415"
+    },
+    {
+      "fixture": "Al Ittihad Jeddah vs Al Diriyah",
+      "kickoff_chile": "2026-10-23T12:30:00-03:00",
+      "source": "https://www.saff.com.sa/en/championship.php?id=415"
+    },
+    {
+      "fixture": "Al Qadsiah vs Al Hilal",
+      "kickoff_chile": "2026-10-23T15:00:00-03:00",
+      "source": "https://www.saff.com.sa/en/championship.php?id=415"
+    }
+  ],
+  "kickoff_or_venue_conflicts_unresolved": [
+    "Fortis vs Regar-TadAZ",
+    "Goa vs Al Qadsia",
+    "Al Arabi vs Nejmeh (match-specific venue)",
+    "Al Ittihad Aleppo vs Paro (match-specific venue)"
+  ],
+  "started_excluded": [
+    "Ferrymead Bays vs Cashmere Technical (03:15 CL)"
+  ],
+  "frozen_previous_unchanged": true,
+  "engines": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED",
+    "arb": "NOT_EXECUTED"
+  },
+  "prediction_count_new": 0,
+  "top_certified": 0,
+  "recovery_note": "This is a compact faithful recovery of the earlier local 03:58 checkpoint, not a new verification. The earlier local file dgopro_2026-10-23_0358_delta.json is still available in the conversation; this commit establishes persistent continuity."
+}
