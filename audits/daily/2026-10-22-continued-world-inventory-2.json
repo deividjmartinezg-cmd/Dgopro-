@@ -1,0 +1,100 @@
+{
+  "schema": "dgopro_incremental_inventory_v1",
+  "date_chile": "2026-10-23",
+  "prior": "audits/daily/2026-10-22-2222-inventory-delta.json",
+  "calendar_source": "https://www.soccerstats247.com/matches/2026-10-23/",
+  "calendar_count_reported": 378,
+  "warning": "Calendar date/time timezone not yet normalized; all entries candidate-only. No model executed.",
+  "new_candidate_fixtures": [
+    {
+      "fixture": "Al Zawra'a - Al Shorta",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Chadormalu - Esteghlal",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Al Shamal - Qatar SC",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Al Sailiya - Al Rayyan",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "JS El Biar - MC Oran",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Olympique Akbou - CS Constantine",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Petro de Luanda - Scotland Mabvuku",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Mamelodi Sundowns - Wiliete",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Orlando Pirates - African Stars",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Raja Casablanca - El Kanemi Warriors",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Pyunik - Gandzasar",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Zira - Sumqayit",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Nomme United - Vaprus",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    },
+    {
+      "fixture": "Tammeka - Trans Narva",
+      "status": "CANDIDATE_NOT_VERIFIED",
+      "kickoff_chile": null,
+      "predictions": null
+    }
+  ],
+  "engine_status": {
+    "vmd": "NOT_EXECUTED",
+    "dgopro": "NOT_EXECUTED",
+    "arb": "NOT_EXECUTED"
+  },
+  "tops_certified": 0
+}
