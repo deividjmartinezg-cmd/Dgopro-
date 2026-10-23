@@ -1,0 +1,21 @@
+{
+  "date_chile": "2026-10-23",
+  "checked_at_chile": "2026-10-22T22:58:14-03:00",
+  "finding": "Challenger branch includes executable preview code; its validation workflow successfully executed a fixture preview but historical OOS validation was skipped.",
+  "vmd_status": "EMPTY_REPOSITORY_NO_EXECUTION",
+  "dgopro_challenger_run": "https://github.com/deividjmartinezg-cmd/Dgopro-/actions/runs/39858886839",
+  "preview_artifact_id": 12461500853,
+  "official_fixture": {
+    "home": "Randers FC",
+    "away": "Brondby IF",
+    "kickoff_chile": "2026-10-23T14:00:00-03:00",
+    "source": "https://www.dbu.dk/resultater/kamp/556197_506118/kampinfo"
+  },
+  "fixture_index_source": "https://matchcalendar.football/today/2026-10-23/",
+  "status": "PREFLIGHT_ONLY_NO_CERTIFIED_PREDICTIONS",
+  "pending": [
+    "Official verification of complete worldwide schedule",
+    "T-1 feature ingestion and freeze",
+    "Independent audit and calibration"
+  ]
+}
