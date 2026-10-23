@@ -1,0 +1,163 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T19:55:26-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1900-chile-form-and-paraguay-h2h-delta.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "cutoff_update": [
+    {
+      "fixture": "Libertad vs Sportivo Luqueño",
+      "competition": "Paraguay Primera División Clausura",
+      "kickoff_chile": "2026-10-23T19:30:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "note": "Retain previous T-1 and historical data. No live/postkickoff data used for prematch."
+    }
+  ],
+  "new_findings": [
+    {
+      "fixture": "Cruzeiro vs Remo",
+      "competition": "Brasil Serie A, rodada 32",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "PREMATCH_AVAILABILITY_AND_DESCRIPTIVE_RATES_ENRICHED",
+      "t_minus_1": {
+        "cruzeiro_joao_marcelo": "SUSPENDED (source dated 2026-10-22)",
+        "remo_gabriel_taliari": "SUSPENDED THIRD YELLOW (source dated 2026-10-19)",
+        "cruzeiro_felipe_moraes": "MUSCLE_DISCOMFORT_UNCERTAIN_NOT_CONFIRMED_OUT",
+        "cruzeiro_fabricio_bruno": "PROBABLE_REPLACEMENT_NOT_CONFIRMED_XI",
+        "ge_pre_match_team_averages": {
+          "cruzeiro": {
+            "shots": 7.3,
+            "corners": 5.1,
+            "yellow_cards": 2.5
+          },
+          "remo": {
+            "shots": 6.7,
+            "corners": 4.5,
+            "yellow_cards": 2
+          }
+        },
+        "ge_standings": {
+          "cruzeiro_position": 4,
+          "cruzeiro_points": 51,
+          "remo_position": 19,
+          "remo_points": 26
+        },
+        "confirmed_starting_XI": false
+      },
+      "sources": [
+        {
+          "publisher": "ge / Globo Esporte",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/19/carpini-formara-quinto-setor-ofensivo-diferente-no-remo-diante-do-cruzeiro.ghtml",
+          "publication": "2026-10-19 13:48 BRT",
+          "type": "team_availability"
+        },
+        {
+          "publisher": "ge / Globo Esporte",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/22/escalacao-do-cruzeiro-artur-jorge-tem-desfalque-no-ataque-e-novidade-na-defesa.ghtml",
+          "publication": "2026-10-22 17:58 BRT",
+          "type": "team_availability"
+        },
+        {
+          "publisher": "ge / Globo Esporte",
+          "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/23-10-2026/cruzeiro-remo.ghtml",
+          "publication": "UNKNOWN; pre-match page retrieved before kickoff",
+          "type": "descriptive_league_averages",
+          "caveat": "Dynamic match page: rate denominators and metric definitions not verified. Not calibrated rates."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "verified_team_rates_denominators",
+        "xg_input_rates",
+        "player_props_baselines",
+        "historical_calibration"
+      ]
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "competition": "Argentina Primera División Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "status": "OFFICIAL_KICKOFF_AND_REFEREE_RECONFIRMED_NO_NEW_XI",
+      "t_minus_1": {
+        "official_XI": false,
+        "referee": "Bryan Ferreyra",
+        "var": "Fernando Echenique"
+      },
+      "sources": [
+        {
+          "publisher": "AFA",
+          "url": "https://www.afa.com.ar/es/posts/el-viernes-termina-con-tigre-atletico-tucuman",
+          "publication_date": "2026-10-21",
+          "type": "official_fixture"
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "match_specific_rates",
+        "calibration"
+      ]
+    }
+  ],
+  "pending_fixtures": [
+    {
+      "fixture": "Cruzeiro vs Remo",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "FUTURE_AT_CHECKPOINT"
+    },
+    {
+      "fixture": "Audax Italiano vs Huachipato",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "FUTURE_AT_CHECKPOINT"
+    },
+    {
+      "fixture": "Deportes Iquique vs Magallanes",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "state": "FUTURE_AT_CHECKPOINT_SECOND_TIER"
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "state": "FUTURE_AT_CHECKPOINT"
+    }
+  ],
+  "execution": {
+    "vmd_world1": "NO EJECUTADO; GitHub repository metadata size=0",
+    "dgopro": "NO EJECUTADO; challenger/dgopro-3 preview script inspected, explicitly experimental/uncalibrated",
+    "arb": "NO EJECUTADO; no independently verified executable",
+    "external_forecasts": "NOT COMPARED; no authentic internal forecasts frozen",
+    "no_odds_inputs": true
+  },
+  "markets_status": {
+    "1X2": "NOT_EVALUABLE",
+    "double_chance": "NOT_EVALUABLE",
+    "goals_1.5_2.5_3.5": "NOT_EVALUABLE",
+    "btts": "NOT_EVALUABLE",
+    "corners_7.5_to_11.5": "NOT_EVALUABLE",
+    "cards_4.5_5.5": "NOT_EVALUABLE",
+    "shots": "NOT_EVALUABLE",
+    "shots_on_target": "NOT_EVALUABLE",
+    "player_props": "NOT_EVALUABLE",
+    "exact_score": "NOT_EVALUABLE",
+    "risk": "NOT_EVALUABLE",
+    "DQI": "NOT_CERTIFIED",
+    "IGC": "NOT_EVALUABLE"
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "At/after 20:00 CL mark three kickoff cutoffs; do not use live data for pre-match",
+    "Before 21:15 CL verify Tigre-Atletico XI from primary source",
+    "Audit 87 candidate fixtures for verification/deduplication",
+    "Require executable engine, input rate provenance and out-of-sample calibration for certified forecasts"
+  ]
+}
