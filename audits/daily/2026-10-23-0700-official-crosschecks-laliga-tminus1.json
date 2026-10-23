@@ -1,0 +1,130 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T07:00:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-0558-official-reverification-tns-baseline.json",
+  "baseline_candidates": 85,
+  "new_candidates": 0,
+  "new_primary_fixture_crosschecks": [
+    {
+      "fixture": "Dynamo Kyiv vs Kudrivka",
+      "competition": "Ukraine Premier League",
+      "kickoff_chile": "2026-10-23T07:00:00-03:00",
+      "source": "https://upl.ua/ua/tournaments/games",
+      "status": "OFFICIAL_UPL_CONFIRMED_EXCLUDE_PREMATCH_AT_CUTOFF"
+    },
+    {
+      "fixture": "Veres Rivne vs Kolos Kovalivka",
+      "competition": "Ukraine Premier League",
+      "kickoff_chile": "2026-10-23T07:00:00-03:00",
+      "source": "https://upl.ua/ua/tournaments/games",
+      "status": "OFFICIAL_UPL_CONFIRMED_EXCLUDE_PREMATCH_AT_CUTOFF"
+    },
+    {
+      "fixture": "Polissya Zhytomyr vs Obolon Kyiv",
+      "competition": "Ukraine Premier League",
+      "kickoff_chile": "2026-10-23T07:00:00-03:00",
+      "source": "https://upl.ua/ua/tournaments/games",
+      "status": "OFFICIAL_UPL_CONFIRMED_EXCLUDE_PREMATCH_AT_CUTOFF",
+      "discrepancy": "FotMob lists 12:30 UTC = 09:30 Chile; official UPL lists 13:00 Ukraine = 07:00 Chile; official prioritized"
+    },
+    {
+      "fixture": "VfB Stuttgart vs Borussia Monchengladbach",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "source": "https://products.bundesliga.com/fixtures",
+      "status": "OFFICIAL_LEAGUE_CONFIRMED"
+    },
+    {
+      "fixture": "Ipswich Town vs Nottingham Forest",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "source": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "status": "OFFICIAL_LEAGUE_CONFIRMED"
+    },
+    {
+      "fixture": "Deportivo Alaves vs Malaga CF",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "source": "https://www.laliga.com/clubes/d-alaves/proximos-partidos",
+      "status": "OFFICIAL_LEAGUE_CONFIRMED"
+    }
+  ],
+  "new_t_minus_1": [
+    {
+      "fixture": "Deportivo Alaves vs Malaga CF",
+      "source": "https://iaas-public-front-pro.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10",
+      "source_type": "OFFICIAL_LALIGA_MATCH_PREVIEW",
+      "source_snapshot_retrieved_during_checkpoint": true,
+      "pre_kickoff": true,
+      "home": {
+        "played": 9,
+        "wins": 3,
+        "draws": 2,
+        "losses": 4,
+        "points": 11,
+        "goals_for": 13,
+        "goals_against": 10,
+        "yellow_cards": 15,
+        "red_cards": 1,
+        "shots": 91,
+        "fouls_committed": 123
+      },
+      "away": {
+        "played": 9,
+        "wins": 0,
+        "draws": 4,
+        "losses": 5,
+        "points": 4,
+        "goals_for": 6,
+        "goals_against": 18,
+        "yellow_cards": 23,
+        "red_cards": 0,
+        "shots": 75,
+        "fouls_committed": 104
+      },
+      "notes": [
+        "Official aggregate statistics only; no verified XI, referee, match-specific corners or shots-on-target baselines.",
+        "Do not infer calibrated probabilities from aggregates alone.",
+        "No odds inputs used."
+      ],
+      "use": "DESCRIPTIVE_INPUT_ONLY"
+    }
+  ],
+  "lineup_provenance_check": {
+    "fixture": "Dynamo Kyiv vs Kudrivka",
+    "source": "https://dynamo.kiev.ua/uk/news/741191-dynamo-kudrivka-startovi-sklady-z-yarmolenkom-video",
+    "source_publication_ukraine": "2026-10-23T11:46:00+03:00",
+    "source_publication_chile": "2026-10-23T05:46:00-03:00",
+    "reported_lineup": "Yarmolenko and Bushchan named as starters; Kudrivka XI listed",
+    "quality": "THIRD_PARTY_EDITORIAL_WITH_KARPATY_TYPO; NOT OFFICIALLY CROSSCHECKED",
+    "conflict": "FotMob lineup explicitly labeled Last Starting XI and differs; do not treat as confirmed current XI",
+    "forecast_use": "NONE_CUTOFF_PASSED_AT_07:00"
+  },
+  "execution": {
+    "vmd_world1": "NOT_EXECUTED_REPOSITORY_EMPTY",
+    "dgopro": "NOT_EXECUTED_THIS_CHECKPOINT_EXPERIMENTAL_CODE_ONLY",
+    "arb": "NOT_EXECUTED",
+    "external_forecasts": "NOT_SEARCHED_AFTER_INTERNAL_FREEZE_FOR_NEW_FIXTURES",
+    "no_odds_inputs": true
+  },
+  "markets": "ALL_UNEVALUABLE_NO_NEW_CERTIFIED_PREDICTIONS",
+  "dqi": "NOT_ASSESSED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "frozen_predictions": "UNCHANGED",
+  "pending": [
+    "Continue official verification for remaining future candidates",
+    "Collect match-specific verified T-1 historical metrics and calibration",
+    "Run actual engines only when runnable and eligible",
+    "Audit before external forecasts",
+    "Exclude fixtures at or after kickoff from new prematch forecasts"
+  ]
+}
