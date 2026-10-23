@@ -1,0 +1,192 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T18:04:56-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1700-south-america-official-fixtures-tminus1.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "source_policy": "Only independently verifiable official competition pages for T-1 factual updates; no betting odds or external predictive outputs used. Unknown publication times are not assumed. Match already begun must be excluded from new prematch forecasting.",
+  "new_findings": [
+    {
+      "fixture": "Gimnasia La Plata vs Sarmiento",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T18:00:00-03:00",
+      "status": "OFFICIAL_KICKOFF_CORRECTION_AND_CUTOFF_REACHED",
+      "previously_reported_kickoff_chile": "2026-10-23T19:00:00-03:00",
+      "correction": "AFA's match-specific article dated 2026-10-21 explicitly states 18:00 Argentina, which is 18:00 Chile (UTC-3). Earlier 17:00 checkpoint claimed 19:00; override in future schedule views but preserve prior audit record. Conflicting third-party schedules exist; latest match-specific official source preferred.",
+      "t_minus_1": {
+        "stadium": "Juan Carmelo Zerillo (reported in pre-match media; not used as verified official input)",
+        "referee": "Sebastián Martínez",
+        "assistant_referees": [
+          "Agustín Méndez",
+          "Mauro Ramos Errasti"
+        ],
+        "fourth_official": "Jorge Broggi",
+        "VAR": "Silvio Trucco",
+        "AVAR": "Javier Uziga"
+      },
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/la-fecha-arranca-con-gimnasia-sarmiento",
+          "publication_date": "2026-10-21",
+          "publication_time": "UNKNOWN"
+        }
+      ],
+      "cutoff": "NO_NEW_PREMATCH_FORECAST_FROM_18:00_CL"
+    },
+    {
+      "fixture": "Gimnasia Mendoza vs Platense",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T18:30:00-03:00",
+      "status": "OFFICIAL_REFEREE_TEAM_AND_KICKOFF_VERIFIED",
+      "t_minus_1": {
+        "referee": "Hernán Mastrángelo",
+        "assistant_referees": [
+          "José Castelli",
+          "Matías Balmaceda"
+        ],
+        "fourth_official": "Pablo Núñez",
+        "VAR": "Germán Delfino",
+        "AVAR": "Javier Mihura"
+      },
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/platense-visita-a-gimnasia-de-mendoza",
+          "publication_date": "2026-10-21",
+          "publication_time": "UNKNOWN"
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "official_injuries",
+        "verified_statistical_expectations",
+        "calibration"
+      ]
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "competition": "Argentina Primera División Torneo Clausura fecha 14",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "status": "OFFICIAL_REFEREE_TEAM_VERIFIED",
+      "t_minus_1": {
+        "referee": "Bryan Ferreyra",
+        "assistant_referees": [
+          "Damián Espinoza",
+          "Marcelo Bistocco"
+        ],
+        "fourth_official": "Cristian Cernadas",
+        "VAR": "Fernando Echenique",
+        "AVAR": "Gonzalo Creimermann"
+      },
+      "sources": [
+        {
+          "publisher": "Asociación del Fútbol Argentino",
+          "url": "https://www.afa.com.ar/es/posts/el-viernes-termina-con-tigre-atletico-tucuman",
+          "publication_date": "2026-10-21",
+          "publication_time": "UNKNOWN"
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "injuries",
+        "team_rate_stats",
+        "calibration"
+      ]
+    },
+    {
+      "fixture": "Cruzeiro vs Remo",
+      "competition": "Brasil Serie A rodada 32",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_REFEREE_TEAM_VERIFIED",
+      "t_minus_1": {
+        "stadium": "Mineirão",
+        "referee": "Bruno Arleu de Araujo",
+        "assistant_referees": [
+          "Thiago Henrique Neto Correa Farinha",
+          "Gizeli Casaril"
+        ],
+        "fourth_official": "Kleber Ariel Goncalves Silva",
+        "VAR": "Gilberto Rodrigues Castro Junior",
+        "AVAR": "Clovis Amaral da Silva",
+        "AVAR2": "Alexandre Vargas Tavares de Jesus"
+      },
+      "sources": [
+        {
+          "publisher": "Confederação Brasileira de Futebol",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/cruzeiro-x-remo/832206?view=escala-de-arbitros",
+          "publication_date": "UNKNOWN",
+          "publication_time": "UNKNOWN",
+          "note": "Indexed before kickoff (crawled 2 days before checkpoint), but publication timestamp not independently confirmed."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "absences",
+        "verified_match_expected_rates",
+        "referee_cards_distribution",
+        "calibration"
+      ]
+    },
+    {
+      "fixture": "Libertad vs Sportivo Luqueño",
+      "competition": "Paraguay Primera División Clausura fecha 16",
+      "kickoff_chile": "2026-10-23T19:30:00-03:00",
+      "status": "OFFICIAL_TABLE_T1_ENRICHED",
+      "t_minus_1": {
+        "home_played": 15,
+        "home_points": 27,
+        "home_goals_for": 23,
+        "home_goals_against": 17,
+        "away_played": 15,
+        "away_points": 16,
+        "away_goals_for": 17,
+        "away_goals_against": 29
+      },
+      "sources": [
+        {
+          "publisher": "Asociación Paraguaya de Fútbol",
+          "url": "https://www.apf.org.py/partidos/temporada-2026-paraguay-primera-division-clausura-16-libertad-vs-luqueno-912",
+          "publication_date": "UNKNOWN",
+          "publication_time": "UNKNOWN",
+          "note": "Search-index snapshot crawled before match; date/time of original publication not supplied."
+        }
+      ],
+      "missing": [
+        "official_XI",
+        "team_rate_stats",
+        "calibration"
+      ]
+    }
+  ],
+  "execution": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO; GitHub connected repo search returned size=0 and README fetch returned 'This repository is empty.'",
+    "dgopro": "NO EJECUTADO; existing challenger/dgopro-3 preview script reviewed via GitHub and explicitly experimental/uncalibrated",
+    "arb": "NO EJECUTADO; no verified runnable independent engine",
+    "external_predictions": "NOT COMPARED; no authentic new internal forecast freeze",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NOT_EVALUABLE",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Gimnasia Mendoza vs Platense kickoff cutoff 18:30 CL",
+    "Verify official XI for Libertad, Cruzeiro, Audax, Iquique and Tigre if published before kickoff",
+    "Exclude already started matches from pre-match forecast",
+    "Deduplicate and validate 87 candidate fixture inventory before making chronological blocks of 20",
+    "Require actual executable model, verified distributions and out-of-sample calibration before probabilities",
+    "No external predictive comparison until authentic internal outputs frozen"
+  ]
+}
