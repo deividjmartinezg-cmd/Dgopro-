@@ -1,0 +1,154 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T16:03:02-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-1500-official-xi-diks-and-aia-correction.json",
+  "baseline_candidates": 87,
+  "new_candidates": 0,
+  "updated_candidates_total": 87,
+  "new_findings": [
+    {
+      "fixture_id": "audax-italiano-huachipato",
+      "fixture": "Audax Italiano vs Huachipato",
+      "competition": "Chile Liga de Primera fecha 25",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_T_MINUS_1_LEAGUE_STANDINGS_SCORER_AND_FULL_OFFICIATING_TEAM",
+      "sources": [
+        {
+          "publisher": "ANFP Campeonato Chileno",
+          "url": "https://www.campeonatochileno.cl/noticias/este-fin-de-semana-vuelve-la-liga-de-primera-mercado-libre-con-la-fecha-25/",
+          "published_date": "2026-10-22",
+          "published_time": "NOT_STATED",
+          "kind": "official_pre_match_league_context"
+        },
+        {
+          "publisher": "ANFP Campeonato Chileno",
+          "url": "https://www.campeonatochileno.cl/match/audax-italiano-huachipato-2026-10-23/",
+          "published_date": "NOT_STATED",
+          "accessed_before_kickoff": true,
+          "kind": "official_fixture_and_officiating"
+        }
+      ],
+      "t_minus_1_new": {
+        "home_points": 28,
+        "home_table_position": 12,
+        "home_game_in_hand": true,
+        "away_points": 34,
+        "away_consecutive_league_wins": 3,
+        "away_top_scorer": "Lionel Altamirano",
+        "away_top_scorer_league_goals": 10,
+        "assistant_referees": [
+          "Felipe Jara Méndez",
+          "Ignacio Cerda Márquez"
+        ],
+        "fourth_official": "Claudio Díaz Mera",
+        "AVAR": "Eric Pizarro Riquelme"
+      },
+      "t_minus_1_carried_from_prior_checkpoint": {
+        "referee": "Rodrigo Carvajal Molina",
+        "VAR": "Francisco Gaggero Sotomayor",
+        "stadium": "Estadio Bicentenario de La Florida"
+      },
+      "unverified": [
+        "official_starting_XI",
+        "confirmed_absences",
+        "referee_cards_rate",
+        "event_level_shots_corners_cards",
+        "weather",
+        "calibrated_market_distributions"
+      ],
+      "integrity": "ANFP official Oct 22 report is historical T-1 and cannot be interpreted as calibrated win/goals/corners probability. Full match officiating details from official match page; not used as predictive model outputs."
+    },
+    {
+      "fixture_id": "deportes-iquique-magallanes",
+      "fixture": "Deportes Iquique vs Magallanes",
+      "competition": "Chile Liga de Ascenso fecha 29",
+      "kickoff_chile": "2026-10-23T20:00:00-03:00",
+      "status": "OFFICIAL_COMPLETE_OFFICIATING_TEAM_ADDED",
+      "sources": [
+        {
+          "publisher": "ANFP Campeonato Chileno",
+          "url": "https://www.campeonatochileno.cl/match/deportes-iquique-magallanes-2026-10-23/",
+          "accessed_before_kickoff": true,
+          "kind": "official_match_sheet"
+        }
+      ],
+      "t_minus_1_new": {
+        "assistant_referees": [
+          "Cristóbal Berríos Aspee",
+          "Ariel Armijo Cancino"
+        ],
+        "fourth_official": "Diego Yáñez Rojas",
+        "AVAR": "Miguel Rocha Svigilsky"
+      },
+      "t_minus_1_carried_from_prior_checkpoint": {
+        "referee": "Diego Paredes Aguilera",
+        "VAR": "Benjamín Saravia Retamal",
+        "stadium": "Estadio Tierra de Campeones"
+      },
+      "unverified": [
+        "official_starting_XI",
+        "confirmed_absences",
+        "event_level_shots_corners_cards",
+        "referee_cards_rate",
+        "weather",
+        "calibrated_market_distributions"
+      ],
+      "integrity": "Ascenso fixture retained from existing inventory; not promoted to top priority over first divisions."
+    }
+  ],
+  "kickoff_cutoff_updates": [
+    {
+      "fixture": "VfB Stuttgart vs Borussia Mönchengladbach",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_NO_NEW_FORECAST"
+    },
+    {
+      "fixture": "Torino FC vs AC Monza",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_NO_NEW_FORECAST"
+    },
+    {
+      "fixture": "Stade Brestois vs OGC Nice",
+      "kickoff_chile": "2026-10-23T15:45:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_NO_NEW_FORECAST"
+    },
+    {
+      "fixture": "Ipswich Town vs Nottingham Forest",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_NO_NEW_FORECAST"
+    },
+    {
+      "fixture": "Deportivo Alavés vs Málaga CF",
+      "kickoff_chile": "2026-10-23T16:00:00-03:00",
+      "status": "PREMATCH_CUTOFF_PASSED_NO_NEW_FORECAST"
+    }
+  ],
+  "execution": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO; GitHub repository size=0 checked 16:03",
+    "dgopro": "NO EJECUTADO; challenger/dgopro-3 script inspected; expressly experimental and uncalibrated",
+    "arb": "NO EJECUTADO; no independently verified executable runtime",
+    "external_predictions": "NOT_COMPARED; no authentic internal predictions frozen for these matches",
+    "no_odds_inputs": true
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "all_market_probabilities": "NOT_EVALUABLE",
+  "dqi": "NOT_CERTIFIED",
+  "igc": "NOT_EVALUABLE",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Continue verifying remaining future fixtures without duplicate inventory additions",
+    "Recheck official lineups near 20:00 Chile for Audax-Huachipato and Iquique-Magallanes",
+    "Deduplicate 87 candidates into verified chronological blocks of 20",
+    "Obtain independently validated historical event-level data and out-of-sample calibration before any certified market probabilities",
+    "Execute VMD-World1 and ARB only when genuine runnable code is verified; external forecast comparison only after genuine internal freeze"
+  ]
+}
