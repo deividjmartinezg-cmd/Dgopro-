@@ -1,0 +1,566 @@
+{
+  "schema": "dgopro_incremental_checkpoint_v1",
+  "snapshot_chile": "2026-10-22T21:57:44-03:00",
+  "prior": "audits/daily/2026-10-22-2057-progress-delta.json",
+  "scope": "newly extracted league-official probable XIs, absences and coaches, no DGOPRO/VMD/ARB executions",
+  "new_verified_t1": [
+    {
+      "fixture": "Stuttgart - Borussia Mönchengladbach",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-23T15:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Stuttgart",
+        "expected_xi": [
+          "Seimen",
+          "Assignon",
+          "Jeltsch",
+          "Chabot",
+          "Hendriks",
+          "Karazor",
+          "Stiller",
+          "Leweling",
+          "Undav",
+          "Führich",
+          "Demirović"
+        ],
+        "out": [
+          "Diehl",
+          "Malanga",
+          "Nartey",
+          "Tomás",
+          "Vagnoman",
+          "Zagadou"
+        ],
+        "doubtful": [],
+        "coach": "Sebastian Hoeneß"
+      },
+      "away": {
+        "name": "Borussia Mönchengladbach",
+        "expected_xi": [
+          "Nicolas",
+          "Sander",
+          "Diks",
+          "Chiarodia",
+          "Scally",
+          "Uno",
+          "Neuhaus",
+          "Ullrich",
+          "Bolin",
+          "Machino",
+          "Mohya"
+        ],
+        "out": [
+          "Castrop",
+          "Honorat",
+          "Itakura",
+          "Kleindienst",
+          "Leopold",
+          "Leszczyński",
+          "Lidberg"
+        ],
+        "doubtful": [],
+        "coach": "Alexander Blessin"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "RB Leipzig - Elversberg",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "RB Leipzig",
+        "expected_xi": [
+          "Vandevoordt",
+          "Baku",
+          "Orbán",
+          "Castello",
+          "Raum",
+          "El Aynaoui",
+          "Banzuzi",
+          "Gruda",
+          "Nkunku",
+          "Nusa",
+          "Gomis"
+        ],
+        "out": [
+          "Gebel",
+          "Guiu",
+          "Ouédraogo"
+        ],
+        "doubtful": [],
+        "coach": "Martín Demichelis"
+      },
+      "away": {
+        "name": "Elversberg",
+        "expected_xi": [
+          "Kristof",
+          "Gyamerah",
+          "Pinckert",
+          "Rohr",
+          "Günther",
+          "Keidel",
+          "Poręba",
+          "Petkov",
+          "Darvich",
+          "Krattenmacher",
+          "Mokwa"
+        ],
+        "out": [
+          "Seifert",
+          "Zimmerschied"
+        ],
+        "doubtful": [
+          "Campbell",
+          "Onyeka"
+        ],
+        "coach": "Vincent Wagner"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Augsburg - Union Berlin",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Augsburg",
+        "expected_xi": [
+          "Dahmen",
+          "Matsima",
+          "Gouweleeuw",
+          "Brackelmann",
+          "Fellhauer",
+          "Massengo",
+          "Rieder",
+          "Behrens",
+          "Kade",
+          "Ibrahimović",
+          "Gregoritsch"
+        ],
+        "out": [
+          "Banks",
+          "Breithaupt",
+          "Claude-Maurice",
+          "Mounié",
+          "Sakar"
+        ],
+        "doubtful": [
+          "Suso"
+        ],
+        "coach": "Manuel Baum"
+      },
+      "away": {
+        "name": "Union Berlin",
+        "expected_xi": [
+          "Rønnow",
+          "Haberer",
+          "Van den Bosch",
+          "Uduokhai",
+          "Rothe",
+          "Aebischer",
+          "Schäfer",
+          "Khedira",
+          "Imeri",
+          "Jeong",
+          "Skarke"
+        ],
+        "out": [
+          "Ilić",
+          "Markgraf",
+          "Nsoki"
+        ],
+        "doubtful": [
+          "Juranović"
+        ],
+        "coach": "Mauro Lustrinelli"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Mainz - Werder Bremen",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Mainz",
+        "expected_xi": [
+          "Schwolow",
+          "da Costa",
+          "Posch",
+          "Potulski",
+          "Caci",
+          "Amiri",
+          "Sano",
+          "Lee",
+          "Mwene",
+          "Tietz",
+          "Becker"
+        ],
+        "out": [
+          "Kohr",
+          "Ruoppi",
+          "Silas",
+          "Zentner"
+        ],
+        "doubtful": [],
+        "coach": "Urs Fischer"
+      },
+      "away": {
+        "name": "Werder Bremen",
+        "expected_xi": [
+          "Hein",
+          "Pieper",
+          "Friedl",
+          "Deman",
+          "Arthur",
+          "Reis",
+          "Regeer",
+          "Grüll",
+          "Dinkçi",
+          "Chuki",
+          "Füllkrug"
+        ],
+        "out": [
+          "Agu",
+          "Alvero",
+          "Musah",
+          "Ndiaye",
+          "Njinmah",
+          "Stage",
+          "Topp"
+        ],
+        "doubtful": [
+          "Lynen"
+        ],
+        "coach": "Daniel Thioune"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Cologne - Schalke",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Cologne",
+        "expected_xi": [
+          "Schwäbe",
+          "Sebulonsen",
+          "Simpson-Pusey",
+          "Lochoshvili",
+          "Sosa",
+          "Krauß",
+          "Jóhannesson",
+          "Maina",
+          "Moore",
+          "El Mala",
+          "Bülter"
+        ],
+        "out": [
+          "Ache",
+          "Dallinga",
+          "Hübers",
+          "Rondić",
+          "Skhiri",
+          "Van den Berg"
+        ],
+        "doubtful": [],
+        "coach": "René Wagner"
+      },
+      "away": {
+        "name": "Schalke",
+        "expected_xi": [
+          "Karius",
+          "T. Becker",
+          "Katić",
+          "Kuruçay",
+          "Dina Ebimbe",
+          "Tanaka",
+          "El-Faouzi",
+          "Gosens",
+          "Hwang",
+          "Aouchiche",
+          "Adamu"
+        ],
+        "out": [
+          "Højlund",
+          "Karaman",
+          "Lasme",
+          "Ljubičić",
+          "Schallenberg",
+          "Siebeking",
+          "Sylla"
+        ],
+        "doubtful": [],
+        "coach": "Miron Muslić"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Paderborn - Hamburg",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Paderborn",
+        "expected_xi": [
+          "Noll",
+          "ter Horst",
+          "Scheller",
+          "Hansen",
+          "Curda",
+          "Ulrich",
+          "Castaneda",
+          "Vidović",
+          "Obermair",
+          "Marino",
+          "Tigges"
+        ],
+        "out": [
+          "Awortwie-Grant",
+          "Batista Meier",
+          "Gayret",
+          "Hoffmeier"
+        ],
+        "doubtful": [
+          "Klaas"
+        ],
+        "coach": "Ralf Kettemann"
+      },
+      "away": {
+        "name": "Hamburg",
+        "expected_xi": [
+          "Heuer Fernandes",
+          "Capaldo",
+          "Bornauw",
+          "Omari",
+          "El Ouahdi",
+          "Nadir",
+          "Muheim",
+          "Møller Wolfe",
+          "Vieira",
+          "Grønbæk",
+          "Poulsen"
+        ],
+        "out": [
+          "Daka",
+          "Dickes",
+          "Remberg",
+          "Jatta"
+        ],
+        "doubtful": [
+          "Sambi Lokonga"
+        ],
+        "coach": "Merlin Polzin"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Borussia Dortmund - Eintracht Frankfurt",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Borussia Dortmund",
+        "expected_xi": [
+          "Kobel",
+          "Gadou",
+          "Anton",
+          "Schlotterbeck",
+          "Ryerson",
+          "Bellingham",
+          "Nmecha",
+          "Svensson",
+          "Nwaneri",
+          "Beier",
+          "Guirassy"
+        ],
+        "out": [
+          "Can",
+          "Karetsas",
+          "Konstantelias",
+          "Lerma"
+        ],
+        "doubtful": [],
+        "coach": "Niko Kovač"
+      },
+      "away": {
+        "name": "Eintracht Frankfurt",
+        "expected_xi": [
+          "Atubolu",
+          "Collins",
+          "Koch",
+          "Brassier",
+          "Kosugi",
+          "Dōan",
+          "Aséko",
+          "Onyedika",
+          "Chaïbi",
+          "Burkardt",
+          "Ebnoutalib"
+        ],
+        "out": [
+          "Ngankam",
+          "Pimpong"
+        ],
+        "doubtful": [
+          "Højlund"
+        ],
+        "coach": "Adi Hütter"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Hoffenheim - Bayer Leverkusen",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-25T11:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Hoffenheim",
+        "expected_xi": [
+          "Baumann",
+          "Coufal",
+          "Hranáč",
+          "Machida",
+          "Rots",
+          "Conté",
+          "Avdullahu",
+          "Prass",
+          "Lemperle",
+          "Asllani",
+          "Daghim"
+        ],
+        "out": [
+          "De Cat",
+          "Hajdari",
+          "Wimmer"
+        ],
+        "doubtful": [],
+        "coach": "Christian Ilzer"
+      },
+      "away": {
+        "name": "Bayer Leverkusen",
+        "expected_xi": [
+          "Flekken",
+          "Quansah",
+          "Tapsoba",
+          "Medina",
+          "Gutiérrez",
+          "García",
+          "Fernández",
+          "Diaby",
+          "Maza",
+          "Moreira",
+          "Schick"
+        ],
+        "out": [
+          "Ben Seghir",
+          "Doué",
+          "Eichhorn",
+          "Kofane",
+          "Terrier"
+        ],
+        "doubtful": [
+          "Culbreath"
+        ],
+        "coach": "Carles Martínez"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    },
+    {
+      "fixture": "Freiburg - Bayern Munich",
+      "competition": "Bundesliga 2026/27 MD7",
+      "kickoff_chile": "2026-10-25T13:30:00-03:00",
+      "source_published_at": "2026-10-22",
+      "source": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+      "source_type": "league_editorial_probable_lineups",
+      "xi_status": "PROBABLE_NOT_CONFIRMED",
+      "home": {
+        "name": "Freiburg",
+        "expected_xi": [
+          "Backhaus",
+          "Treu",
+          "Ginter",
+          "Lienhart",
+          "Makengo",
+          "Eggestein",
+          "Engelhardt",
+          "Beste",
+          "Suzuki",
+          "Scherhant",
+          "Matanović"
+        ],
+        "out": [
+          "Muslija"
+        ],
+        "doubtful": [],
+        "coach": "Julian Schuster"
+      },
+      "away": {
+        "name": "Bayern Munich",
+        "expected_xi": [
+          "Neuer",
+          "Laimer",
+          "Upamecano",
+          "Tah",
+          "Brown",
+          "Kimmich",
+          "Pavlović",
+          "Olise",
+          "Gnabry",
+          "Davies",
+          "Kane"
+        ],
+        "out": [
+          "Díaz",
+          "Musiala"
+        ],
+        "doubtful": [],
+        "coach": "Vincent Kompany"
+      },
+      "status": "T_MINUS_1_PARTIAL_ONLY_NO_PREDICTION"
+    }
+  ],
+  "calendar_note": "European DST ends Oct 25: Sunday kickoff CET to Chile UTC-3 conversion differs from Friday/Saturday CEST. Confirmed Fri 20:30 CEST=15:30 Chile; Sat 15:30 CEST=10:30 Chile; Sun 15:30 CET=11:30 Chile and 17:30 CET=13:30 Chile.",
+  "provenance_caution": "Probable XIs are league editorial projections, NOT official starting lineups. Injuries/absences are time-bound and require matchday recheck. Do not treat as player-prop or model-ready input without other required variables.",
+  "repo_checks": {
+    "vmd_world1": "REPOSITORY_SIZE_ZERO_NO_EXECUTABLE_NOT_EXECUTED",
+    "dgopro": "REPO_EXISTS; NO_NEW_EXECUTION; previous challenger revision 2795f3f14f416c71d6f2e0c2b512065b26daab94",
+    "arb": "NOT_EXECUTED"
+  },
+  "new_predictions_frozen": 0,
+  "external_predictions_consulted": 0,
+  "certified_tops": 0,
+  "next_pending": [
+    "Confirm starting XI near kickoff",
+    "Acquire independently verified referee/weather/fatigue/seasonal statistics",
+    "Run DGOPRO only after data sufficiency checks, freeze before any external forecast comparison",
+    "Independent ARB engine still unavailable"
+  ]
+}
