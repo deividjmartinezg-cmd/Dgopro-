@@ -1,0 +1,530 @@
+{
+  "schema": "dgopro_daily_fixture_inventory_v1",
+  "date_chile": "2026-10-24",
+  "timezone": "America/Santiago",
+  "checkpoint_start_chile": "2026-10-24T00:02:24-03:00",
+  "previous_day_final_checkpoint": "audits/daily/2026-10-23-2256-portland-preview-and-three-cutoffs.json",
+  "previous_day_cutoff_delta": {
+    "fixture": "Portland Thorns FC vs North Carolina Courage",
+    "kickoff_chile": "2026-10-23T23:00:00-03:00",
+    "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+    "previous_record_unchanged": true
+  },
+  "new_day": true,
+  "inventory_scope": "partial global inventory, not exhaustive; only verified official fixture sources",
+  "fixtures_count": 31,
+  "blocks": [
+    {
+      "block": 1,
+      "fixtures": [
+        "Newcastle Jets vs Macarthur Bulls",
+        "Bucheon FC 1995 vs Gwangju FC",
+        "FC Anyang vs Jeonbuk Hyundai",
+        "FC Seoul vs Gangwon FC",
+        "Gimcheon Sangmu vs Daejeon Hana Citizen",
+        "Incheon United vs Jeju SK",
+        "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+        "Ulsan HD vs Pohang Steelers",
+        "Kashima Antlers vs Kashiwa Reysol",
+        "Tokyo Verdy vs Avispa Fukuoka",
+        "Vissel Kobe vs FC Machida Zelvia",
+        "Western Sydney Wanderers vs Auckland FC",
+        "Gamba Osaka vs Kyoto Sanga",
+        "Aston Villa vs Manchester City",
+        "Rayo Vallecano vs Elche CF",
+        "Cagliari vs Bologna",
+        "Como vs Sassuolo",
+        "Augsburg vs Union Berlin",
+        "FC Köln vs Schalke 04",
+        "Mainz 05 vs Werder Bremen"
+      ],
+      "status": "FIXTURES_ONLY_NOT_PREDICTIONS"
+    },
+    {
+      "block": 2,
+      "fixtures": [
+        "Paderborn 07 vs Hamburger SV",
+        "RB Leipzig vs SV Elversberg",
+        "Arsenal vs Everton",
+        "Coventry City vs Fulham",
+        "Racing Santander vs Espanyol",
+        "Napoli vs Roma",
+        "Borussia Dortmund vs Eintracht Frankfurt",
+        "Chelsea vs Tottenham Hotspur",
+        "Valencia vs Villarreal",
+        "Atlético de Madrid vs Deportivo La Coruña",
+        "Lazio vs Parma"
+      ],
+      "status": "FIXTURES_ONLY_NOT_PREDICTIONS"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture": "Newcastle Jets vs Macarthur Bulls",
+      "competition": "Australia A-League Men",
+      "kickoff_chile": "2026-10-24T01:00:00-03:00",
+      "source_url": "https://aleagues.com.au/news/a-league-men-preview-what-you-need-to-know-for-matchweek-2/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "source_publication_date": "2026-10-21",
+      "tminus1": {
+        "round1": "Newcastle 2-2 Central Coast; Macarthur 2-1 Perth Glory",
+        "head_to_head_last3": "4-5,1-0,2-3 from Newcastle perspective"
+      }
+    },
+    {
+      "fixture": "Bucheon FC 1995 vs Gwangju FC",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "FC Anyang vs Jeonbuk Hyundai",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "FC Seoul vs Gangwon FC",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Gimcheon Sangmu vs Daejeon Hana Citizen",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Incheon United vs Jeju SK",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/j1/match/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "standings": "Hiroshima 3rd 7W2D2L; Shimizu 11th 4W2D5L",
+        "data_origin": "J League official match page"
+      }
+    },
+    {
+      "fixture": "Ulsan HD vs Pohang Steelers",
+      "competition": "South Korea K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "source_url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Kashima Antlers vs Kashiwa Reysol",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/j1/match/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Tokyo Verdy vs Avispa Fukuoka",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/j1/match/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "standings": "Tokyo Verdy 20th 0W5D6L; Avispa 18th 2W1D8L"
+      }
+    },
+    {
+      "fixture": "Vissel Kobe vs FC Machida Zelvia",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/j1/match/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Western Sydney Wanderers vs Auckland FC",
+      "competition": "Australia A-League Men",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://aleagues.com.au/news/a-league-men-preview-what-you-need-to-know-for-matchweek-2/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "source_publication_date": "2026-10-21",
+      "tminus1": {
+        "round1": "WSW 0-0 Sydney FC; Auckland 3-1 Melbourne City",
+        "last_three_meetings": "1-1,0-1,0-2 from WSW perspective"
+      }
+    },
+    {
+      "fixture": "Gamba Osaka vs Kyoto Sanga",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T04:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/j1/match/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T08:30:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "source_publication_date": "2026-08-17",
+      "tminus1": {
+        "referee": "Peter Bankes",
+        "referee_source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8",
+        "injuries_source": "https://www.premierleague.com/en/news/4744649",
+        "injuries": "Aston Villa Wan-Bissaka, Ruggeri, Onana absent; Manzambi fitness test",
+        "table": "Villa 12th, City 1st",
+        "table_source": "https://www.premierleague.com/en/match/2645266/aston-villa-vs-manchester-city/stats"
+      }
+    },
+    {
+      "fixture": "Rayo Vallecano vs Elche CF",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "table": "Rayo 9 pts, Elche 7 pts; 12:17 and 11:17 GF:GA",
+        "source": "https://www.laliga.com/en-ID/match/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10"
+      }
+    },
+    {
+      "fixture": "Cagliari vs Bologna",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "source_publication_date": "2026-10-21",
+      "tminus1": {
+        "referee": "Bonacina",
+        "preview_source": "https://en.legaseriea.it/serie-a/news/cagliari-host-bologna-looking-to-get-back-on-track",
+        "shots_allowed_cagliari": "19.4 per game (league official preview)"
+      }
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "source_publication_date": "2026-10-21",
+      "tminus1": {
+        "referee": "Di Marco",
+        "preview_source": "https://en.legaseriea.it/serie-a/news/como-take-on-sassuolo-looking-to-keep-climbing"
+      }
+    },
+    {
+      "fixture": "Augsburg vs Union Berlin",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "FC Köln vs Schalke 04",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Mainz 05 vs Werder Bremen",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Paderborn 07 vs Hamburger SV",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "RB Leipzig vs SV Elversberg",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Arsenal vs Everton",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "referee": "Tony Harrington",
+        "referee_source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8"
+      }
+    },
+    {
+      "fixture": "Coventry City vs Fulham",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "referee": "Adam Herczeg",
+        "referee_source": "https://www.premierleague.com/en/news/4739331/match-officials-for-matchweek-8"
+      }
+    },
+    {
+      "fixture": "Racing Santander vs Espanyol",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Napoli vs Roma",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "referee": "Colombo",
+        "preview_source": "https://en.legaseriea.it/serie-a/news/napoli-vs-roma-three-crucial-points-at-stake"
+      }
+    },
+    {
+      "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Chelsea vs Tottenham Hotspur",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Valencia vs Villarreal",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T15:00:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false
+    },
+    {
+      "fixture": "Lazio vs Parma",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T15:45:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "source_type": "official competition",
+      "source_publication_time": "unknown unless stated",
+      "state": "FIXTURE_VERIFIED_T_MINUS_1_INCOMPLETE_NO_FORECAST",
+      "verified_lineups": false,
+      "probabilities_calibrated": false,
+      "tminus1": {
+        "referee": "Arena"
+      }
+    }
+  ],
+  "quarantine": [
+    {
+      "fixture": "Liverpool vs Brighton & Hove Albion",
+      "reason": "Official Premier League October amendment shows Saturday 24 October and Sunday 25 October for same fixture; exclude pending correction",
+      "source": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/"
+    }
+  ],
+  "engine_checks": {
+    "vmd_world1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "size_kb": 0,
+      "execution": "NO EJECUTADO",
+      "verified_by": "GitHub get_repo"
+    },
+    "dgopro": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "script": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "script_sha": "8e72a127168177b24b5b38f3577d42e030d63425",
+      "execution": "NO EJECUTADO",
+      "status": "EXPERIMENTAL_UNCALIBRATED script, no authenticated fixture-specific calibrated inputs"
+    },
+    "arb": {
+      "execution": "NO EJECUTADO",
+      "reason": "independent runtime not verified"
+    },
+    "external": {
+      "status": "NOT COMPARED",
+      "reason": "internal forecast freeze gate unmet"
+    }
+  },
+  "markets_status": {
+    "recommendation": "NOT_EVALUABLE",
+    "probability": "NOT_CALIBRATED",
+    "result_1x2": "NOT_EVALUABLE",
+    "double_chance": "NOT_EVALUABLE",
+    "goals_over_under_1_5_2_5_3_5": "NOT_EVALUABLE",
+    "btts": "NOT_EVALUABLE",
+    "corners_over_under_7_5_to_11_5": "NOT_EVALUABLE",
+    "cards_over_under_4_5_5_5": "NOT_EVALUABLE",
+    "shots": "NOT_EVALUABLE",
+    "shots_on_target": "NOT_EVALUABLE",
+    "player_props": "NOT_EVALUABLE",
+    "exact_score": "NOT_EVALUABLE",
+    "risk": "NOT_EVALUABLE",
+    "dqi": "NOT_CERTIFIED",
+    "igc": "NOT_EVALUABLE"
+  },
+  "frozen_predictions_count": 0,
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "odds_used_as_inputs": false,
+  "pending": [
+    "Complete verified world fixture inventory beyond 31",
+    "Verify 01:00 Newcastle Jets vs Macarthur lineup T-1 before kickoff",
+    "Verify Asian 02:00 fixtures official XI and referees when released",
+    "Find runnable VMD-World1 and independent ARB; do not fake execution",
+    "Establish calibrated DGOPRO model and historical backtest before recommendations",
+    "Resolve Liverpool vs Brighton conflicting official dates"
+  ],
+  "notes": [
+    "Fixture verified does not imply prediction certified",
+    "No external predictions ingested before freeze",
+    "No duplicate prior-day notifications; this is a new daily inventory",
+    "This checkpoint has not run VMD, DGOPRO, or ARB"
+  ]
+}
