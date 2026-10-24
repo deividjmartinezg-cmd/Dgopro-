@@ -1,0 +1,168 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "scheduled_checkpoint_chile": "2026-10-24T08:00:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0700-afa-eredivisie-seven-and-city-tminus1.json",
+  "previous_commit": "4aa1abd4b3cb5c573e79720d1f34cc7d328a03d1",
+  "operation": "INCREMENTAL_EYUP_CUTOFF_AND_VILLA_SOURCE_INTEGRITY_NO_MODEL_EXECUTION",
+  "inventory_previous": 59,
+  "inventory_added": 0,
+  "inventory_total": 59,
+  "closed_previous": 13,
+  "newly_closed_count": 1,
+  "closed_total": 14,
+  "pre_match_remaining": 45,
+  "chronological_future_blocks_counts": [
+    20,
+    20,
+    5
+  ],
+  "newly_closed": [
+    {
+      "fixture": "Eyüpspor vs Kasımpaşa",
+      "competition": "Turkey Süper Lig",
+      "kickoff_chile": "2026-10-24T07:30:00-03:00",
+      "fixture_source": "https://www.tff.org/Default.aspx?pageId=198",
+      "state": "PREMATCH_WINDOW_CLOSED_NO_NEW_PREDICTION",
+      "pre_match_predictions_generated": false,
+      "retain_existing_tminus1": true
+    }
+  ],
+  "next_pending": [
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "kickoff_chile": "2026-10-24T08:30:00-03:00",
+      "status": "TMINUS1_PARTIAL_OFFICIAL_XI_UNCONFIRMED"
+    },
+    {
+      "fixture": "Rayo Vallecano vs Elche CF",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "status": "TMINUS1_INCOMPLETE"
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "status": "TMINUS1_INCOMPLETE_HOME_AWAY_DOCUMENT_CONFLICT"
+    },
+    {
+      "fixture": "Cagliari vs Bologna",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "status": "TMINUS1_INCOMPLETE"
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "status": "TMINUS1_INCOMPLETE"
+    }
+  ],
+  "tminus1_evidence_additions": [
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "source": "https://www.reuters.com/sports/soccer/manchester-city-take-perfect-record-villa-amid-off-field-turmoil-2026-10-22/",
+      "source_date": "2026-10-22",
+      "kind": "independent factual pre-match injury report (not prediction)",
+      "observation": "Antoine Semenyo listed among Manchester City injury concerns; Nico O'Reilly, Mateo Kovacic and Matheus Nunes remain doubts. Verify exact status with club primary source before treating as confirmed.",
+      "input_eligible": "context only until primary confirmation"
+    },
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "source": "https://www.mancity.com/matchday/fixtures/mens/2026/premier-league/aston-villa-v-man-city-24-oct-2026",
+      "kind": "official match centre",
+      "observation": "Official match centre currently displays a line-ups placeholder rather than a named starting XI.",
+      "input_eligible": "XI not confirmed by primary match centre"
+    },
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "source": "https://www.premierleague.com/es/news/4739331/match-officials-for-matchweek-8",
+      "source_date": "2026-10-19",
+      "kind": "official referee appointment",
+      "observation": "Peter Bankes referee; Paul Tierney VAR",
+      "input_eligible": "verified T-1"
+    },
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "source": "https://www.avfc.co.uk/news/2026/october/23/prematch-team-news-for-city-clash/",
+      "source_date": "2026-10-23",
+      "kind": "official injury update (previously recorded; no duplication)",
+      "observation": "Onana, Wan-Bissaka, Ruggeri out; Manzambi subject to late test",
+      "input_eligible": "verified T-1"
+    }
+  ],
+  "integrity_flags": [
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "severity": "HIGH",
+      "issue": "Some third-party pages show full line-ups without verifiable pre-kickoff publication time and other previews explicitly mark them as predicted. Do not label these as official or freeze as confirmed T-1.",
+      "sources": [
+        "https://en.as.com/resultados/futbol/inglaterra/2026_2027/directo/regular_a_8_6a38cde9456ba51/alineaciones/",
+        "https://www.fotmob.com/es/matches/manchester-city-vs-aston-villa/2w74gq"
+      ]
+    },
+    {
+      "fixture": "Eyüpspor vs Kasımpaşa",
+      "severity": "HIGH",
+      "issue": "Secondary pages expose lineups after scheduled 07:30 Chile cutoff or show prior/estimated XI. Excluded from new T-1 predictions.",
+      "sources": [
+        "https://www.skorjet.net/super-lig-eyupspor-kasimpasa-19746581-pre_lineup/6238",
+        "https://www.sportytrader.com/en/results-live/eyupspor-kasimpasa-8628372/"
+      ]
+    }
+  ],
+  "engines": {
+    "vmd_world1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "repo_size_kb": 0,
+      "executed": false,
+      "status": "VMD-World1 NO EJECUTADO"
+    },
+    "dgopro": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "preview_code": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "executed": false,
+      "calibrated": false,
+      "status": "DGOPRO NO EJECUTADO"
+    },
+    "arb": {
+      "executed": false,
+      "status": "ARB NO EJECUTADO"
+    },
+    "external_predictions": {
+      "compared": false,
+      "reason": "No new frozen authentic internal predictions; avoid contamination"
+    }
+  },
+  "markets": {
+    "recommendation": null,
+    "calibrated_probability": null,
+    "result_1x2": null,
+    "double_chance": null,
+    "goals_over_under_1_5_2_5_3_5": null,
+    "btts": null,
+    "corners_over_under_7_5_to_11_5": null,
+    "cards_over_under_4_5_5_5": null,
+    "shots": null,
+    "shots_on_target": null,
+    "player_props": null,
+    "exact_score": null,
+    "risk": null,
+    "igc": null,
+    "dqi": "incomplete"
+  },
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "next_actions": [
+    "Recheck official XI for Aston Villa vs Manchester City strictly before 08:30 Chile",
+    "Close 08:30 pre-match window at or after kickoff",
+    "Recheck first-division fixtures missing from worldwide inventory",
+    "Continue only unprocessed fixtures and avoid duplicates"
+  ]
+}
