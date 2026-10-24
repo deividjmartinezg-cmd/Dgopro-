@@ -1,0 +1,217 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T08:59:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0800-eyup-cutoff-villa-source-integrity.json",
+  "operation": "INCREMENTAL_PERU_OFFICIAL_THREE_VILLA_CUTOFF_LENS_TIME_CORRECTION_RAYO_AND_ANTWERP_TMINUS1",
+  "inventory_previous": 59,
+  "inventory_added": 3,
+  "inventory_total": 62,
+  "closed_previous": 14,
+  "newly_closed_count": 1,
+  "closed_total": 15,
+  "pre_match_remaining": 47,
+  "chronological_future_blocks_counts": [
+    20,
+    20,
+    7
+  ],
+  "newly_closed": [
+    {
+      "fixture": "Aston Villa vs Manchester City",
+      "competition": "Premier League",
+      "kickoff_chile": "2026-10-24T08:30:00-03:00",
+      "source": "https://www.premierleague.com/ar/news/4744649",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "retain_prior_tminus1": true,
+      "integrity_note": "Do not backfill official XI found only after kickoff; no frozen calibrated prediction exists."
+    }
+  ],
+  "added_fixtures": [
+    {
+      "fixture": "Sport Huancayo vs Alianza Atlético",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T14:45:00-03:00",
+      "kickoff_peru": "2026-10-24T12:45:00-05:00",
+      "source": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "source_kind": "league official",
+      "status": "FIXTURE_VERIFIED_TMINUS1_PENDING"
+    },
+    {
+      "fixture": "Cusco FC vs Sporting Cristal",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T17:15:00-03:00",
+      "kickoff_peru": "2026-10-24T15:15:00-05:00",
+      "source": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "source_kind": "league official",
+      "status": "FIXTURE_VERIFIED_TMINUS1_PENDING"
+    },
+    {
+      "fixture": "Universitario vs Juan Pablo II",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T22:30:00-03:00",
+      "kickoff_peru": "2026-10-24T20:30:00-05:00",
+      "source": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "source_kind": "league official",
+      "status": "FIXTURE_VERIFIED_TMINUS1_PENDING",
+      "integrity_note": "Some secondary sources say 19:30 Peru; official Liga1 and RPP published 20:30 Peru; prioritize official but recheck close to kickoff."
+    }
+  ],
+  "corrections": [
+    {
+      "fixture": "RC Lens vs Paris FC",
+      "previous_kickoff_chile": "2026-10-24T15:45:00-03:00",
+      "corrected_kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source": "https://ligue1.com/fr/feuille-de-match/l1_championship_match_73887/summary",
+      "reason": "Official 18:45 France CEST (UTC+2) = 13:45 Chile UTC-3; earlier inventory was two hours late.",
+      "status": "TIME_CORRECTED_NO_PREDICTION_CHANGED"
+    }
+  ],
+  "tminus1_evidence_additions": [
+    {
+      "fixture": "Rayo Vallecano vs Elche CF",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source": "https://iaas-public-front-pro.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10",
+      "source_kind": "LaLiga official pre-match page",
+      "observed_at_chile": "2026-10-24T08:58:00-03:00",
+      "data": {
+        "rayo": {
+          "points": 9,
+          "goals_for": 12,
+          "goals_against": 17,
+          "total_shots": 85
+        },
+        "elche": {
+          "points": 7,
+          "goals_for": 11,
+          "goals_against": 17,
+          "total_shots": 80
+        }
+      },
+      "XI_confirmed": false,
+      "kind": "observed statistics, not VMD simulation"
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source": "https://www.proleague.be/fr/matchs/saison-2026-2027-jupiler-pro-league-9-royal-antwerp-fc-vs-sporting-charleroi-668",
+      "source_kind": "Pro League official pre-match page",
+      "observed_at_chile": "2026-10-24T08:58:00-03:00",
+      "data": {
+        "antwerp": {
+          "points": 7,
+          "goals_for": 11,
+          "goals_against": 15
+        },
+        "charleroi": {
+          "points": 18,
+          "goals_for": 15,
+          "goals_against": 7
+        }
+      },
+      "XI_confirmed": false,
+      "integrity_note": "Header reverses home/away, but stadium Bosuilstadion and team panels indicate Antwerp home; flag remains."
+    }
+  ],
+  "quarantined_candidates": [
+    {
+      "competition": "Angola Girabola",
+      "fixtures": [
+        "Académica do Lobito vs FC Luanda",
+        "Sagrada Esperança vs Primeiro de Maio"
+      ],
+      "source1": "https://www.flashscore.com/football/angola/girabola/fixtures/",
+      "source2": "https://www.365scores.com/pt/football/league/angola-liga-unitel-girabola-7337",
+      "status": "SECONDARY_CORROBORATED_NOT_PRIMARY_CERTIFIED",
+      "reason": "No official league primary fixture confirmation found."
+    },
+    {
+      "competition": "Angola Girabola",
+      "fixtures": [
+        "Bravos do Maquis vs Petro de Luanda",
+        "FC Cabinda vs Kabuscorp",
+        "Wiliete SC vs São Salvador",
+        "Recreativo da Caála vs Primeiro de Agosto"
+      ],
+      "source1": "https://www.flashscore.com/football/angola/girabola/fixtures/",
+      "source2": "https://www.365scores.com/pt/football/league/angola-liga-unitel-girabola-7337",
+      "status": "DATE_CONFLICT_QUARANTINE",
+      "reason": "Flashscore places games on 27-28 Oct, other providers on 24 Oct. Excluded from certified inventory."
+    }
+  ],
+  "next_pending": [
+    {
+      "fixture": "Rayo Vallecano vs Elche CF",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "state": "CLOSE_AT_KICKOFF"
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "state": "CLOSE_AT_KICKOFF"
+    },
+    {
+      "fixture": "Cagliari vs Bologna",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "state": "TMINUS1_PENDING"
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "state": "TMINUS1_PENDING"
+    }
+  ],
+  "engines": {
+    "vmd_world1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "executed": false,
+      "status": "VMD-World1 NO EJECUTADO",
+      "verification": "GitHub commits API 409 Git Repository is empty; GitHub code search no results"
+    },
+    "dgopro": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "code": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "executed": false,
+      "calibrated": false,
+      "status": "DGOPRO NO EJECUTADO; experimental preview explicitly uncalibrated"
+    },
+    "arb": {
+      "executed": false,
+      "status": "ARB NO EJECUTADO"
+    },
+    "external_predictions": {
+      "compared": false,
+      "reason": "No frozen genuine internal forecasts; official pre-match factual statistics kept in inputs only"
+    }
+  },
+  "markets": {
+    "recommendation": null,
+    "calibrated_probability": null,
+    "result_1x2": null,
+    "double_chance": null,
+    "goals_1_5_2_5_3_5": null,
+    "btts": null,
+    "corners_7_5_to_11_5": null,
+    "cards_4_5_5_5": null,
+    "shots": null,
+    "shots_on_target": null,
+    "player_props": null,
+    "exact_score": null,
+    "risk": null,
+    "igc": null,
+    "dqi": "partial, unscored"
+  },
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false
+}
