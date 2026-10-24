@@ -1,0 +1,76 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T01:00:35-03:00",
+  "previous_checkpoint": "audits/daily/2026-10-24-0002-newcastle-squad-primary-source.json",
+  "operation": "incremental_only_no_existing_predictions_modified",
+  "inventory_prior": 31,
+  "inventory_new": 0,
+  "inventory_total": 31,
+  "pre_match_remaining_at_checkpoint": 30,
+  "cutoff_delta": [
+    {
+      "fixture": "Newcastle Jets vs Macarthur Bulls",
+      "competition": "Australia A-League Men",
+      "kickoff_chile": "2026-10-24T01:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source_url": "https://aleagues.com.au/news/a-league-men-preview-what-you-need-to-know-for-matchweek-2/",
+      "source_publication_date": "2026-10-21",
+      "lineups_officially_verified": false,
+      "previous_T_minus_1_preserved": true
+    }
+  ],
+  "date_conflict_resolution": [
+    {
+      "fixture": "Liverpool vs Brighton & Hove Albion",
+      "competition": "England Premier League",
+      "previous_status": "QUARANTINED_CONFLICT_SAT_24_VS_SUN_25",
+      "resolved_kickoff_chile": "2026-10-25T11:00:00-03:00",
+      "official_kickoff": "Sunday 25 October 2026 14:00 GMT",
+      "status": "RESOLVED_EXCLUDED_FROM_OCT_24_AND_ELIGIBLE_FOR_OCT_25_INVENTORY",
+      "primary_source": "https://www.premierleague.com/ar/news/4705445",
+      "primary_source_published": "2026-09-01",
+      "reason": "Premier League later fixture amendment explicitly moves match due to Brighton UEFA commitment. This overrides older original fixture listing.",
+      "not_added_to_oct24_count": true
+    }
+  ],
+  "engine_verification": {
+    "vmd_world1": {
+      "status": "NO EJECUTADO",
+      "repo_size_kb": 0,
+      "repo": "deividjmartinezg-cmd/VMD-World1"
+    },
+    "dgopro": {
+      "status": "NO EJECUTADO",
+      "experimental_script": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "script_declares_uncalibrated": true
+    },
+    "arb": {
+      "status": "NO EJECUTADO",
+      "runtime_not_verified": true
+    },
+    "external_predictions": {
+      "status": "NOT_COMPARED",
+      "reason": "internal predictions not authentically frozen"
+    }
+  },
+  "market_status": "NOT_EVALUABLE_UNCALIBRATED",
+  "prediction_freeze_new": "NONE",
+  "dqi": "INCOMPLETE_NOT_NUMERIC",
+  "igc": "NOT_EVALUABLE",
+  "risk": "NOT_EVALUABLE",
+  "top_certified": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Verify primary lineups and kickoff before 02:00 CL fixtures",
+    "Expand global inventory using primary competition sources",
+    "Do not treat prior fixture list as globally exhaustive",
+    "Implement/test calibrated DGOPRO and independent ARB before certifying markets"
+  ],
+  "notification_dedup": "checkpoint unique; no repeated notification required"
+}
