@@ -1,0 +1,125 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T22:56:46-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-2157-kickoff-cutoffs-and-lpf-source-conflict.json",
+  "baseline_candidates_from_previous": 87,
+  "inventory_claim": "87 historical candidates, not a verified global fixture inventory",
+  "new_candidates": 0,
+  "newly_closed": [
+    {
+      "fixture": "Necaxa vs FC Juárez",
+      "competition": "Mexico Liga MX Apertura",
+      "kickoff_chile": "2026-10-23T22:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source": "https://clubnecaxa.mx/"
+    },
+    {
+      "fixture": "Junior FC vs Águilas Doradas",
+      "competition": "Colombia Liga BetPlay II",
+      "kickoff_chile": "2026-10-23T22:10:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source": "https://aguilasdoradas.com.co/page/34/?_escaped_fragment_=yessy-mena%2Fc23f2&mode=grid"
+    },
+    {
+      "fixture": "Utah Royals FC vs Seattle Reign FC",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T22:30:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source": "https://www.reignfc.com/schedule"
+    }
+  ],
+  "remaining_future_verified": [
+    {
+      "fixture": "Portland Thorns FC vs North Carolina Courage",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T23:00:00-03:00",
+      "venue": "Providence Park, Portland, Oregon",
+      "status": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+      "sources": [
+        {
+          "url": "https://www.thorns.com/schedule",
+          "publisher": "Portland Thorns",
+          "type": "official schedule",
+          "published_date": "unknown",
+          "publication_clock": "unknown"
+        },
+        {
+          "url": "https://www.nccourage.com/news/match-preview-courage-head-to-portland-for-final-road-match-of-2026-season",
+          "publisher": "NC Courage Communications",
+          "type": "official match preview, factual inputs only",
+          "published_date": "2026-10-22",
+          "publication_clock": "unknown"
+        }
+      ],
+      "pre_match_inputs": {
+        "portland": {
+          "record": "12W-8L-8D",
+          "points": 44,
+          "place": 7,
+          "goals_conceded": 41,
+          "sophia_wilson": "suspended, final match of two-game suspension",
+          "pietra_tordin": "8 goals, 9 assists (official NC Courage preview)"
+        },
+        "north_carolina": {
+          "record": "13W-12L-3D",
+          "points": 42,
+          "place": 9,
+          "goals_conceded": 41,
+          "goal_scoring": "four more team goals than Portland (official preview)"
+        },
+        "last_h2h": "2026-04-04 2-2",
+        "official_XI": "not independently verified",
+        "referee": "not independently verified",
+        "weather": "not verified",
+        "travel_fatigue": "not quantitatively verified",
+        "style": "not quantitatively verified"
+      },
+      "data_quality_note": "All information from dated pre-kickoff primary club preview; publication time not provided. Do not treat team-record and one match as calibrated model inputs."
+    }
+  ],
+  "fixture_discrepancy": {
+    "fixture": "Deportivo Árabe Unido vs Tauro FC",
+    "status": "QUARANTINED_CONFLICTING_PRIMARY_SOURCES_NO_FORECAST",
+    "new_evidence": "No dated official amendment resolving conflict verified in this checkpoint",
+    "source": "https://lpf.com.pa/conoce-el-calendario-completo-del-torneo-apertura-2026-de-la-lpf-tigo/"
+  },
+  "engine_checks": {
+    "vmd_world1": "NO EJECUTADO; connected GitHub get_repo size=0 on 2026-10-23",
+    "dgopro": "NO EJECUTADO; fetched challenger/dgopro-3/scripts/analyze_fixture_preview.py; code declares EXPERIMENTAL_UNCALIBRATED and requires independently researched expected metrics",
+    "arb": "NO EJECUTADO; no verified independent runtime",
+    "external_predictions": "NOT COMPARED; internal outputs absent and freeze gate unsatisfied",
+    "odds_used_as_inputs": false
+  },
+  "markets": {
+    "recommendation": "NOT_EVALUABLE",
+    "result_1x2": "NOT_EVALUABLE",
+    "double_chance": "NOT_EVALUABLE",
+    "goals_over_under_1_5_2_5_3_5": "NOT_EVALUABLE",
+    "btts": "NOT_EVALUABLE",
+    "corners_over_under_7_5_to_11_5": "NOT_EVALUABLE",
+    "cards_over_under_4_5_5_5": "NOT_EVALUABLE",
+    "shots": "NOT_EVALUABLE",
+    "shots_on_target": "NOT_EVALUABLE",
+    "player_props": "NOT_EVALUABLE",
+    "exact_score": "NOT_EVALUABLE",
+    "risk": "NOT_EVALUABLE",
+    "dqi": "NOT_CERTIFIED",
+    "igc": "NOT_EVALUABLE"
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "At 23:00 Chile close Portland vs North Carolina pre-match window",
+    "Preserve Panama fixture in quarantine pending authoritative resolution",
+    "Complete global inventory audit, verify VMD and ARB runtimes, obtain calibrated DGOPRO before TOPs"
+  ]
+}
