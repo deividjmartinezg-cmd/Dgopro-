@@ -1,0 +1,110 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T09:59:52-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0901-two-cutoffs-post0859.json",
+  "operation": "TMINUS1_PRIMARY_SOURCE_VALIDATION_1000_WINDOW_NO_FORECASTS",
+  "inventory_previous": 62,
+  "inventory_added": 0,
+  "inventory_total": 62,
+  "closed_previous": 17,
+  "newly_closed_count": 0,
+  "closed_total": 17,
+  "pre_match_remaining": 45,
+  "chronological_future_blocks_counts": [
+    20,
+    20,
+    5
+  ],
+  "new_primary_evidence": [
+    {
+      "fixture": "Cagliari vs Bologna",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://cagliaricalcio.com/en/news/cagliari-bologna-referee-appointment/",
+      "published": "2026-10-21",
+      "facts": {
+        "venue": "Unipol Domus",
+        "referee": "Kevin Bonacina",
+        "assistants": [
+          "Dario Cecconi",
+          "Valerio Vecchi"
+        ],
+        "fourth_official": "Federico La Penna",
+        "VAR": "Manuel Volpi",
+        "AVAR": "Aleandro Di Paolo"
+      },
+      "confirmed_XI": false
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://comofootball.com/en/match-preview-como-1907-v-sassuolo/",
+      "facts": {
+        "venue": "Stadio Giuseppe Sinigaglia",
+        "referee": "Davide Di Marco",
+        "assistants": [
+          "Davide Moro",
+          "Francesco Cortese"
+        ],
+        "home_coach": "Cesc Fabregas",
+        "away_coach": "Alberto Aquilani",
+        "como_named_squad": [
+          "Butez",
+          "Kempf",
+          "Valle",
+          "Ramon",
+          "Perrone",
+          "Milla",
+          "Da Cunha",
+          "Caqueret",
+          "Douvikas",
+          "Paz",
+          "Dossena",
+          "Lahdo",
+          "Kaiki",
+          "Baturina",
+          "Couto"
+        ],
+        "away_tactical_style": "4-3-3 as described by Como official preview"
+      },
+      "confirmed_XI": false,
+      "source_is_official_club_preview": true
+    },
+    {
+      "fixture": "Gaziantep FK vs Erzurumspor FK",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://www.tff.org/Default.aspx?hafta=1&hafta=5&macId=317921&pageId=198",
+      "facts": {
+        "kickoff_local_turkey": "2026-10-24 16:00",
+        "competition": "Trendyol Super Lig",
+        "round": 9
+      },
+      "confirmed_XI": false
+    }
+  ],
+  "temporal_integrity": "All new source facts are pre-kickoff public fixtures/previews; no XI claimed without publication timestamps. 10:00 cutoff not marked closed at 09:59:52.",
+  "engines": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO; repository metadata size=0",
+    "dgopro": "DGOPRO NO EJECUTADO; preview script explicitly uncalibrated",
+    "arb": "ARB NO EJECUTADO",
+    "external_predictions": "NOT COMPARED; no frozen internal forecasts"
+  },
+  "all_markets": "NO EVALUABLE",
+  "dqi": "incomplete",
+  "igc": "NO EVALUABLE",
+  "risk": "NO EVALUABLE",
+  "frozen_predictions_new": 0,
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false,
+  "pending_next": "After 10:00 CL mark these 3 pre-match windows closed; verify next 10:30 fixtures and complete global coverage without duplicating inventory."
+}
