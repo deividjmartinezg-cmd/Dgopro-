@@ -1,0 +1,106 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-23",
+  "checkpoint_chile": "2026-10-23T21:57:00-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-23-2058-evening-kickoffs-and-fixture-integrity.json",
+  "baseline_candidates_from_previous": 87,
+  "inventory_claim": "87 prior candidates; not a fully audited/verified global inventory",
+  "new_candidates": 0,
+  "newly_closed": [
+    {
+      "fixture": "Chicago Stars FC vs Houston Dash",
+      "kickoff_chile": "2026-10-23T21:00:00-03:00",
+      "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-in-chicago-stars-fc"
+    },
+    {
+      "fixture": "Tigre vs Atlético Tucumán",
+      "kickoff_chile": "2026-10-23T21:15:00-03:00",
+      "state": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "source": "https://www.afa.com.ar/es/posts/el-viernes-termina-con-tigre-atletico-tucuman"
+    }
+  ],
+  "remaining_future_verified": [
+    {
+      "fixture": "Necaxa vs FC Juárez",
+      "competition": "Mexico Liga MX Apertura",
+      "kickoff_chile": "2026-10-23T22:00:00-03:00",
+      "source": "https://clubnecaxa.mx/partidos/calendario/APERTURA-2026",
+      "status": "FIXTURE_VERIFIED_TMINUS1_INCOMPLETE_NO_FORECAST"
+    },
+    {
+      "fixture": "Junior FC vs Águilas Doradas",
+      "competition": "Colombia Liga BetPlay II",
+      "kickoff_chile": "2026-10-23T22:10:00-03:00",
+      "source": "https://aguilasdoradas.com.co/page/34/?_escaped_fragment_=yessy-mena%2Fc23f2&mode=grid",
+      "new_evidence": "Official Águilas Doradas site post identifies 23 Oct 2026, 20:10 Colombia, Estadio Romelio Martínez, Barranquilla; publication clock unavailable",
+      "status": "FIXTURE_AND_VENUE_VERIFIED_TMINUS1_INCOMPLETE_NO_FORECAST"
+    },
+    {
+      "fixture": "Utah Royals FC vs Seattle Reign FC",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T22:30:00-03:00",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-utah-royals-fc",
+      "additional_source": "https://plus.nwslsoccer.com/schedule",
+      "status": "FIXTURE_VERIFIED_TMINUS1_INCOMPLETE_NO_FORECAST"
+    },
+    {
+      "fixture": "Portland Thorns FC vs North Carolina Courage",
+      "competition": "NWSL",
+      "kickoff_chile": "2026-10-23T23:00:00-03:00",
+      "source": "https://www.nwslsoccer.com/news/2026-nwsl-schedule-release-how-to-watch-portland-thorns-fc",
+      "status": "FIXTURE_VERIFIED_TMINUS1_INCOMPLETE_NO_FORECAST"
+    }
+  ],
+  "fixture_discrepancy_delta": {
+    "fixture": "Deportivo Árabe Unido vs Tauro FC",
+    "kickoff_chile": "2026-10-23T22:30:00-03:00",
+    "status": "QUARANTINED_CONFLICTING_PRIMARY_SOURCES_NO_FORECAST",
+    "new_evidence": "Official LPF dated 2026-07-06 league schedule article explicitly lists Árabe Unido home vs Tauro FC at 20:30 Panama on 23 Oct 2026; this supports registry candidate, contradicting LPF auto-generated match pages for Alianza vs Árabe Unido and Deportivo Árabe Unido vs Alianza and page sidebar showing Árabe Unido vs UMECIT. No authoritative later dated correction established.",
+    "primary_schedule_article": "https://lpf.com.pa/conoce-el-calendario-completo-del-torneo-apertura-2026-de-la-lpf-tigo/",
+    "conflicting_official_match_pages": [
+      "https://lpf.com.pa/partido/alianza-f-c-vs-deportivo-arabe-unido-3/",
+      "https://lpf.com.pa/partido/deportivo-arabe-unido-vs-alianza-f-c/"
+    ],
+    "action": "Do not replace or release quarantine until dated official amendment or confirmed XI/fixture is obtained"
+  },
+  "engine_checks": {
+    "vmd_world1": "NO EJECUTADO; GitHub get_repo size=0 on 2026-10-23; no executable source confirmed",
+    "dgopro": "NO EJECUTADO; reviewed challenger/dgopro-3/scripts/analyze_fixture_preview.py; script declares EXPERIMENTAL_UNCALIBRATED and requires genuine independently sourced expected metrics",
+    "arb": "NO EJECUTADO; no verified independent runtime",
+    "external_predictions": "NOT COMPARED; internal forecast absent, freeze gate not satisfied",
+    "odds_used_as_inputs": false
+  },
+  "markets": {
+    "recommendation": "NOT_EVALUABLE",
+    "result_1x2": "NOT_EVALUABLE",
+    "double_chance": "NOT_EVALUABLE",
+    "goals_over_under_1_5_2_5_3_5": "NOT_EVALUABLE",
+    "btts": "NOT_EVALUABLE",
+    "corners_over_under_7_5_to_11_5": "NOT_EVALUABLE",
+    "cards_over_under_4_5_5_5": "NOT_EVALUABLE",
+    "shots": "NOT_EVALUABLE",
+    "shots_on_target": "NOT_EVALUABLE",
+    "player_props": "NOT_EVALUABLE",
+    "exact_score": "NOT_EVALUABLE",
+    "risk": "NOT_EVALUABLE",
+    "dqi": "NOT_CERTIFIED",
+    "igc": "NOT_EVALUABLE"
+  },
+  "frozen_predictions": "UNCHANGED",
+  "new_calibrated_forecasts": 0,
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Close remaining kickoff windows in Chile chronological order",
+    "Resolve Panama conflicting official LPF primary sources",
+    "Reconcile next-day Atlante vs Atlético de San Luis kickoff",
+    "Complete global inventory audit and obtain calibrated production model and executable VMD/ARB before certified TOPs"
+  ]
+}
