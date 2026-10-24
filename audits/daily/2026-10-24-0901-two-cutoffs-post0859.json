@@ -1,0 +1,77 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T09:01:22-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0859-peru-three-villa-cutoff-lens-time-correction.json",
+  "previous_commit": "19a7ad40cd5fb441ef09126712dcf4a1ecfc5ac6",
+  "operation": "CLOSE_0900_PREMATCH_WINDOWS_ONLY_NO_NEW_PREDICTIONS",
+  "inventory_previous": 62,
+  "inventory_added": 0,
+  "inventory_total": 62,
+  "closed_previous": 15,
+  "newly_closed_count": 2,
+  "closed_total": 17,
+  "pre_match_remaining": 45,
+  "chronological_future_blocks_counts": [
+    20,
+    20,
+    5
+  ],
+  "newly_closed": [
+    {
+      "fixture": "Rayo Vallecano vs Elche CF",
+      "competition": "LaLiga",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source": "https://iaas-public-front-pro.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "retain_existing_tminus1": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "competition": "Belgium Pro League",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source": "https://www.proleague.be/fr/matchs/saison-2026-2027-jupiler-pro-league-9-royal-antwerp-fc-vs-sporting-charleroi-668",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "retain_existing_tminus1": true,
+      "prediction_generated": false
+    }
+  ],
+  "next_pending": [
+    {
+      "fixture": "Cagliari vs Bologna",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "status": "TMINUS1_PENDING"
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "status": "TMINUS1_PENDING"
+    },
+    {
+      "fixture": "Gaziantep vs Erzurumspor",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "status": "TMINUS1_PENDING"
+    }
+  ],
+  "engines": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO",
+    "dgopro": "DGOPRO NO EJECUTADO",
+    "arb": "ARB NO EJECUTADO",
+    "external_predictions": "NOT COMPARED - no authentic internal frozen forecasts"
+  },
+  "all_markets": "NO EVALUABLE",
+  "dqi": "incomplete",
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false
+}
