@@ -1,0 +1,67 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T10:00:07-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0959-seriea-tff-primary-tminus1.json",
+  "previous_commit": "25bd49a61cde4552f0162527acfb141b6d08bb17",
+  "operation": "CLOSE_1000_PREMATCH_WINDOWS_ONLY_NO_NEW_PREDICTIONS",
+  "inventory_previous": 62,
+  "inventory_added": 0,
+  "inventory_total": 62,
+  "closed_previous": 17,
+  "newly_closed_count": 3,
+  "closed_total": 20,
+  "pre_match_remaining": 42,
+  "chronological_future_blocks_counts": [
+    20,
+    20,
+    2
+  ],
+  "newly_closed": [
+    {
+      "fixture": "Cagliari vs Bologna",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source": "https://cagliaricalcio.com/en/news/cagliari-bologna-referee-appointment/",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "retain_existing_tminus1": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "Como vs Sassuolo",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source": "https://comofootball.com/en/match-preview-como-1907-v-sassuolo/",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "retain_existing_tminus1": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "Gaziantep FK vs Erzurumspor FK",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source": "https://www.tff.org/Default.aspx?hafta=1&hafta=5&macId=317921&pageId=198",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "retain_existing_tminus1": true,
+      "prediction_generated": false
+    }
+  ],
+  "engines": {
+    "vmd_world1": "VMD-World1 NO EJECUTADO",
+    "dgopro": "DGOPRO NO EJECUTADO",
+    "arb": "ARB NO EJECUTADO",
+    "external_predictions": "NOT COMPARED - no authentic frozen internal forecasts"
+  },
+  "all_markets": "NO EVALUABLE",
+  "dqi": "incomplete",
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false,
+  "next_pending": "Verify 10:30 Chile fixtures and first division global coverage; only source-timestamped T-1 inputs."
+}
