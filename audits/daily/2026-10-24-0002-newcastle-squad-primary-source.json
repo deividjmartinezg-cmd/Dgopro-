@@ -37,8 +37,8 @@
       "Callan Prestwidge",
       "Kaiden Walshe"
     ],
-    "provisional_squad_count": 19,
-    "squad_note": "Official article says two players to be omitted; no official starting XI verified"
+    "provisional_squad_count": 20,
+    "squad_note": "20 named in official 22 October squad list; two to be omitted before final 18-player matchday squad. Official XI not verified."
   },
   "source_conflict": {
     "source": "https://thethao247.vn/426-nhan-dinh-newcastle-jets-vs-macarthur-fc-ruot-duoi-nghet-tho-c288-d441598.html",
@@ -67,5 +67,6 @@
     "Verify official starting XI (typically ~60 min before kickoff)",
     "Verify Macarthur primary squad report and referee from official sources",
     "Do not ingest third-party predictions into internal models"
-  ]
+  ],
+  "audit_correction": "Corrected arithmetic: 20 players named, not 19; official source states two to be omitted."
 }
