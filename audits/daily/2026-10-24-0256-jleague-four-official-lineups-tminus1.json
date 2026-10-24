@@ -1,0 +1,208 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T02:56:08-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0200-asia-cutoffs-jleague-tminus1.json",
+  "operation": "incremental_only; append primary-source XI; no prior prediction changed",
+  "inventory_prior": 31,
+  "inventory_new": 0,
+  "inventory_total": 31,
+  "pre_match_remaining_at_checkpoint": 23,
+  "new_primary_verified_lineups": [
+    {
+      "fixture": "Kashima Antlers vs Kashiwa Reysol",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/match/j1/2026/102407/",
+      "source_type": "official J League match sheet",
+      "source_publication_time": "unknown; observed before kickoff at checkpoint",
+      "home_xi": [
+        "HAYAKAWA Tomoki",
+        "KIM Tae Hyeon",
+        "OGAWA Ryoya",
+        "TSUKUI Keisuke",
+        "UEDA Naomichi",
+        "MISAO Kento",
+        "SHIBASAKI Gaku",
+        "HAYASHI Haruki",
+        "MATSUMURA Yuta",
+        "TOKUDA Homare",
+        "SUZUKI Yuma"
+      ],
+      "away_xi": [
+        "NAGAI Kengo",
+        "KOGA Taiyo",
+        "SUGIOKA Daiki",
+        "FURUYA Shusuke",
+        "HARADA Wataru",
+        "ENDO Keita",
+        "KOIZUMI Yoshio",
+        "TOSHIMA Sachiro",
+        "NAKAGAWA Nobuteru",
+        "KAKITA Yuki",
+        "YAMAUCHI Hinata"
+      ],
+      "notes": [
+        "LEO CEARA does not appear among published starters; do not infer injury or bench status without source."
+      ]
+    },
+    {
+      "fixture": "Tokyo Verdy vs Avispa Fukuoka",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/match/j1/2026/102408/",
+      "source_type": "official J League match sheet",
+      "source_publication_time": "unknown; observed before kickoff at checkpoint",
+      "home_xi": [
+        "MATHEUS",
+        "HAYASHI Naoki",
+        "MIZOGUCHI Shuhei",
+        "UCHIDA Yosuke",
+        "CHO Yumin",
+        "SAITO Kosuke",
+        "HIRAKAWA Rei",
+        "FUJIMOTO Kanya",
+        "ARAI Yuta",
+        "KUMATORIYA Issei",
+        "ICHIMI Kazunari"
+      ],
+      "away_xi": [
+        "OBATA Yuma",
+        "OKA Teppei",
+        "TASHIRO Masaya",
+        "MIYA Daiki",
+        "SHIGEMI Masato",
+        "MAEJIMA Yota",
+        "SHIIHASHI Keiya",
+        "HASHIMOTO Yu",
+        "MIKI Tomoya",
+        "MOROOKA Shu",
+        "KITAJIMA Yuji"
+      ]
+    },
+    {
+      "fixture": "Vissel Kobe vs FC Machida Zelvia",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/match/j1/2026/102410/",
+      "source_type": "official J League match sheet",
+      "source_publication_time": "unknown; observed before kickoff at checkpoint",
+      "home_xi": [
+        "GONDA Shuichi",
+        "MATHEUS THULER",
+        "DIEGO",
+        "CAETANO",
+        "SAKAI Gotoku",
+        "NAGATO Katsuya",
+        "GOKE Yuta",
+        "IDEGUCHI Yosuke",
+        "IWAMOTO Yuan",
+        "OSAKO Yuya",
+        "MUTO Yoshinori"
+      ],
+      "away_xi": [
+        "TANI Kosei",
+        "THOMAS OUWEJAN",
+        "SHOJI Gen",
+        "OKAMURA Daihachi",
+        "MOCHIZUKI Henry Heroki",
+        "MAE Hiroyuki",
+        "NETA LAVI",
+        "AKIMOTO Takahiro",
+        "SOMA Yuki",
+        "OGAWA Koki",
+        "NISHIMURA Takuma"
+      ]
+    },
+    {
+      "fixture": "Gamba Osaka vs Kyoto Sanga",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T04:00:00-03:00",
+      "source_url": "https://www.jleague.jp/en/match/j1/2026/102409/",
+      "source_type": "official J League match sheet",
+      "source_publication_time": "unknown; observed before kickoff at checkpoint",
+      "home_xi": [
+        "ICHIMORI Jun",
+        "FUKUOKA Shota",
+        "NAKATANI Shinnosuke",
+        "KISHIMOTO Takeru",
+        "NAKANO Shinya",
+        "SUZUKI Tokuma",
+        "MITO Rin",
+        "SUMI Kohshiro",
+        "USAMI Takashi",
+        "ISSAM JEBALI",
+        "YAMASHITA Ryoya"
+      ],
+      "away_xi": [
+        "HALLS",
+        "NAGATA Kodai",
+        "ISHIDA Yusuke",
+        "WEVERTON",
+        "SUZUKI Yoshinori",
+        "FUKUOKA Shimpei",
+        "MOROOKA Hiroto",
+        "SATO Kyo",
+        "NAKANO Ryuma",
+        "ARAI Haruki",
+        "ALEX SOUZA"
+      ],
+      "notes": [
+        "RAFAEL ELIAS not among published starters; bench/medical status not inferred."
+      ]
+    }
+  ],
+  "other_03_match": {
+    "fixture": "Western Sydney Wanderers vs Auckland FC",
+    "kickoff_chile": "2026-10-24T03:00:00-03:00",
+    "official_xi_status": "not primary verified",
+    "secondary_page": "https://www.fotmob.com/matches/western-sydney-wanderers-fc-vs-auckland-fc/onq544ub",
+    "secondary_page_caveat": "Lineups(Last Starting XI) explicitly NOT today's confirmed XI; excluded as T-1 XI"
+  },
+  "data_integrity": {
+    "retrieval_time_before_kickoff": true,
+    "source_publication_timestamp_unknown": true,
+    "verified_xi_not_equivalent_to_complete_T_minus_1": true,
+    "odds_inputs_used": false,
+    "post_kickoff_leakage_prevented": true
+  },
+  "engines": {
+    "vmd_world1": {
+      "status": "VMD-World1 NO EJECUTADO",
+      "reason": "GitHub contents 404 repository empty at this checkpoint"
+    },
+    "dgopro": {
+      "status": "NO EJECUTADO",
+      "script": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "script_sha": "8e72a127168177b24b5b38f3577d42e030d63425",
+      "declared": "EXPERIMENTAL_UNCALIBRATED"
+    },
+    "arb": {
+      "status": "NO EJECUTADO"
+    },
+    "external": {
+      "status": "NOT_COMPARED",
+      "reason": "no authentic internally frozen predictions"
+    }
+  },
+  "market_status": "ALL_NOT_EVALUABLE_UNCALIBRATED",
+  "prediction_freeze_new": "NONE",
+  "dqi": "INCOMPLETE_NOT_NUMERIC",
+  "igc": "NOT_EVALUABLE",
+  "risk": "NOT_EVALUABLE",
+  "top_certified": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Close four 03:00 fixtures at kickoff, not before",
+    "Check Western Sydney/Auckland official lineup if still pre-kickoff",
+    "At 04:00 close Gamba/Kyoto",
+    "Expand first-division global inventory beyond 31",
+    "Independent calibration/backtest and ARB runtime"
+  ]
+}
