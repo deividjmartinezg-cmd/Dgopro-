@@ -1,0 +1,71 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T00:02:24-03:00",
+  "previous_checkpoint": "audits/daily/2026-10-24-0002-world-fixtures-initial.json",
+  "fixture": "Newcastle Jets vs Macarthur Bulls",
+  "kickoff_chile": "2026-10-24T01:00:00-03:00",
+  "competition": "Australia A-League Men",
+  "new_primary_source": {
+    "url": "https://newcastlejetsfc.com.au/news/squad-news-alm-mw2/",
+    "publisher": "Newcastle Jets Media",
+    "published_date": "2026-10-22",
+    "published_time": "not specified",
+    "type": "official squad news"
+  },
+  "confirmed_squad_news": {
+    "coach": "Mark Milligan",
+    "returns_to_squad": [
+      "Alexander Badolato (first squad after 294 days; ACL recovery)"
+    ],
+    "new_possible_debut": [
+      "Nicholas Badolato"
+    ],
+    "unavailable_explicit_injuries": [
+      "Will Kennedy (ankle)",
+      "Oscar Fryer (ACL)",
+      "Max Cooper (foot)"
+    ],
+    "additional_unavailable": [
+      "Alex Nassiep",
+      "Alexandro Nunes",
+      "Oscar Gonzalez",
+      "Jake Goodwin",
+      "Angus Reid",
+      "Oliver Cockle",
+      "Archie Brideson",
+      "Callan Prestwidge",
+      "Kaiden Walshe"
+    ],
+    "provisional_squad_count": 19,
+    "squad_note": "Official article says two players to be omitted; no official starting XI verified"
+  },
+  "source_conflict": {
+    "source": "https://thethao247.vn/426-nhan-dinh-newcastle-jets-vs-macarthur-fc-ruot-duoi-nghet-tho-c288-d441598.html",
+    "claim": "Alex Badolato unavailable with ACL injury",
+    "official_resolution": "Newcastle Jets official 22 Oct confirms Alex Badolato in match squad; secondary injury claim is outdated or incorrect; do not use secondary as T-1 input"
+  },
+  "engine_checks": {
+    "vmd_world1": "NO EJECUTADO; repo size 0",
+    "dgopro": "NO EJECUTADO; experimental script no calibration",
+    "arb": "NO EJECUTADO",
+    "external_predictions": "NOT COMPARED; freeze gate unmet"
+  },
+  "markets": "NOT_EVALUABLE_UNCALIBRATED",
+  "dqi": "INCOMPLETE_NO_NUMERIC_SCORE",
+  "igc": "NOT_EVALUABLE",
+  "risk": "NOT_EVALUABLE",
+  "predictions_frozen": "NONE_NEW",
+  "top_counts": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Verify official starting XI (typically ~60 min before kickoff)",
+    "Verify Macarthur primary squad report and referee from official sources",
+    "Do not ingest third-party predictions into internal models"
+  ]
+}
