@@ -1,0 +1,708 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T06:01:28-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0457-scotland-four-and-villa-tminus1.json",
+  "previous_commit": "04002d2b1490cd18fd8ba39379725cd48a71958c",
+  "operation": "INCREMENTAL_OFFICIAL_TFF_JPL_FIXTURE_EXPANSION_AND_LENS_PRIMARY_TMINUS1_NO_MODEL_EXECUTION",
+  "inventory_previous": 45,
+  "inventory_added": 7,
+  "inventory_total": 52,
+  "closed_count_unchanged": 13,
+  "pre_match_remaining": 39,
+  "newly_closed_count": 0,
+  "new_verified_fixture_candidates": [
+    {
+      "fixture": "Eyüpspor vs Kasımpaşa",
+      "competition": "Turkey Süper Lig",
+      "kickoff_chile": "2026-10-24T07:30:00-03:00",
+      "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+      "source_note": "TFF 2026/27 matchweek 9 24.10 13:30 TRT",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "source_note": "Official JPL matchweek 9 24.10 14:00 CEST; home side confirmed from schedule/venue; match page has contradictory title",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Gaziantep FK vs Erzurumspor FK",
+      "competition": "Turkey Süper Lig",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+      "source_note": "TFF 2026/27 matchweek 9 24.10 16:00 TRT",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "OH Leuven vs Lommel SK",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "source_note": "Official JPL matchweek 9 24.10 16:15 CEST",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+      "competition": "Turkey Süper Lig",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+      "source_note": "TFF 2026/27 matchweek 9 24.10 19:00 TRT",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "KVC Westerlo vs SK Beveren",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+      "origin": "new_0601",
+      "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+      "official_fixture_verified": true,
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    }
+  ],
+  "chronological_future_blocks": [
+    {
+      "block": 1,
+      "count": 20,
+      "fixtures": [
+        {
+          "fixture": "Eyüpspor vs Kasımpaşa",
+          "competition": "Turkey Süper Lig",
+          "kickoff_chile": "2026-10-24T07:30:00-03:00",
+          "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+          "source_note": "TFF 2026/27 matchweek 9 24.10 13:30 TRT",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Aston Villa vs Manchester City",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T08:30:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Rayo Vallecano vs Elche CF",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T09:00:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T09:00:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 14:00 CEST; home side confirmed from schedule/venue; match page has contradictory title",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Cagliari vs Bologna",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T10:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Como vs Sassuolo",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T10:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Gaziantep FK vs Erzurumspor FK",
+          "competition": "Turkey Süper Lig",
+          "kickoff_chile": "2026-10-24T10:00:00-03:00",
+          "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+          "source_note": "TFF 2026/27 matchweek 9 24.10 16:00 TRT",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Augsburg vs Union Berlin",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "FC Köln vs Schalke 04",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Mainz 05 vs Werder Bremen",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Paderborn 07 vs Hamburger SV",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "RB Leipzig vs SV Elversberg",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Arsenal vs Everton",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Coventry City vs Fulham",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Dundee United vs Aberdeen",
+          "competition": "Scotland Premiership",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://spfl.co.uk/clubs/dundee-united/fixtures",
+          "origin": "new_0457",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Falkirk vs Kilmarnock",
+          "competition": "Scotland Premiership",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://spfl.co.uk/clubs/falkirk/fixtures",
+          "origin": "new_0457",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Rangers vs St. Johnstone",
+          "competition": "Scotland Premiership",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://spfl.co.uk/clubs/rangers/fixtures",
+          "origin": "new_0457",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "St. Mirren vs Dundee",
+          "competition": "Scotland Premiership",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://spfl.co.uk/clubs/st-mirren/fixtures",
+          "origin": "new_0457",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "OH Leuven vs Lommel SK",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T11:15:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 16:15 CEST",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Racing Santander vs Espanyol",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T11:15:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "count": 19,
+      "fixtures": [
+        {
+          "fixture": "Deportes La Serena vs Deportes Concepción",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T12:30:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Napoli vs Roma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+          "competition": "Turkey Süper Lig",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+          "source_note": "TFF 2026/27 matchweek 9 24.10 19:00 TRT",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Chelsea vs Tottenham Hotspur",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Valencia vs Villarreal",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "KVC Westerlo vs SK Beveren",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "CF Montréal vs Nashville SC",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T14:30:00-03:00",
+          "source_url": "https://es.mlssoccer.com/competencias/mls-regular-season/2026/partidos/mtlvsnsh-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T15:00:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Gil Vicente FC vs FC Porto",
+          "competition": "Portugal Primeira Liga",
+          "kickoff_chile": "2026-10-24T15:30:00-03:00",
+          "source_url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/9/4",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Lazio vs Parma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T15:45:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "RC Lens vs Paris FC",
+          "competition": "France Ligue 1",
+          "kickoff_chile": "2026-10-24T15:45:00-03:00",
+          "source_url": "https://ligue1.com/fr/articles/l1_article_5797-",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Internacional vs Botafogo",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T16:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/internacional-x-botafogo/832207?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Red Bull New York vs Inter Miami CF",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/rbnyvsmia-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Vasco da Gama vs Corinthians",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/vasco-da-gama-saf-x-corinthians/832202?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "León vs Toluca",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "O'Higgins vs Cobresal",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/ohiggins-cobresal-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Monterrey vs Guadalajara",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T22:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    }
+  ],
+  "tminus1_new": [
+    {
+      "fixture": "RC Lens vs Paris FC",
+      "kickoff_chile": "2026-10-24T15:45:00-03:00",
+      "source_url": "https://ligue1.com/en/articles/l1_article_5732-",
+      "source_published": "2026-10-20T20:30:00+02:00",
+      "source_type": "official Ligue 1 editorial matchday-8 pre-match brief",
+      "league_position_lens": 8,
+      "league_position_paris_fc": 3,
+      "lens_last_two_league": "2 wins",
+      "lens_goals_for_season_to_date": 14,
+      "paris_fc_away_last_three": "1 win 1 draw 1 loss",
+      "paris_fc_away_goals_last_three": 3,
+      "lens_absences_listed": [
+        "Nawrocki",
+        "Sima",
+        "Ganiou"
+      ],
+      "lens_return_listed": [
+        "Udol",
+        "T. Hazard"
+      ],
+      "lens_doubt": [
+        "Gradit"
+      ],
+      "paris_fc_absences_listed": [
+        "Sangui",
+        "Ikoné"
+      ],
+      "limitations": [
+        "official starting XI not yet verified",
+        "referee/weather/fatigue not verified",
+        "injury statuses may change before kickoff",
+        "not a simulated or calibrated output"
+      ],
+      "prediction_frozen": false
+    }
+  ],
+  "new_market_rows": [
+    {
+      "fixture": "Eyüpspor vs Kasımpaşa",
+      "kickoff_chile": "2026-10-24T07:30:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "Royal Antwerp FC vs Sporting Charleroi",
+      "kickoff_chile": "2026-10-24T09:00:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "Gaziantep FK vs Erzurumspor FK",
+      "kickoff_chile": "2026-10-24T10:00:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "OH Leuven vs Lommel SK",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    },
+    {
+      "fixture": "KVC Westerlo vs SK Beveren",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "markets": {
+        "recommendation": "N/E",
+        "probability_calibrated": "N/E",
+        "result_1x2": "N/E",
+        "double_chance_1X_X2_12": "N/E",
+        "goals_over_under_1.5_2.5_3.5": "N/E",
+        "btts_yes_no": "N/E",
+        "corners_over_under_7.5_8.5_9.5_10.5_11.5": "N/E",
+        "cards_over_under_4.5_5.5": "N/E",
+        "shots": "N/E",
+        "shots_on_target": "N/E",
+        "player_props": "N/E",
+        "likely_score": "N/E",
+        "risk": "N/E",
+        "IGC": "N/E"
+      },
+      "DQI": "PARTIAL; fixture official, inputs incomplete",
+      "VMD": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO",
+      "ARB": "NO EJECUTADO",
+      "external_prediction_comparison": "NOT PERFORMED; no frozen internal prediction",
+      "consensus": "N/E"
+    }
+  ],
+  "runtime": {
+    "vmd_world1": "NO EJECUTADO: repository size 0; no code/runtime",
+    "dgopro": "NO EJECUTADO: experimental preview code inspected; explicitly uncalibrated",
+    "arb": "NO EJECUTADO: independent runtime not verified",
+    "external_predictions": "NOT COMPARED: no frozen authentic internal predictions",
+    "market_probabilities": "N/E",
+    "DQI": "PARTIAL; NOT CERTIFIED",
+    "IGC": "N/E",
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "integrity": {
+    "no_odds_as_inputs": true,
+    "no_future_leakage": true,
+    "previous_predictions_modified": false,
+    "source_snapshots": [
+      "TFF 2026/27 week 9 indexed fixture list retrieved 2026-10-24 prior to all kickoffs",
+      "JPL official calendar retrieved 2026-10-24 prior to all kickoffs",
+      "Ligue1 2026-10-20 pre-match Lens vs Paris FC brief"
+    ],
+    "timezone_conversion": "Istanbul UTC+3 => Santiago UTC-3 (-6 hours); Brussels CEST UTC+2 => Santiago UTC-3 (-5 hours) on 2026-10-24",
+    "known_source_discrepancy": "Royal Antwerp vs Charleroi individual match page title reverses order; official JPL calendar and Bosuilstadion identify Antwerp home; retain source flag",
+    "unverified_mexico": [
+      "León vs Toluca",
+      "Monterrey vs Guadalajara"
+    ],
+    "coverage": "partial worldwide; candidate fixtures do not imply certified pre-match predictions"
+  }
+}
