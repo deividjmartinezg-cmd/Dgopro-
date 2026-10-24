@@ -1,0 +1,512 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T11:04:52-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-1000-three-seriea-tff-cutoffs.json",
+  "previous_commit": "d35222b395ce64b72fadade08044e1bf2ca4304f",
+  "operation": "INCREMENTAL_CLOSE_1030_1100_ADD_FOUR_OFFICIAL_AUSTRIA_NORWAY_NO_PREDICTIONS",
+  "inventory_previous": 62,
+  "inventory_added": 4,
+  "inventory_total": 66,
+  "closed_previous": 20,
+  "newly_closed_count": 11,
+  "closed_total": 31,
+  "pre_match_remaining": 35,
+  "chronological_future_blocks_counts": [
+    20,
+    15
+  ],
+  "newly_closed": [
+    {
+      "fixture": "Augsburg vs Union Berlin",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "FC Köln vs Schalke 04",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Mainz 05 vs Werder Bremen",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Paderborn 07 vs Hamburger SV",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "RB Leipzig vs SV Elversberg",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T10:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Arsenal vs Everton",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Coventry City vs Fulham",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Dundee United vs Aberdeen",
+      "competition": "Scotland Premiership",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://spfl.co.uk/league/premiership/fixtures",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Falkirk vs Kilmarnock",
+      "competition": "Scotland Premiership",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://spfl.co.uk/league/premiership/fixtures",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "Rangers vs St. Johnstone",
+      "competition": "Scotland Premiership",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://spfl.co.uk/league/premiership/fixtures",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    },
+    {
+      "fixture": "St. Mirren vs Dundee",
+      "competition": "Scotland Premiership",
+      "kickoff_chile": "2026-10-24T11:00:00-03:00",
+      "source_url": "https://spfl.co.uk/league/premiership/fixtures",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prediction_generated": false,
+      "prior_tminus1_preserved": true
+    }
+  ],
+  "added_fixtures": [
+    {
+      "fixture": "TSV Hartberg vs Wolfsberger AC",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "kickoff_local": "2026-10-24T17:00:00+02:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "source_published": "2026-10-20",
+      "tminus1": {
+        "referee": "Josef Spurny",
+        "hartberg": "3 home league games unbeaten (2W,1D); no clean sheet in first 9 league games",
+        "wac": "2 losses in 10 league away meetings with Hartberg (historical)"
+      },
+      "tminus1_kind": "official league pre-match statistics; Opta by Stats Perform",
+      "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "WSG Tirol vs Grazer AK",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "kickoff_local": "2026-10-24T17:00:00+02:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "source_published": "2026-10-20",
+      "tminus1": {
+        "referee": "Stefan Macanovic",
+        "wsg": "9 set-piece goals in first 9 league matches",
+        "gak": "7 goals in first 9 league matches"
+      },
+      "tminus1_kind": "official league pre-match statistics; Opta by Stats Perform",
+      "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "HamKam vs Rosenborg",
+      "competition": "Norway Eliteserien",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "kickoff_local": "2026-10-24T18:00:00+02:00",
+      "source_url": "https://www.eliteserien.no/terminliste",
+      "tminus1": {
+        "venue": "Briskeby"
+      },
+      "tminus1_kind": "official fixture only",
+      "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "SK Rapid Wien vs Austria Lustenau",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T14:30:00-03:00",
+      "kickoff_local": "2026-10-24T19:30:00+02:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "source_published": "2026-10-20",
+      "tminus1": {
+        "referee": "Walter Altmann",
+        "rapid": "8 wins in first 9 league games; 5 home wins from 5",
+        "lustenau": "11 league away games without win"
+      },
+      "tminus1_kind": "official league pre-match statistics; Opta by Stats Perform",
+      "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+      "confirmed_xi": false,
+      "prediction_frozen": false
+    }
+  ],
+  "additional_fixture_found_after_cutoff": {
+    "fixture": "Bodø/Glimt vs Vålerenga",
+    "competition": "Norway Eliteserien",
+    "kickoff_chile": "2026-10-24T11:00:00-03:00",
+    "source_url": "https://www.eliteserien.no/terminliste",
+    "state": "DISCOVERED_AFTER_KICKOFF_EXCLUDED_FROM_PREMATCH_INVENTORY",
+    "not_counted_in_inventory": true
+  },
+  "tminus1_new_existing": [
+    {
+      "fixture": "OH Leuven vs Lommel SK",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "source_url": "https://www.proleague.be/fr/matchs/saison-2026-2027-jupiler-pro-league-9-oh-leuven-vs-lommel-sk-673",
+      "observed_at_chile": "2026-10-24T11:04:52-03:00",
+      "source_kind": "official Belgian Pro League pre-match page",
+      "facts": {
+        "referee": "Jan Boterberg",
+        "OH_Leuven": {
+          "goals_for": 6,
+          "goals_against": 14,
+          "shots_per_game": 8.5,
+          "shots_on_target_per_game": 2.4,
+          "corners_per_game": 3.4
+        },
+        "Lommel_SK": {
+          "goals_for": 9,
+          "goals_against": 9,
+          "shots_per_game": 8.4,
+          "shots_on_target_per_game": 3,
+          "corners_per_game": 3.8
+        }
+      },
+      "confirmed_xi": false,
+      "integrity_note": "Official match page search snapshot shows 16:15 on 24 Oct; interpreted as Belgium CEST -> 11:15 CL, conflicting secondary provider times require monitoring; no market inference."
+    }
+  ],
+  "engines": {
+    "vmd_world1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "status": "VMD-World1 NO EJECUTADO",
+      "verification": "GitHub repository size 0; contents API 404 empty repository"
+    },
+    "dgopro": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "status": "DGOPRO NO EJECUTADO",
+      "verification": "challenger/dgopro-3/scripts/analyze_fixture_preview.py explicitly labels outputs EXPERIMENTAL_UNCALIBRATED; no valid calibrated run"
+    },
+    "arb": {
+      "status": "ARB NO EJECUTADO",
+      "verification": "No independent executable ARB runtime verified"
+    },
+    "external": {
+      "status": "NOT COMPARED",
+      "reason": "No authentic frozen internal predictive outputs"
+    }
+  },
+  "unified_market_rows_new": [
+    {
+      "fixture": "TSV Hartberg vs Wolfsberger AC",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "partial; insufficient for calibration",
+      "uncertainty": "no authentic predictive engine run"
+    },
+    {
+      "fixture": "WSG Tirol vs Grazer AK",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "partial; insufficient for calibration",
+      "uncertainty": "no authentic predictive engine run"
+    },
+    {
+      "fixture": "HamKam vs Rosenborg",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "partial; insufficient for calibration",
+      "uncertainty": "no authentic predictive engine run"
+    },
+    {
+      "fixture": "SK Rapid Wien vs Austria Lustenau",
+      "kickoff_chile": "2026-10-24T14:30:00-03:00",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "partial; insufficient for calibration",
+      "uncertainty": "no authentic predictive engine run"
+    }
+  ],
+  "matrix_new": [
+    {
+      "fixture": "TSV Hartberg vs Wolfsberger AC",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; no markets",
+      "ARB": "NO EJECUTADO",
+      "external": "not compared",
+      "consensus": "not assessable",
+      "state": "T-1 partial"
+    },
+    {
+      "fixture": "WSG Tirol vs Grazer AK",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; no markets",
+      "ARB": "NO EJECUTADO",
+      "external": "not compared",
+      "consensus": "not assessable",
+      "state": "T-1 partial"
+    },
+    {
+      "fixture": "HamKam vs Rosenborg",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; no markets",
+      "ARB": "NO EJECUTADO",
+      "external": "not compared",
+      "consensus": "not assessable",
+      "state": "T-1 partial"
+    },
+    {
+      "fixture": "SK Rapid Wien vs Austria Lustenau",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; no markets",
+      "ARB": "NO EJECUTADO",
+      "external": "not compared",
+      "consensus": "not assessable",
+      "state": "T-1 partial"
+    }
+  ],
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false,
+  "next_pending": "11:15 OH Leuven-Lommel and Racing Santander-Espanyol; 11:30 FC Utrecht-PEC Zwolle; continue global primary fixture discovery and timestamped T-1 only"
+}
