@@ -1,0 +1,356 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T02:00:31-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0100-newcastle-cutoff-liverpool-date-resolution.json",
+  "operation": "incremental_only_no_existing_predictions_modified",
+  "inventory_prior": 31,
+  "inventory_new": 0,
+  "inventory_total": 31,
+  "cutoff_delta": [
+    {
+      "fixture": "Bucheon FC 1995 vs Gwangju FC",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "FC Anyang vs Jeonbuk Hyundai",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "FC Seoul vs Gangwon FC",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "Gimcheon Sangmu vs Daejeon Hana Citizen",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "Incheon United vs Jeju SK",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "Ulsan HD vs Pohang Steelers",
+      "competition": "K League 1",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    },
+    {
+      "fixture": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "competition": "Japan J1 League",
+      "kickoff_chile": "2026-10-24T02:00:00-03:00",
+      "status": "CUTOFF_REACHED_NO_NEW_PREMATCH_PREDICTIONS",
+      "prior_T_minus_1_preserved": true
+    }
+  ],
+  "cutoff_sources": [
+    {
+      "url": "https://portal.kleague.com/main/schedule/calendar.do",
+      "role": "official K League schedule"
+    },
+    {
+      "url": "https://www.jleague.jp/en/j1/match/",
+      "role": "official J League schedule, 14:00 JST Hiroshima fixture"
+    }
+  ],
+  "pre_match_remaining_at_checkpoint": 23,
+  "next_window_03_chile": [
+    {
+      "fixture": "Kashima Antlers vs Kashiwa Reysol",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "T_minus_1": {
+        "source_urls": [
+          "https://www.jleague.jp/en/club/kashima/",
+          "https://www.jleague.jp/en/club/kashiwa/"
+        ],
+        "season_record": {
+          "kashima": "6W 2D 3L",
+          "kashiwa": "7W 1D 3L"
+        },
+        "goals_per_match": {
+          "kashima": 2.1,
+          "kashiwa": 2
+        },
+        "average_possession_pct": {
+          "kashima": 54.9,
+          "kashiwa": 56.3
+        },
+        "last_3_league_matches": {
+          "kashima": [
+            {
+              "date": "2026-10-21",
+              "score": "2-2 Kyoto",
+              "shots": 18,
+              "corners": 5
+            },
+            {
+              "date": "2026-10-17",
+              "score": "2-0 Nagasaki",
+              "shots": 6,
+              "corners": 2
+            },
+            {
+              "date": "2026-10-09",
+              "score": "2-0 Gamba Osaka",
+              "shots": 13,
+              "corners": 1
+            }
+          ],
+          "kashiwa": [
+            {
+              "date": "2026-10-21",
+              "score": "0-0 FC Tokyo",
+              "shots": 11,
+              "corners": 5
+            },
+            {
+              "date": "2026-10-17",
+              "score": "1-3 Nagoya",
+              "shots": 14,
+              "corners": 7
+            },
+            {
+              "date": "2026-10-09",
+              "score": "4-2 Vissel Kobe",
+              "shots": 16,
+              "corners": 4
+            }
+          ]
+        },
+        "coaches": {
+          "kashima": "Toru Oniki",
+          "kashiwa": "Ricardo Rodriguez"
+        },
+        "lineup": "not primary verified",
+        "availability": "not primary verified"
+      }
+    },
+    {
+      "fixture": "Tokyo Verdy vs Avispa Fukuoka",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "T_minus_1": {
+        "source_urls": [
+          "https://www.jleague.jp/en/club/tokyov/",
+          "https://www.jleague.jp/en/club/fukuoka/"
+        ],
+        "season_record": {
+          "tokyo_verdy": "0W 5D 6L",
+          "avispa_fukuoka": "2W 1D 8L"
+        },
+        "goals_per_match": {
+          "tokyo_verdy": 0.5,
+          "avispa_fukuoka": 1.1
+        },
+        "average_possession_pct": {
+          "tokyo_verdy": 40.9,
+          "avispa_fukuoka": 43.1
+        },
+        "last_3_league_matches": {
+          "tokyo_verdy": [
+            {
+              "date": "2026-10-21",
+              "score": "2-2 Yokohama F Marinos",
+              "shots": 12,
+              "corners": 6
+            },
+            {
+              "date": "2026-10-17",
+              "score": "0-4 FC Tokyo",
+              "shots": 0,
+              "corners": 1
+            },
+            {
+              "date": "2026-10-11",
+              "score": "0-2 Hiroshima",
+              "shots": 7,
+              "corners": 1
+            }
+          ],
+          "avispa_fukuoka": [
+            {
+              "date": "2026-10-21",
+              "score": "1-2 Gamba Osaka",
+              "shots": 15,
+              "corners": 3
+            },
+            {
+              "date": "2026-10-18",
+              "score": "0-3 Machida",
+              "shots": 6,
+              "corners": 5
+            },
+            {
+              "date": "2026-10-10",
+              "score": "2-1 Okayama",
+              "shots": 12,
+              "corners": 2
+            }
+          ]
+        },
+        "coaches": {
+          "tokyo_verdy": "Naoki Soma",
+          "avispa_fukuoka": "Shinya Tsukahara"
+        },
+        "lineup": "not primary verified",
+        "availability": "not primary verified"
+      }
+    },
+    {
+      "fixture": "Vissel Kobe vs FC Machida Zelvia",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "T_minus_1": {
+        "source_urls": [
+          "https://www.jleague.jp/en/club/kobe/",
+          "https://www.jleague.jp/en/club/machida/"
+        ],
+        "last_3_league_matches": {
+          "vissel_kobe": [
+            {
+              "date": "2026-10-21",
+              "score": "1-2 Kawasaki Frontale",
+              "shots": 8,
+              "corners": 2
+            },
+            {
+              "date": "2026-10-18",
+              "score": "3-0 Okayama",
+              "shots": 20,
+              "corners": 8
+            },
+            {
+              "date": "2026-10-09",
+              "score": "2-4 Kashiwa",
+              "shots": 14,
+              "corners": 2
+            }
+          ],
+          "machida": [
+            {
+              "date": "2026-10-21",
+              "score": "5-0 Shimizu",
+              "shots": 23,
+              "corners": 5
+            },
+            {
+              "date": "2026-10-18",
+              "score": "3-0 Avispa",
+              "shots": 8,
+              "corners": 1
+            },
+            {
+              "date": "2026-10-10",
+              "score": "1-0 Kyoto",
+              "shots": 10,
+              "corners": 10
+            }
+          ]
+        },
+        "lineup": "not primary verified",
+        "availability": "not primary verified"
+      }
+    },
+    {
+      "fixture": "Western Sydney Wanderers vs Auckland FC",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "T_minus_1": {
+        "status": "no new primary input in this checkpoint",
+        "prior_records_preserved": true
+      }
+    }
+  ],
+  "upcoming_04_chile": [
+    {
+      "fixture": "Gamba Osaka vs Kyoto Sanga",
+      "kickoff_chile": "2026-10-24T04:00:00-03:00",
+      "source_urls": [
+        "https://www.jleague.jp/en/j1/match/",
+        "https://www.jleague.jp/en/club/gosaka/"
+      ],
+      "gamba_last_3_league": [
+        {
+          "date": "2026-10-21",
+          "score": "2-1 Avispa",
+          "shots": 7,
+          "corners": 6
+        },
+        {
+          "date": "2026-10-17",
+          "score": "2-2 Shimizu",
+          "shots": 12,
+          "corners": 4
+        },
+        {
+          "date": "2026-10-09",
+          "score": "0-2 Kashima",
+          "shots": 11,
+          "corners": 4
+        }
+      ],
+      "lineups": "unverified"
+    }
+  ],
+  "data_integrity_notes": [
+    "All newly added team statistics are observed historical results before the 03:00/04:00 CL kickoffs, not VMD simulated distributions or calibrated DGOPRO forecasts.",
+    "For matches at 02:00 CL, historical source material remains for retrospective audit only; no post-kickoff prediction created.",
+    "21 Oct J League records show red cards for both Hiroshima and Shimizu; player identities and resulting suspension eligibility not confirmed; no availability inference.",
+    "Sources are official league club profiles and schedule. Precise retrieval checkpoint is recorded; source publication timestamps are generally not stated.",
+    "No bookmaker odds used."
+  ],
+  "engine_verification": {
+    "vmd_world1": {
+      "repo": "deividjmartinezg-cmd/VMD-World1",
+      "repo_size_kb": 0,
+      "status": "VMD-World1 NO EJECUTADO"
+    },
+    "dgopro": {
+      "repo": "deividjmartinezg-cmd/Dgopro-",
+      "branch": "challenger/dgopro-3",
+      "script": "scripts/analyze_fixture_preview.py",
+      "script_sha": "8e72a127168177b24b5b38f3577d42e030d63425",
+      "script_declares": "EXPERIMENTAL_UNCALIBRATED",
+      "status": "NO EJECUTADO"
+    },
+    "arb": {
+      "status": "NO EJECUTADO",
+      "runtime_not_verified": true
+    },
+    "external": {
+      "status": "NOT_COMPARED",
+      "reason": "no authentic internally frozen forecasts"
+    }
+  },
+  "market_status": "ALL_MARKETS_NOT_EVALUABLE_UNCALIBRATED",
+  "prediction_freeze_new": "NONE",
+  "dqi": "INCOMPLETE_NOT_NUMERIC",
+  "igc": "NOT_EVALUABLE",
+  "risk": "NOT_EVALUABLE",
+  "top_certified": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Primary lineups/availability for 03:00 CL matches before kickoff",
+    "03:00 and 04:00 cutoff checkpoints",
+    "Expand worldwide inventory beyond initial 31",
+    "DGOPRO calibration and independent ARB validation"
+  ]
+}
