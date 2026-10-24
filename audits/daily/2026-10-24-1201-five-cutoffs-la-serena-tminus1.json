@@ -1,0 +1,2363 @@
+{
+  "schema": "dgopro_hourly_checkpoint_v4",
+  "date_chile": "2026-10-24",
+  "timezone": "America/Santiago",
+  "checkpoint_chile": "2026-10-24T12:01:07-03:00",
+  "previous_checkpoint": "audits/daily/2026-10-24-1105-eleven-cutoffs-austria-norway-four.json",
+  "previous_commit": "4396783bbc7dc79aff0846a938e3289ec5ad6d3a",
+  "operation": "CLOSE_FIVE_PREMATCH_WINDOWS_VERIFY_CHILE_REFEREE_PRESERVE_TMINUS1",
+  "inventory_previous": 66,
+  "inventory_added": 0,
+  "inventory_total": 66,
+  "closed_previous": 31,
+  "newly_closed_count": 5,
+  "closed_total": 36,
+  "pre_match_remaining": 30,
+  "chronological_future_blocks": [
+    {
+      "block": 1,
+      "count": 20,
+      "fixtures": [
+        {
+          "fixture": "Deportes La Serena vs Deportes Concepción",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T12:30:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "HamKam vs Rosenborg",
+          "competition": "Norway Eliteserien",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://www.eliteserien.no/terminliste",
+          "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Napoli vs Roma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+          "competition": "Turkey Süper Lig",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+          "source_note": "TFF 2026/27 matchweek 9 24.10 19:00 TRT",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Chelsea vs Tottenham Hotspur",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Valencia vs Villarreal",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "KVC Westerlo vs SK Beveren",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+          "competition": "Belgium Jupiler Pro League",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://www.proleague.be/fr/jpl-calendar",
+          "source_note": "Official JPL matchweek 9 24.10 18:45 CEST",
+          "origin": "new_0601",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "RC Lens vs Paris FC",
+          "competition": "France Ligue 1",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://ligue1.com/fr/articles/l1_article_5797-",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Willem II vs SC Cambuur",
+          "competition": "Netherlands Eredivisie",
+          "kickoff_chile": "2026-10-24T13:45:00-03:00",
+          "source_url": "https://ticketshop.willem-ii.nl/",
+          "source_note": "Official Willem II ticket shop: 24 Oct 18:45 CEST",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "CF Montréal vs Nashville SC",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T14:30:00-03:00",
+          "source_url": "https://es.mlssoccer.com/competencias/mls-regular-season/2026/partidos/mtlvsnsh-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "SK Rapid Wien vs Austria Lustenau",
+          "competition": "Austria Bundesliga",
+          "kickoff_chile": "2026-10-24T14:30:00-03:00",
+          "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+          "state": "FIXTURE_VERIFIED_TMINUS1_PARTIAL_NO_FORECAST",
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Banfield vs Lanús",
+          "competition": "Argentina Liga Profesional Clausura",
+          "kickoff_chile": "2026-10-24T14:45:00-03:00",
+          "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "source_note": "AFA 24 Oct 14:45 Argentina",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Sport Huancayo vs Alianza Atlético",
+          "competition": "Peru Liga 1 Clausura jornada 13",
+          "kickoff_chile": "2026-10-24T14:45:00-03:00",
+          "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T15:00:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Gil Vicente FC vs FC Porto",
+          "competition": "Portugal Primeira Liga",
+          "kickoff_chile": "2026-10-24T15:30:00-03:00",
+          "source_url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/9/4",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Lazio vs Parma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T15:45:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "ADO Den Haag vs SC Heerenveen",
+          "competition": "Netherlands Eredivisie",
+          "kickoff_chile": "2026-10-24T16:00:00-03:00",
+          "source_url": "https://adodenhaag.nl/nl/tickets/kaartverkoop/wedstrijden/ticketinfo/1331-ado-den-haag-sc-heerenveen-1331",
+          "source_note": "ADO official ticket page 24 Oct 21:00 CEST",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Internacional vs Botafogo",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T16:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/internacional-x-botafogo/832207?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "count": 10,
+      "fixtures": [
+        {
+          "fixture": "Talleres de Córdoba vs Defensa y Justicia",
+          "competition": "Argentina Liga Profesional Clausura",
+          "kickoff_chile": "2026-10-24T17:00:00-03:00",
+          "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "source_note": "AFA 24 Oct 17:00 Argentina",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Cusco FC vs Sporting Cristal",
+          "competition": "Peru Liga 1 Clausura jornada 13",
+          "kickoff_chile": "2026-10-24T17:15:00-03:00",
+          "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Red Bull New York vs Inter Miami CF",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/rbnyvsmia-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Vasco da Gama vs Corinthians",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/vasco-da-gama-saf-x-corinthians/832202?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "San Lorenzo vs Newell's Old Boys",
+          "competition": "Argentina Liga Profesional Clausura",
+          "kickoff_chile": "2026-10-24T19:15:00-03:00",
+          "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "source_note": "AFA 24 Oct 19:15 Argentina",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "León vs Toluca",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "O'Higgins vs Cobresal",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/ohiggins-cobresal-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Rosario Central vs Huracán",
+          "competition": "Argentina Liga Profesional Clausura",
+          "kickoff_chile": "2026-10-24T21:30:00-03:00",
+          "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+          "source_note": "AFA 24 Oct 21:30 Argentina",
+          "origin": "new_0700",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION",
+          "official_fixture_verified": true,
+          "confirmed_xi": false,
+          "prediction_frozen": false
+        },
+        {
+          "fixture": "Monterrey vs Guadalajara",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T22:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Universitario vs Juan Pablo II",
+          "competition": "Peru Liga 1 Clausura jornada 13",
+          "kickoff_chile": "2026-10-24T22:30:00-03:00",
+          "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    }
+  ],
+  "newly_closed": [
+    {
+      "fixture": "OH Leuven vs Lommel SK",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prior_tminus1_preserved": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "Racing Santander vs Espanyol",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T11:15:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prior_tminus1_preserved": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "FC Utrecht vs PEC Zwolle",
+      "competition": "Netherlands Eredivisie",
+      "kickoff_chile": "2026-10-24T11:30:00-03:00",
+      "source_url": "https://www.fcutrecht.nl/nieuws/2026/oktober/praktische-informatie-fc-utrecht-pec-zwolle/",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prior_tminus1_preserved": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "TSV Hartberg vs Wolfsberger AC",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prior_tminus1_preserved": true,
+      "prediction_generated": false
+    },
+    {
+      "fixture": "WSG Tirol vs Grazer AK",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T12:00:00-03:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "state": "PREMATCH_WINDOW_CLOSED",
+      "prior_tminus1_preserved": true,
+      "prediction_generated": false
+    }
+  ],
+  "tminus1_new_existing": [
+    {
+      "fixture": "Deportes La Serena vs Deportes Concepción",
+      "kickoff_chile": "2026-10-24T12:30:00-03:00",
+      "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+      "source_kind": "official Chilean league match page; pre-match fixture/referee/recent results",
+      "observed_at_chile": "2026-10-24T12:01:07-03:00",
+      "facts": {
+        "stadium": "Estadio La Portada",
+        "referee": "Mathias Riquelme Sepúlveda",
+        "VAR": "Miguel Araos Riquelme",
+        "last_league_match_serena": "2026-10-11 Everton 3-2 La Serena",
+        "last_league_match_concepcion": "2026-10-11 Concepción 1-1 Unión La Calera",
+        "head_to_head_2026": "2026-04-18 Concepción 3-3 La Serena"
+      },
+      "confirmed_xi": false,
+      "prediction_frozen": false,
+      "integrity_note": "Observed historical results and pre-match referee; not model forecasts, no inferred probabilities"
+    }
+  ],
+  "integrity_alerts": [
+    {
+      "fixture": "OH Leuven vs Lommel SK",
+      "note": "Official Pro League match page uses local Belgium 16:15 CEST interpreted as 11:15 Chile; secondary sources list 16:15 UTC (13:15 Chile). Official local time prioritized for conservative pre-match cutoff. Also page header reverses club order but stadium is OH Leuven.",
+      "source_url": "https://www.proleague.be/fr/matchs/saison-2026-2027-jupiler-pro-league-9-oh-leuven-vs-lommel-sk-673"
+    }
+  ],
+  "engines": {
+    "vmd_world1": {
+      "status": "VMD-World1 NO EJECUTADO",
+      "verification": "GitHub README fetch 404 'This repository is empty.' at checkpoint"
+    },
+    "dgopro": {
+      "status": "DGOPRO NO EJECUTADO",
+      "verification": "Read challenger/dgopro-3/scripts/analyze_fixture_preview.py; code declares EXPERIMENTAL_UNCALIBRATED, no production calibrated run"
+    },
+    "arb": {
+      "status": "ARB NO EJECUTADO",
+      "verification": "No independently verified executable runtime"
+    },
+    "external": {
+      "status": "NOT COMPARED",
+      "reason": "No genuine frozen DGOPRO predictive output"
+    }
+  },
+  "unified_market_rows_future": [
+    {
+      "fixture": "Deportes La Serena vs Deportes Concepción",
+      "competition": "Chile Liga de Primera",
+      "kickoff_chile": "2026-10-24T12:30:00-03:00",
+      "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "HamKam vs Rosenborg",
+      "competition": "Norway Eliteserien",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "source_url": "https://www.eliteserien.no/terminliste",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Napoli vs Roma",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+      "competition": "Turkey Süper Lig",
+      "kickoff_chile": "2026-10-24T13:00:00-03:00",
+      "source_url": "https://www.tff.org/Default.aspx?pageId=198",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+      "competition": "Germany Bundesliga",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Chelsea vs Tottenham Hotspur",
+      "competition": "England Premier League",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Valencia vs Villarreal",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T13:30:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "KVC Westerlo vs SK Beveren",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+      "competition": "Belgium Jupiler Pro League",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://www.proleague.be/fr/jpl-calendar",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "RC Lens vs Paris FC",
+      "competition": "France Ligue 1",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5797-",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Willem II vs SC Cambuur",
+      "competition": "Netherlands Eredivisie",
+      "kickoff_chile": "2026-10-24T13:45:00-03:00",
+      "source_url": "https://ticketshop.willem-ii.nl/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "CF Montréal vs Nashville SC",
+      "competition": "USA/Canada MLS",
+      "kickoff_chile": "2026-10-24T14:30:00-03:00",
+      "source_url": "https://es.mlssoccer.com/competencias/mls-regular-season/2026/partidos/mtlvsnsh-10-24-2026/stats",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "SK Rapid Wien vs Austria Lustenau",
+      "competition": "Austria Bundesliga",
+      "kickoff_chile": "2026-10-24T14:30:00-03:00",
+      "source_url": "https://www.bundesliga.at/de/news/artikel/vorschau-auf-die-10-runde-der-admiral-bundesliga-6",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Banfield vs Lanús",
+      "competition": "Argentina Liga Profesional Clausura",
+      "kickoff_chile": "2026-10-24T14:45:00-03:00",
+      "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Sport Huancayo vs Alianza Atlético",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T14:45:00-03:00",
+      "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+      "competition": "Spain LaLiga",
+      "kickoff_chile": "2026-10-24T15:00:00-03:00",
+      "source_url": "https://www.laliga.com/es-GB",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Gil Vicente FC vs FC Porto",
+      "competition": "Portugal Primeira Liga",
+      "kickoff_chile": "2026-10-24T15:30:00-03:00",
+      "source_url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/9/4",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Lazio vs Parma",
+      "competition": "Italy Serie A",
+      "kickoff_chile": "2026-10-24T15:45:00-03:00",
+      "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "ADO Den Haag vs SC Heerenveen",
+      "competition": "Netherlands Eredivisie",
+      "kickoff_chile": "2026-10-24T16:00:00-03:00",
+      "source_url": "https://adodenhaag.nl/nl/tickets/kaartverkoop/wedstrijden/ticketinfo/1331-ado-den-haag-sc-heerenveen-1331",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Internacional vs Botafogo",
+      "competition": "Brazil Serie A",
+      "kickoff_chile": "2026-10-24T16:30:00-03:00",
+      "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/internacional-x-botafogo/832207?view=escala-de-arbitros",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Talleres de Córdoba vs Defensa y Justicia",
+      "competition": "Argentina Liga Profesional Clausura",
+      "kickoff_chile": "2026-10-24T17:00:00-03:00",
+      "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Cusco FC vs Sporting Cristal",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T17:15:00-03:00",
+      "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Red Bull New York vs Inter Miami CF",
+      "competition": "USA/Canada MLS",
+      "kickoff_chile": "2026-10-24T18:30:00-03:00",
+      "source_url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/rbnyvsmia-10-24-2026/stats",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Vasco da Gama vs Corinthians",
+      "competition": "Brazil Serie A",
+      "kickoff_chile": "2026-10-24T18:30:00-03:00",
+      "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/vasco-da-gama-saf-x-corinthians/832202?view=escala-de-arbitros",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "San Lorenzo vs Newell's Old Boys",
+      "competition": "Argentina Liga Profesional Clausura",
+      "kickoff_chile": "2026-10-24T19:15:00-03:00",
+      "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "León vs Toluca",
+      "competition": "Mexico Liga MX",
+      "kickoff_chile": "2026-10-24T20:00:00-03:00",
+      "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "O'Higgins vs Cobresal",
+      "competition": "Chile Liga de Primera",
+      "kickoff_chile": "2026-10-24T20:00:00-03:00",
+      "source_url": "https://www.campeonatochileno.cl/match/ohiggins-cobresal-2026-10-24/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Rosario Central vs Huracán",
+      "competition": "Argentina Liga Profesional Clausura",
+      "kickoff_chile": "2026-10-24T21:30:00-03:00",
+      "source_url": "https://www.afa.com.ar/es/posts/agenda-de-la-fecha-13-a-la-15-del-torneo-clausura-mercado-libre-de-la-lpf",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Monterrey vs Guadalajara",
+      "competition": "Mexico Liga MX",
+      "kickoff_chile": "2026-10-24T22:00:00-03:00",
+      "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    },
+    {
+      "fixture": "Universitario vs Juan Pablo II",
+      "competition": "Peru Liga 1 Clausura jornada 13",
+      "kickoff_chile": "2026-10-24T22:30:00-03:00",
+      "source_url": "https://liga1.pe/fixture-y-resultados-del-clausura-liga1-te-apuesto-2026/",
+      "recommendation": null,
+      "calibrated_probability": null,
+      "one_x_two": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "double_chance": {
+        "12": null,
+        "1X": null,
+        "X2": null
+      },
+      "goals": {
+        "over_1.5": null,
+        "under_1.5": null,
+        "over_2.5": null,
+        "under_2.5": null,
+        "over_3.5": null,
+        "under_3.5": null
+      },
+      "btts": {
+        "yes": null,
+        "no": null
+      },
+      "corners": {
+        "over_7.5": null,
+        "under_7.5": null,
+        "over_8.5": null,
+        "under_8.5": null,
+        "over_9.5": null,
+        "under_9.5": null,
+        "over_10.5": null,
+        "under_10.5": null,
+        "over_11.5": null,
+        "under_11.5": null
+      },
+      "cards": {
+        "over_4.5": null,
+        "under_4.5": null,
+        "over_5.5": null,
+        "under_5.5": null
+      },
+      "shots": null,
+      "shots_on_target": null,
+      "player_props": null,
+      "likely_score": null,
+      "risk": null,
+      "IGC": null,
+      "DQI": "T-1 incomplete / uncalibrated",
+      "uncertainty": "No authentic predictive execution"
+    }
+  ],
+  "matrix_future": [
+    {
+      "fixture": "Deportes La Serena vs Deportes Concepción",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "HamKam vs Rosenborg",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Napoli vs Roma",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Samsunspor vs Amed Sportif Faaliyetler",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Chelsea vs Tottenham Hotspur",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Valencia vs Villarreal",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "KVC Westerlo vs SK Beveren",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "RAAL La Louvière vs SV Zulte Waregem",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "RC Lens vs Paris FC",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Willem II vs SC Cambuur",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "CF Montréal vs Nashville SC",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "SK Rapid Wien vs Austria Lustenau",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Banfield vs Lanús",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Sport Huancayo vs Alianza Atlético",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Gil Vicente FC vs FC Porto",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Lazio vs Parma",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "ADO Den Haag vs SC Heerenveen",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Internacional vs Botafogo",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Talleres de Córdoba vs Defensa y Justicia",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Cusco FC vs Sporting Cristal",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Red Bull New York vs Inter Miami CF",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Vasco da Gama vs Corinthians",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "San Lorenzo vs Newell's Old Boys",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "León vs Toluca",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "O'Higgins vs Cobresal",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Rosario Central vs Huracán",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Monterrey vs Guadalajara",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    },
+    {
+      "fixture": "Universitario vs Juan Pablo II",
+      "VMD_World1": "NO EJECUTADO",
+      "DGOPRO": "NO EJECUTADO; markets unavailable",
+      "ARB": "NO EJECUTADO",
+      "external": "NOT COMPARED",
+      "consensus": "NOT ASSESSABLE",
+      "state": "T-1 incomplete / no calibrated prediction"
+    }
+  ],
+  "certified_top_counts": {
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "30": 0,
+    "45": 0
+  },
+  "no_odds_inputs": true,
+  "no_backfilled_predictions": true,
+  "prior_frozen_predictions_unchanged": true,
+  "notifications_emitted": false,
+  "next_pending": "12:30 CL Deportes La Serena vs Deportes Concepción; 13:00 CL Napoli-Roma, Samsunspor-Amed, HamKam-Rosenborg; verify sources/lineups before kickoff, expand first-division global coverage only with primary verification"
+}
