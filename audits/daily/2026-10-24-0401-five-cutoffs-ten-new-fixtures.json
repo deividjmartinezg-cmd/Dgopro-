@@ -1,0 +1,536 @@
+{
+  "schema": "dgopro_hourly_delta_v3",
+  "date_chile": "2026-10-24",
+  "checkpoint_chile": "2026-10-24T04:01:40-03:00",
+  "timezone": "America/Santiago",
+  "previous_checkpoint": "audits/daily/2026-10-24-0256-jleague-four-official-lineups-tminus1.json",
+  "operation": "INCREMENTAL_CUTOFF_AND_GLOBAL_FIXTURE_EXPANSION_NO_PREDICTION",
+  "inventory_previous": 31,
+  "inventory_added": 10,
+  "inventory_total": 41,
+  "newly_closed_count": 5,
+  "newly_closed": [
+    {
+      "fixture": "Kashima Antlers vs Kashiwa Reysol",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "state": "CUTOFF_REACHED_AUDIT_ONLY",
+      "original_tminus1_preserved": true
+    },
+    {
+      "fixture": "Tokyo Verdy vs Avispa Fukuoka",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "state": "CUTOFF_REACHED_AUDIT_ONLY",
+      "original_tminus1_preserved": true
+    },
+    {
+      "fixture": "Vissel Kobe vs FC Machida Zelvia",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "state": "CUTOFF_REACHED_AUDIT_ONLY",
+      "original_tminus1_preserved": true
+    },
+    {
+      "fixture": "Western Sydney Wanderers vs Auckland FC",
+      "kickoff_chile": "2026-10-24T03:00:00-03:00",
+      "state": "CUTOFF_REACHED_AUDIT_ONLY",
+      "original_tminus1_preserved": true
+    },
+    {
+      "fixture": "Gamba Osaka vs Kyoto Sanga",
+      "kickoff_chile": "2026-10-24T04:00:00-03:00",
+      "state": "CUTOFF_REACHED_AUDIT_ONLY",
+      "original_tminus1_preserved": true
+    }
+  ],
+  "all_closed_count": 13,
+  "pre_match_remaining": 28,
+  "new_verified_fixture_candidates": [
+    {
+      "fixture": "Deportes La Serena vs Deportes Concepción",
+      "competition": "Chile Liga de Primera",
+      "kickoff_chile": "2026-10-24T12:30:00-03:00",
+      "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+      "source_type": "official league",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "Mathias Riquelme Sepúlveda",
+        "var": "Miguel Araos Riquelme",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "CF Montréal vs Nashville SC",
+      "competition": "USA/Canada MLS",
+      "kickoff_chile": "2026-10-24T14:30:00-03:00",
+      "source_url": "https://es.mlssoccer.com/competencias/mls-regular-season/2026/partidos/mtlvsnsh-10-24-2026/stats",
+      "source_type": "official MLS + external ET cross-check",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Gil Vicente FC vs FC Porto",
+      "competition": "Portugal Primeira Liga",
+      "kickoff_chile": "2026-10-24T15:30:00-03:00",
+      "source_url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/9/4",
+      "source_type": "official league",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "RC Lens vs Paris FC",
+      "competition": "France Ligue 1",
+      "kickoff_chile": "2026-10-24T15:45:00-03:00",
+      "source_url": "https://ligue1.com/fr/articles/l1_article_5797-",
+      "source_type": "official league publication 2026-10-21",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Internacional vs Botafogo",
+      "competition": "Brazil Serie A",
+      "kickoff_chile": "2026-10-24T16:30:00-03:00",
+      "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/internacional-x-botafogo/832207?view=escala-de-arbitros",
+      "source_type": "official CBF",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "Davi de Oliveira Lacerda",
+        "var": "Emerson de Almeida Ferreira",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Red Bull New York vs Inter Miami CF",
+      "competition": "USA/Canada MLS",
+      "kickoff_chile": "2026-10-24T18:30:00-03:00",
+      "source_url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/rbnyvsmia-10-24-2026/stats",
+      "source_type": "official MLS + external ET cross-check",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Vasco da Gama vs Corinthians",
+      "competition": "Brazil Serie A",
+      "kickoff_chile": "2026-10-24T18:30:00-03:00",
+      "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/vasco-da-gama-saf-x-corinthians/832202?view=escala-de-arbitros",
+      "source_type": "official CBF",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "Wilton Pereira Sampaio",
+        "var": "Caio Max Augusto Vieira",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "O'Higgins vs Cobresal",
+      "competition": "Chile Liga de Primera",
+      "kickoff_chile": "2026-10-24T20:00:00-03:00",
+      "source_url": "https://www.campeonatochileno.cl/match/ohiggins-cobresal-2026-10-24/",
+      "source_type": "official league",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "Diego Flores Seguel",
+        "var": "Nicolas Millas Lopez",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "León vs Toluca",
+      "competition": "Mexico Liga MX",
+      "kickoff_chile": "2026-10-24T20:00:00-03:00",
+      "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+      "source_type": "secondary calendar crosschecked 2026-10-24",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    },
+    {
+      "fixture": "Monterrey vs Guadalajara",
+      "competition": "Mexico Liga MX",
+      "kickoff_chile": "2026-10-24T22:00:00-03:00",
+      "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+      "source_type": "secondary calendar crosschecked 2026-10-24",
+      "source_publication_time": "unknown except dated Ligue 1 release",
+      "status": "FUTURE_FIXTURE_ONLY_NOT_PREDICTION",
+      "tminus1": {
+        "referee": "not verified",
+        "var": "not verified",
+        "lineups": "not verified",
+        "team_form": "not systematically verified",
+        "injuries": "not systematically verified",
+        "weather": "not verified"
+      },
+      "data_quality": "PARTIAL_FIXTURE_ONLY",
+      "prediction_frozen": false
+    }
+  ],
+  "chronological_future_blocks": [
+    {
+      "block": 1,
+      "count": 20,
+      "fixtures": [
+        {
+          "fixture": "Aston Villa vs Manchester City",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T08:30:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Rayo Vallecano vs Elche CF",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T09:00:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Cagliari vs Bologna",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T10:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Como vs Sassuolo",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T10:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Augsburg vs Union Berlin",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "FC Köln vs Schalke 04",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Mainz 05 vs Werder Bremen",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Paderborn 07 vs Hamburger SV",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "RB Leipzig vs SV Elversberg",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T10:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Arsenal vs Everton",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Coventry City vs Fulham",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T11:00:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Racing Santander vs Espanyol",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T11:15:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Deportes La Serena vs Deportes Concepción",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T12:30:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/deportes-la-serena-deportes-concepci%C3%B3n-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Napoli vs Roma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T13:00:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Borussia Dortmund vs Eintracht Frankfurt",
+          "competition": "Germany Bundesliga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.bundesliga.com/en/bundesliga/matchday/schedule",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Chelsea vs Tottenham Hotspur",
+          "competition": "England Premier League",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november/",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Valencia vs Villarreal",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T13:30:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "CF Montréal vs Nashville SC",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T14:30:00-03:00",
+          "source_url": "https://es.mlssoccer.com/competencias/mls-regular-season/2026/partidos/mtlvsnsh-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Atlético de Madrid vs Deportivo La Coruña",
+          "competition": "Spain LaLiga",
+          "kickoff_chile": "2026-10-24T15:00:00-03:00",
+          "source_url": "https://www.laliga.com/es-GB",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Gil Vicente FC vs FC Porto",
+          "competition": "Portugal Primeira Liga",
+          "kickoff_chile": "2026-10-24T15:30:00-03:00",
+          "source_url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/9/4",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "count": 8,
+      "fixtures": [
+        {
+          "fixture": "Lazio vs Parma",
+          "competition": "Italy Serie A",
+          "kickoff_chile": "2026-10-24T15:45:00-03:00",
+          "source_url": "https://en.legaseriea.it/serie-a/news/the-referees-for-the-8th-round-x7605",
+          "origin": "original_inventory",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "RC Lens vs Paris FC",
+          "competition": "France Ligue 1",
+          "kickoff_chile": "2026-10-24T15:45:00-03:00",
+          "source_url": "https://ligue1.com/fr/articles/l1_article_5797-",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Internacional vs Botafogo",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T16:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/internacional-x-botafogo/832207?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Red Bull New York vs Inter Miami CF",
+          "competition": "USA/Canada MLS",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/rbnyvsmia-10-24-2026/stats",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Vasco da Gama vs Corinthians",
+          "competition": "Brazil Serie A",
+          "kickoff_chile": "2026-10-24T18:30:00-03:00",
+          "source_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/vasco-da-gama-saf-x-corinthians/832202?view=escala-de-arbitros",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "León vs Toluca",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "O'Higgins vs Cobresal",
+          "competition": "Chile Liga de Primera",
+          "kickoff_chile": "2026-10-24T20:00:00-03:00",
+          "source_url": "https://www.campeonatochileno.cl/match/ohiggins-cobresal-2026-10-24/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        },
+        {
+          "fixture": "Monterrey vs Guadalajara",
+          "competition": "Mexico Liga MX",
+          "kickoff_chile": "2026-10-24T22:00:00-03:00",
+          "source_url": "https://chile.as.com/resultados/futbol/mexico_apertura/",
+          "origin": "new_04h",
+          "state": "FUTURE_TMINUS1_INCOMPLETE_NO_PREDICTION"
+        }
+      ]
+    }
+  ],
+  "source_time_notes": [
+    "Chile 2026-10-24 offset UTC-03:00; Brazil Sao Paulo UTC-03:00; Portugal WEST UTC+01:00; France CEST UTC+02:00; MLS eastern US EDT UTC-04:00, +1 hour to Chile.",
+    "MLS official match pages may render kickoff in UTC; crosschecked 13:30 and 17:30 EDT against secondary calendar, converted to 14:30 and 18:30 Chile.",
+    "Mexican additions supported by Chile-localized secondary fixtures; await official league confirmation before model inputs.",
+    "All new sources used for fixtures only, not for external predicted probabilities or market inputs.",
+    "Sources fetched during 04:01 control; dynamic page publication timestamps unknown; no post-kickoff data ingested into internal predictions."
+  ],
+  "engine_verification": {
+    "vmd_world1": {
+      "repository": "deividjmartinezg-cmd/VMD-World1",
+      "size_kb": 0,
+      "status": "VMD-World1 NO EJECUTADO"
+    },
+    "dgopro": {
+      "repository": "deividjmartinezg-cmd/Dgopro-",
+      "script": "challenger/dgopro-3/scripts/analyze_fixture_preview.py",
+      "script_sha": "8e72a127168177b24b5b38f3577d42e030d63425",
+      "status": "NO EJECUTADO",
+      "calibration": "EXPERIMENTAL_UNCALIBRATED"
+    },
+    "arb": {
+      "status": "NO EJECUTADO"
+    },
+    "external": {
+      "status": "NOT COMPARED",
+      "reason": "no authentic frozen internal predictions"
+    }
+  },
+  "market_status": {
+    "recommendation": "N/E",
+    "calibrated_probability": "N/E",
+    "result_1x2": "N/E",
+    "double_chance": "N/E",
+    "goals_over_under_1_5_2_5_3_5": "N/E",
+    "btts": "N/E",
+    "corners_7_5_to_11_5": "N/E",
+    "cards_4_5_5_5": "N/E",
+    "shots": "N/E",
+    "shots_on_target": "N/E",
+    "player_props": "N/E",
+    "exact_score": "N/E",
+    "risk": "N/E",
+    "igc": "N/E",
+    "dqi": "INCOMPLETE_NO_SCORE"
+  },
+  "new_frozen_predictions": 0,
+  "odds_used_as_inputs": false,
+  "top_certified": {
+    "top45": 0,
+    "top30": 0,
+    "top20": 0,
+    "top10": 0,
+    "top5": 0
+  },
+  "pending": [
+    "Verify other leagues Asia/Africa/Americas beyond 41 total candidates",
+    "Complete primary T-1 inputs before each kickoff",
+    "Validate executable and calibrated forecasting code and independent ARB",
+    "Maintain external comparison gate until authentic internal predictions frozen"
+  ]
+}
